@@ -60,21 +60,21 @@ def generate_readme(filtered_nodes):
         readme.write("- [All Workflows Sorted by GitHub Stars](#all-workflows-sorted-by-github-stars)\n")
         readme.write("- [License](#license)\n\n")
         url_stars = {}
-        # for index, node in enumerate(tqdm(filtered_nodes)):
-        #     github_url = node.get('files')[0]
-        #     stars = get_stars(github_url)
-        #     url_stars[github_url] = stars
-        #     # sleep for 30 seconds every 200 nodes
-        #     # if index % 200 == 0:
-        #     #     time.sleep(30)
+        for index, node in enumerate(tqdm(filtered_nodes)):
+            github_url = node.get('files')[0]
+            stars = get_stars(github_url)
+            url_stars[github_url] = stars
+            # sleep for 30 seconds every 200 nodes
+            if index != 0 and index % 200 == 0:
+                time.sleep(30)
 
         # # save it to ./data/tmp.json
-        # with open('./data/tmp.json', 'w') as f:
-        #     json.dump(url_stars, f)
+        with open('./data/tmp.json', 'w') as f:
+            json.dump(url_stars, f)
     
         # load it from ./data/tmp.json
-        with open('./data/tmp.json', 'r') as f:
-            url_stars = json.load(f)
+        # with open('./data/tmp.json', 'r') as f:
+        #     url_stars = json.load(f)
         
         # compare with old_url_stars and filter out new nodes
         new_node_urls = []
@@ -129,12 +129,12 @@ def generate_readme(filtered_nodes):
         readme.write("This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.\n")
         
         # write url_stars ./data/url_stars.json
-        # with open('./data/url_stars.json', 'w') as f:
-        #     # sliding window of 7 days
-        #     old_url_stars.append(url_stars)
-        #     if len(old_url_stars) > 7:
-        #         old_url_stars.pop(0)
-        #     json.dump(old_url_stars, f)
+        with open('./data/url_stars.json', 'w') as f:
+            # sliding window of 7 days
+            old_url_stars.append(url_stars)
+            if len(old_url_stars) > 7:
+                old_url_stars.pop(0)
+            json.dump(old_url_stars, f)
 
 def main():
     data = fetch_node_list()
