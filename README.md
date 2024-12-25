@@ -14,8 +14,8 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 ## New Workflows
 
 - [**ComfyUI-Ruyi**](https://github.com/IamCreateAI/Ruyi-Models): ComfyUI wrapper nodes for Ruyi, an image-to-video model by CreateAI.
-- [**Comfyui_Flux_Style_Adjust (Redux)**](https://github.com/yichengup/Comfyui_Flux_Style_Adjust): StyleModelApply adds more controls
 - [**ComfyUI-IF_Trellis**](https://github.com/if-ai/ComfyUI-IF_Trellis): ComfyUI TRELLIS is a large 3D asset generation in various formats, such as Radiance Fields, 3D Gaussians, and meshes. The cornerstone of TRELLIS is a unified Structured LATent (SLAT) representation that allows decoding to different output formats and Rectified Flow Transformers tailored for SLAT as the powerful backbones.
+- [**Comfyui_Flux_Style_Adjust (Redux)**](https://github.com/yichengup/Comfyui_Flux_Style_Adjust): StyleModelApply adds more controls
 - [**Comfyui-Ycanvas**](https://github.com/yichengup/Comfyui-Ycanvas): NODES:Canvas View
 - [**Black Forest Labs API Nodes**](https://github.com/black-forest-labs/bfl-comfy-nodes): ComfyUI nodes for Black Forest Labs API Services
 - [**ComfyUI Christmas Theme 🎄✨**](https://github.com/AEmotionStudio/ComfyUI-ChristmasTheme): A beautiful theme extension for ComfyUI that adds festive touches with dynamic backgrounds, snowfall effects, and animated node connections
