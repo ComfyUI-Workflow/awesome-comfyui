@@ -24,30 +24,54 @@ def get_stars(github_url):
     github_token = os.getenv('GITHUB_TOKEN')
     
     try:
-        if github_token:
-            response = requests.get(api_url, auth=HTTPBasicAuth(github_token, 'x-oauth-basic'))
-        else:
-            response = requests.get(api_url)
+        headers = {'Authorization': f'token {github_token}'} if github_token else {}
+        response = requests.get(api_url, headers=headers)
+        
+        # Handle rate limiting
+        if response.status_code == 403 and 'X-RateLimit-Remaining' in response.headers:
+            remaining = int(response.headers['X-RateLimit-Remaining'])
+            if remaining == 0:
+                reset_time = int(response.headers['X-RateLimit-Reset'])
+                sleep_time = reset_time - time.time() + 1
+                if sleep_time > 0:
+                    print(f"Rate limit exceeded. Sleeping for {sleep_time:.0f} seconds...")
+                    time.sleep(sleep_time)
+                    # Retry the request
+                    response = requests.get(api_url, headers=headers)
+        
         response.raise_for_status()
         repo_data = response.json()
         return repo_data['stargazers_count']
-    except requests.RequestException:
-        return "N/A"
+    except requests.RequestException as e:
+        print(f"Error fetching stars for {github_url}: {str(e)}")
+        return 0
 
 def fetch_node_list():
-    response = requests.get(url)
-    response.raise_for_status()  # Check if the request was successful
-    return response.json()
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        return response.json()
+    except requests.RequestException as e:
+        print(f"Error fetching node list: {str(e)}")
+        return None
 
 def filter_git_clone_nodes(data):
     # url must starts with https://github.com
     return [node for node in data["custom_nodes"] if node.get("install_type") == "git-clone" and node.get('files')[0].startswith("https://github.com")]
 
 def generate_readme(filtered_nodes):
-    old_url_stars = [] # url star data stores sliding window of 7 days
+    # Ensure data directory exists
+    os.makedirs('./data', exist_ok=True)
+    
+    # Initialize old_url_stars as empty list if file doesn't exist
+    old_url_stars = []
     if os.path.exists('./data/url_stars.json'):
-        with open('./data/url_stars.json', 'r') as f:
-            old_url_stars = json.load(f)
+        try:
+            with open('./data/url_stars.json', 'r') as f:
+                old_url_stars = json.load(f)
+        except json.JSONDecodeError:
+            print("Error reading url_stars.json, starting fresh")
+            old_url_stars = []
 
     with open("README.md", "w") as readme:
         readme.write("# Awesome ComfyUI Custom Nodes\n\n")
@@ -138,7 +162,15 @@ def generate_readme(filtered_nodes):
 
 def main():
     data = fetch_node_list()
+    if not data:
+        print("Failed to fetch node list. Exiting.")
+        return
+        
     filtered_nodes = filter_git_clone_nodes(data)
+    if not filtered_nodes:
+        print("No nodes found after filtering. Exiting.")
+        return
+        
     generate_readme(filtered_nodes)
     print(f"Processed {len(filtered_nodes)} git-clone nodes.")
 
