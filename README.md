@@ -14,27 +14,27 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 ## New Workflows
 
 - [**ComfyUI-InstantCharacter**](https://github.com/jax-explorer/ComfyUI-InstantCharacter): [a/InstantCharacter](https://github.com/Tencent/InstantCharacter) ComfyUI Warpper
-- [**ComfyUI_RH_FramePack**](https://github.com/HM-RunningHub/ComfyUI_RH_FramePack): This is a ComfyUI plug-in for lllyasviel/FramePack, easy to use
-- [**ComfyUI_InfiniteYou**](https://github.com/bytedance/ComfyUI_InfiniteYou): Official ComfyUI Support - InfiniteYou: Flexible Photo Recrafting While Preserving Your Identity
-- [**ComfyUI-GPENO**](https://github.com/SparknightLLC/ComfyUI-GPENO): A node for ComfyUI that performs GPEN face restoration on the input image(s). Significantly faster than other implementations of GPEN.
+- [**ComfyUI-fal-API**](https://github.com/gokayfem/ComfyUI-fal-API): Custom nodes for using fal API. Video generation with Kling, Runway, Luma. Image generation with Flux. LLMs and VLMs OpenAI, Claude, Llama and Gemini.
+- [**ComfyUI-HyperLoRA**](https://github.com/bytedance/ComfyUI-HyperLoRA): Official implementation in ComfyUI of CVPR 2025 paper 'HyperLoRA: Parameter-Efficient Adaptive Generation for Portrait Synthesis'
+- [**ComfyUI-Index-TTS**](https://github.com/chenpipi0807/ComfyUI-Index-TTS): NODES: An industrial-grade zero-shot text-to-speech synthesis system with a ComfyUI interface.
 - [**ComfyUI-ReLight**](https://github.com/EnragedAntelope/comfyui-relight): Transform your images with cinematic lighting effects in a single click! ReLight is a powerful ComfyUI node that adds professional-grade lighting capabilities including multiple light sources, rim lighting, and 3D lighting simulation.
-- [**ComfyUI-ImageAutotone**](https://github.com/SparknightLLC/ComfyUI-ImageAutotone): A node for ComfyUI that takes an input image and clips the color channels independently to increase contrast and alter color cast. This is a reinterpretation of PhotoShop's 'Auto Tone' algorithm.
-- [**NoteManager**](https://github.com/Danteday/ComfyUI-NoteManager): A powerful extension for ComfyUI that enables adding notes to many node in your workflow. Keep track of important settings, reminders, and workflow documentation directly within your ComfyUI canvas.
-- [**ComfyUI-DAAM**](https://github.com/nisaruj/comfyui-daam): ComfyUI custom nodes for Diffusion Attentive Attribution Maps (DAAM)
-- [**ComfyUI-Cobra**](https://github.com/Yuan-ManX/ComfyUI-Cobra): Make Cobra avialbe in ComfyUI.
-- [**ComfyUI-Orpheus**](https://github.com/numz/Comfyui-Orpheus): TTS with emotional speech capabilities in 8 Languages 24 speakers.
+- [**TTP_Comfyui_FramePack_SE**](https://github.com/TTPlanetPig/TTP_Comfyui_FramePack_SE): Provide ComfyUI support for FramePack start-and-end image reference
+- [**ComfyUI-ReduxFineTune**](https://github.com/1038lab/ComfyUI-ReduxFineTune): ComfyUI-ReduxFineTune is a custom node for ComfyUI that enables advanced style fine-tuning using the Flux Redux approach. It offers multiple unified fusion modes for precise and consistent control over style transfer, allowing users to fine-tune image styles with high flexibility and detail.
+- [**Cyber-BlackCat**](https://github.com/Cyber-BlackCat/ComfyUI_Auto_Caption): Using LLM and Joy tag pipeline to tag your image(s folder), it's suitable for train FLUX LoRA and also sdxl. Load images in order!
+- [**anaglyphTool-Comfyui**](https://github.com/Cryptyox/anaglyphTool-Comfyui): This Comfyui node creates an anaglyph image from a color and depth map input. It achieves high speeds suitable for video to anaglyph conversion by using CUDA GPU acceleration.
+- [**comfyui-dynamic-routes**](https://github.com/shinich39/comfyui-dynamic-routes): Shuffle nodes after queue execution.
 ## Trending Workflows
 
-- [**ComfyUI-nunchaku**](https://github.com/mit-han-lab/ComfyUI-nunchaku) (⭐+96): Nunchaku ComfyUI Node. Nunchaku is the inference that supports SVDQuant. SVDQuant is a new post-training training quantization paradigm for diffusion models, which quantize both the weights and activations of FLUX.1 to 4 bits, achieving 3.5× memory and 8.7× latency reduction on a 16GB laptop 4090 GPU. See more details: https://github.com/mit-han-lab/nunchaku
-- [**ComfyUI-Manager**](https://github.com/ltdrdata/ComfyUI-Manager) (⭐+85): ComfyUI-Manager itself is also a custom node.
-- [**ComfyUI-LTXVideo**](https://github.com/Lightricks/ComfyUI-LTXVideo) (⭐+68): Custom nodes for LTX-Video support in ComfyUI
-- [**KJNodes for ComfyUI**](https://github.com/kijai/ComfyUI-KJNodes) (⭐+46): Various quality of life -nodes for ComfyUI, mostly just visual stuff to improve usability.
-- [**SD-PPP**](https://github.com/zombieyang/sd-ppp) (⭐+44): Simplify ComfyUI to WebUI-liked interface and Connect with Photoshop.
-- [**ComfyUI-GGUF**](https://github.com/city96/ComfyUI-GGUF) (⭐+39): GGUF Quantization support for native ComfyUI models
-- [**ComfyUI-ACE_Plus**](https://github.com/ali-vilab/ACE_plus) (⭐+36): Custom nodes for various visual generation and editing tasks using ACE_Plus FFT Model.
-- [**ComfyUI-RMBG**](https://github.com/1038lab/ComfyUI-RMBG) (⭐+35): A ComfyUI node for removing image backgrounds using RMBG-2.0
-- [**ComfyUI_IPAdapter_plus**](https://github.com/cubiq/ComfyUI_IPAdapter_plus) (⭐+26): ComfyUI reference implementation for IPAdapter models. The code is mostly taken from the original IPAdapter repository and laksjdjf's implementation, all credit goes to them. I just made the extension closer to ComfyUI philosophy.
-- [**rgthree's ComfyUI Nodes**](https://github.com/rgthree/rgthree-comfy) (⭐+24): Nodes: Seed, Reroute, Context, Lora Loader Stack, Context Switch, Fast Muter. These custom nodes helps organize the building of complex workflows.
+- [**ComfyUI-nunchaku**](https://github.com/mit-han-lab/ComfyUI-nunchaku) (⭐+95): Nunchaku ComfyUI Node. Nunchaku is the inference that supports SVDQuant. SVDQuant is a new post-training training quantization paradigm for diffusion models, which quantize both the weights and activations of FLUX.1 to 4 bits, achieving 3.5× memory and 8.7× latency reduction on a 16GB laptop 4090 GPU. See more details: https://github.com/mit-han-lab/nunchaku
+- [**ComfyUI-Manager**](https://github.com/ltdrdata/ComfyUI-Manager) (⭐+84): ComfyUI-Manager itself is also a custom node.
+- [**ComfyUI_RH_FramePack**](https://github.com/HM-RunningHub/ComfyUI_RH_FramePack) (⭐+68): This is a ComfyUI plug-in for lllyasviel/FramePack, easy to use
+- [**ComfyUI_InfiniteYou**](https://github.com/bytedance/ComfyUI_InfiniteYou) (⭐+57): Official ComfyUI Support - InfiniteYou: Flexible Photo Recrafting While Preserving Your Identity
+- [**ComfyUI-LTXVideo**](https://github.com/Lightricks/ComfyUI-LTXVideo) (⭐+56): Custom nodes for LTX-Video support in ComfyUI
+- [**SD-PPP**](https://github.com/zombieyang/sd-ppp) (⭐+49): Simplify ComfyUI to WebUI-liked interface and Connect with Photoshop.
+- [**KJNodes for ComfyUI**](https://github.com/kijai/ComfyUI-KJNodes) (⭐+42): Various quality of life -nodes for ComfyUI, mostly just visual stuff to improve usability.
+- [**ComfyUI-GGUF**](https://github.com/city96/ComfyUI-GGUF) (⭐+41): GGUF Quantization support for native ComfyUI models
+- [**ComfyUI-ACE_Plus**](https://github.com/ali-vilab/ACE_plus) (⭐+37): Custom nodes for various visual generation and editing tasks using ACE_Plus FFT Model.
+- [**ComfyUI-RMBG**](https://github.com/1038lab/ComfyUI-RMBG) (⭐+32): A ComfyUI node for removing image backgrounds using RMBG-2.0
 ## All Workflows Sorted by GitHub Stars
 
 - [**ComfyUI-Manager**](https://github.com/ltdrdata/ComfyUI-Manager): ComfyUI-Manager itself is also a custom node.
@@ -43,7 +43,7 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI-3D-Pack**](https://github.com/MrForExample/ComfyUI-3D-Pack): Make 3D assets generation in ComfyUI good and convenient as it generates image/video!
 - [**ComfyUI's ControlNet Auxiliary Preprocessors**](https://github.com/Fannovel16/comfyui_controlnet_aux): Plug-and-play ComfyUI node sets for making ControlNet hint images.
 - [**ComfyUI-HunyuanVideoWrapper**](https://github.com/kijai/ComfyUI-HunyuanVideoWrapper): ComfyUI diffusers wrapper nodes for [a/HunyuanVideo](https://github.com/Tencent/HunyuanVideo)
-- [**pythongosssss/ComfyUI-Custom-Scripts**](https://github.com/pythongosssss/ComfyUI-Custom-Scripts): This extension provides: Auto Arrange Graph, Workflow SVG, Favicon Status, Image Feed, Latent Upscale By, Lock Nodes & Groups, Lora Subfolders, Preset Text, Show Text, Touch Support, Link Render Mode, Locking, Node Finder, Quick Nodes, Show Image On Menu, Show Text, Workflow Managements, Custom Widget Default Values
+- [**ComfyUI-Custom-Scripts**](https://github.com/pythongosssss/ComfyUI-Custom-Scripts): Enhancements & experiments for ComfyUI, mostly focusing on UI features
 - [**ComfyUI Impact Pack**](https://github.com/ltdrdata/ComfyUI-Impact-Pack): This node pack offers various detector nodes and detailer nodes that allow you to configure a workflow that automatically enhances facial details. And provide iterative upscaler.
 - [**ComfyUI-AdvancedLivePortrait**](https://github.com/PowerHouseMan/ComfyUI-AdvancedLivePortrait): AdvancedLivePortrait with Facial expression editor
 - [**AIGODLIKE-COMFYUI-TRANSLATION**](https://github.com/AIGODLIKE/AIGODLIKE-COMFYUI-TRANSLATION): It provides language settings. (Contribution from users of various languages is needed due to the support for each language.)
@@ -92,16 +92,16 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI-segment-anything-2**](https://github.com/kijai/ComfyUI-segment-anything-2): Nodes to use [a/segment-anything-2](https://github.com/facebookresearch/segment-anything-2) for image or video segmentation.
 - [**Comfyroll Studio**](https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes): Custom nodes for SDXL and SD1.5 including Multi-ControlNet, LoRA, Aspect Ratio, Process Switches, and many more nodes. NOTE: Maintainer is changed to Suzie1 from RockOfFire. [w/Using an outdated version has resulted in reported issues with updates not being applied. Trying to reinstall the software is advised.]
 - [**ComfyUI-RMBG**](https://github.com/1038lab/ComfyUI-RMBG): A ComfyUI node for removing image backgrounds using RMBG-2.0
-- [**ComfyUI WD 1.4 Tagger**](https://github.com/pythongosssss/ComfyUI-WD14-Tagger): A ComfyUI extension allowing the interrogation of booru tags from images.
 - [**ComfyUI Flux Trainer**](https://github.com/kijai/ComfyUI-FluxTrainer): Currently supports LoRA training, and untested full finetune with code from kohya's scripts: [a/https://github.com/kohya-ss/sd-scripts](https://github.com/kohya-ss/sd-scripts)
+- [**ComfyUI WD 1.4 Tagger**](https://github.com/pythongosssss/ComfyUI-WD14-Tagger): A ComfyUI extension allowing the interrogation of booru tags from images.
 - [**SDXL Prompt Styler**](https://github.com/twri/sdxl_prompt_styler): SDXL Prompt Styler is a node that enables you to style prompts based on predefined templates stored in a JSON file.
 - [**PuLID_ComfyUI**](https://github.com/cubiq/PuLID_ComfyUI): [a/PuLID](https://github.com/ToTheBeginning/PuLID) ComfyUI native implementation.
 - [**BrushNet**](https://github.com/nullquant/ComfyUI-BrushNet): These are custom nodes for ComfyUI native implementation of [a/BrushNet](https://arxiv.org/abs/2403.06976) (inpaint), PowerPaint (inpaint, object removal) and HiDiffusion (higher resolution for SD15 and SDXL)
 - [**SeargeSDXL**](https://github.com/SeargeDP/SeargeSDXL): Custom nodes for easier use of SDXL in ComfyUI including an img2img workflow that utilizes both the base and refiner checkpoints.
 - [**ComfyUI Essentials**](https://github.com/cubiq/ComfyUI_essentials): Essential nodes that are weirdly missing from ComfyUI core. With few exceptions they are new features and not commodities. I hope this will be just a temporary repository until the nodes get included into ComfyUI.
 - [**ComfyUI PhotoMaker (ZHO)**](https://github.com/ZHO-ZHO-ZHO/ComfyUI-PhotoMaker-ZHO): Unofficial implementation of [a/PhotoMaker](https://github.com/TencentARC/PhotoMaker) for ComfyUI
-- [**ComfyUI-BRIA_AI-RMBG**](https://github.com/ZHO-ZHO-ZHO/ComfyUI-BRIA_AI-RMBG): Unofficial implementation of BRIA RMBG Model for ComfyUI.
 - [**ComfyUI-nunchaku**](https://github.com/mit-han-lab/ComfyUI-nunchaku): Nunchaku ComfyUI Node. Nunchaku is the inference that supports SVDQuant. SVDQuant is a new post-training training quantization paradigm for diffusion models, which quantize both the weights and activations of FLUX.1 to 4 bits, achieving 3.5× memory and 8.7× latency reduction on a 16GB laptop 4090 GPU. See more details: https://github.com/mit-han-lab/nunchaku
+- [**ComfyUI-BRIA_AI-RMBG**](https://github.com/ZHO-ZHO-ZHO/ComfyUI-BRIA_AI-RMBG): Unofficial implementation of BRIA RMBG Model for ComfyUI.
 - [**ComfyUI-Advanced-ControlNet**](https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet): Nodes for scheduling ControlNet strength across timesteps and batched latents, as well as applying custom weights and attention masks.
 - [**ComfyUI-Gemini**](https://github.com/ZHO-ZHO-ZHO/ComfyUI-Gemini): Using Gemini-pro & Gemini-pro-vision in ComfyUI.
 - [**AnimateDiff**](https://github.com/ArtVentureX/comfyui-animatediff): AnimateDiff integration for ComfyUI, adapts from sd-webui-animatediff.
@@ -161,9 +161,9 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**Face Analysis for ComfyUI**](https://github.com/cubiq/ComfyUI_FaceAnalysis): This extension uses [a/DLib](http://dlib.net/) to calculate the Euclidean and Cosine distance between two faces.
 - [**IF_Trellis**](https://github.com/if-ai/ComfyUI-IF_Trellis): ComfyUI IF Trellis creates a 3d mesh from a single view or multi angle pictures
 - [**Compositor Node**](https://github.com/erosDiffusion/ComfyUI-enricos-nodes): pass up to 8 images and visually place, rotate and scale them to build the perfect composition. group move and group rescale. remember their position and scaling value across generations to easy swap images. use the buffer zone to to park an asset you don't want to use or easily reach transformations controls
-- [**Masquerade Nodes**](https://github.com/BadCafeCode/masquerade-nodes-comfyui): This is a low-dependency node pack primarily dealing with masks. The author recommends using Impact-Pack instead (unless you specifically have trouble installing dependencies).
 - [**Tiled Diffusion & VAE for ComfyUI**](https://github.com/shiimizu/ComfyUI-TiledDiffusion): The extension enables large image drawing & upscaling with limited VRAM via the following techniques:
-- [**ComfyUI_Yvann-Nodes**](https://github.com/yvann-ba/ComfyUI_Yvann-Nodes): Audio reactivity nodes for AI animations 🔊 Analyze audio, extract drums and vocals. Generate reactive masks and weights. Create audio-driven visuals. Produce weight graphs and audio masks. Compatible with IPAdapter, ControlNets and more. Features audio scheduling and waveform analysis. Tutorials to use this pack: [a/Yvann Youtube](https://www.youtube.com/@yvann.mp4)
+- [**Masquerade Nodes**](https://github.com/BadCafeCode/masquerade-nodes-comfyui): This is a low-dependency node pack primarily dealing with masks. The author recommends using Impact-Pack instead (unless you specifically have trouble installing dependencies).
+- [**ComfyUI_Yvann-Nodes**](https://github.com/yvann-ba/ComfyUI_Yvann-Nodes): Audio Reactive nodes for AI animations 🔊 Analyze audio, extract drums, bass, vocals. Compatible with IPAdapter, ControlNets, AnimateDiff... Generate reactive masks and weights. Create audio-driven visuals. Produce weight graphs and audio masks. Ideal for music videos and reactive animations. Features audio scheduling and waveform analysis
 - [**Derfuu_ComfyUI_ModdedNodes**](https://github.com/Derfuu/Derfuu_ComfyUI_ModdedNodes): Automate calculation depending on image sizes or something you want.
 - [**ComfyUI-DragNUWA**](https://github.com/chaojie/ComfyUI-DragNUWA): Nodes: Download the weights of DragNUWA [a/drag_nuwa_svd.pth](https://drive.google.com/file/d/1Z4JOley0SJCb35kFF4PCc6N6P1ftfX4i/view) and put it to ComfyUI/models/checkpoints/drag_nuwa_svd.pth
 - [**ComfyUI-AutomaticCFG**](https://github.com/Extraltodeus/ComfyUI-AutomaticCFG): My own version 'from scratch' of a self-rescaling CFG. It isn't much but it's honest work.
@@ -171,14 +171,14 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI_StoryDiffusion**](https://github.com/smthemex/ComfyUI_StoryDiffusion): you can using sotry-diffusion in comfyui
 - [**ComfyUI-Miaoshouai-Tagger**](https://github.com/miaoshouai/ComfyUI-Miaoshouai-Tagger): Nodes to use Florence2 VLM for image tagging and captioning
 - [**DeepFuze**](https://github.com/SamKhoze/ComfyUI-DeepFuze): DeepFuze is a state-of-the-art deep learning tool that seamlessly integrates with ComfyUI to revolutionize facial transformations, lipsyncing, video generation, voice cloning, face swapping, and lipsync translation. Leveraging advanced algorithms, DeepFuze enables users to combine audio and video with unparalleled realism, ensuring perfectly synchronized facial movements. This innovative solution is ideal for content creators, animators, developers, and anyone seeking to elevate their video editing projects with sophisticated AI-driven features.
-- [**ComfyUI Cutoff**](https://github.com/BlenderNeko/ComfyUI_Cutoff): These custom nodes provides features that allow for better control over the effects of the text prompt.
 - [**ComfyUI_Fill-Nodes**](https://github.com/filliptm/ComfyUI_Fill-Nodes): VFX nodes, Shaders, Utilities, Mask tools, Prompting Tools, and much more!
+- [**ComfyUI Cutoff**](https://github.com/BlenderNeko/ComfyUI_Cutoff): These custom nodes provides features that allow for better control over the effects of the text prompt.
 - [**ComfyUI-ELLA**](https://github.com/TencentQQGYLab/ComfyUI-ELLA): ComfyUI implementation for [a/ELLA](https://github.com/TencentQQGYLab/ELLA).
 - [**APISR IN COMFYUI**](https://github.com/ZHO-ZHO-ZHO/ComfyUI-APISR): Unofficial implementation of APISR for ComfyUI, both image and video
 - [**ComfyUI-MimicMotion**](https://github.com/AIFSH/ComfyUI-MimicMotion): a comfyui custom node for [a/MimicMotion](https://github.com/Tencent/MimicMotion)
+- [**ComfyUI-MVAdapter**](https://github.com/huanngzh/ComfyUI-MVAdapter): This extension integrates [a/MV-Adapter](https://github.com/huanngzh/MV-Adapter) into ComfyUI, allowing users to generate multi-view consistent images from text prompts or single images directly within the ComfyUI interface.
 - [**Tiled sampling for ComfyUI**](https://github.com/BlenderNeko/ComfyUI_TiledKSampler): This extension contains a tiled sampler for ComfyUI. It allows for denoising larger images by splitting it up into smaller tiles and denoising these. It tries to minimize any seams for showing up in the end result by gradually denoising all tiles one step at the time and randomizing tile positions for every step.
 - [**ComfyUI PyramidFlow Wrapper**](https://github.com/kijai/ComfyUI-PyramidFlowWrapper): Wrapper for PyramidFlow -models: [a/https://github.com/jy0205/Pyramid-Flow](https://github.com/jy0205/Pyramid-Flow)
-- [**ComfyUI-MVAdapter**](https://github.com/huanngzh/ComfyUI-MVAdapter): This extension integrates [a/MV-Adapter](https://github.com/huanngzh/MV-Adapter) into ComfyUI, allowing users to generate multi-view consistent images from text prompts or single images directly within the ComfyUI interface.
 - [**Advanced CLIP Text Encode**](https://github.com/BlenderNeko/ComfyUI_ADV_CLIP_emb): Advanced CLIP Text Encode (if you need A1111 like prompt. you need this. But Cutoff node includes this feature, already.)
 - [**ComfyUI-ToonCrafter**](https://github.com/AIGODLIKE/ComfyUI-ToonCrafter): This project is used to enable [a/ToonCrafter](https://github.com/ToonCrafter/ToonCrafter) to be used in ComfyUI.
 - [**ComfyUI Stable Video Diffusion**](https://github.com/thecooltechguy/ComfyUI-Stable-Video-Diffusion): Easily use Stable Video Diffusion inside ComfyUI!
@@ -214,22 +214,22 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI-FluxExt-MZ**](https://github.com/MinusZoneAI/ComfyUI-FluxExt-MZ): Nodes:MZ_Flux1PartialLoad_Patch. Tool nodes related to flux1
 - [**🌊 Depthflow Nodes**](https://github.com/akatz-ai/ComfyUI-Depthflow-Nodes): Implementation of DepthFlow nodes for ComfyUI, adds a 2.5D parallax effect to images and videos. Compatible with Ryan's Flex system.
 - [**Facerestore CF (Code Former)**](https://github.com/mav-rik/facerestore_cf): This is a copy of [a/facerestore custom node](https://civitai.com/models/24690/comfyui-facerestore-node) with a bit of a change to support CodeFormer Fidelity parameter. These ComfyUI nodes can be used to restore faces in images similar to the face restore option in AUTOMATIC1111 webui.
-- [**ComfyUI_LayerStyle_Advance**](https://github.com/chflame163/ComfyUI_LayerStyle_Advance): The nodes detached from ComfyUI Layer Style are mainly those with complex requirements for dependency packages.
 - [**comfyui-prompt-composer**](https://github.com/florestefano1975/comfyui-prompt-composer): A suite of tools for prompt management. Combining nodes helps the user sequence strings for prompts, also creating logical groupings if necessary. Individual nodes can be chained together in any order.
+- [**ComfyUI_LayerStyle_Advance**](https://github.com/chflame163/ComfyUI_LayerStyle_Advance): The nodes detached from ComfyUI Layer Style are mainly those with complex requirements for dependency packages.
 - [**Tripo for ComfyUI**](https://github.com/VAST-AI-Research/ComfyUI-Tripo): Custom nodes for using [a/Tripo](https://www.tripo3d.ai/) in ComfyUI to create 3D from text and image prompts.
 - [**Avatar Graph**](https://github.com/avatechai/avatar-graph-comfyui): Include nodes for sam + bpy operation, that allows workflow creations for generative 2d character rig.
 - [**ComfyUI-BiRefNet-Hugo**](https://github.com/MoonHugo/ComfyUI-BiRefNet-Hugo): This repository wraps the latest BiRefNet model as ComfyUI nodes. Compared to the previous model, the latest model offers higher and better matting accuracy.
 - [**smZNodes**](https://github.com/shiimizu/ComfyUI_smZNodes): Nodes such as CLIP Text Encode++ to achieve identical embeddings from stable-diffusion-webui for ComfyUI.
 - [**LCM_Inpaint-Outpaint_Comfy**](https://github.com/taabata/LCM_Inpaint_Outpaint_Comfy): ComfyUI custom nodes for inpainting/outpainting using the new latent consistency model (LCM)
+- [**ComfyUI-OmniGen**](https://github.com/1038lab/ComfyUI-OmniGen): ComfyUI custom node implementation of OmniGen
 - [**ComfyUI Prompt Control**](https://github.com/asagi4/comfyui-prompt-control): Nodes for convenient prompt editing, making many common operations prompt-controllable
 - [**Save Image with Generation Metadata**](https://github.com/giriss/comfy-image-saver): All the tools you need to save images with their generation metadata on ComfyUI. Compatible with Civitai & Prompthero geninfo auto-detection. Works with png, jpeg and webp.
-- [**ComfyUI-OmniGen**](https://github.com/1038lab/ComfyUI-OmniGen): ComfyUI custom node implementation of OmniGen
 - [**Latent Consistency Model for ComfyUI**](https://github.com/0xbitches/ComfyUI-LCM): This custom node implements a Latent Consistency Model sampler in ComfyUI. (LCM)
 - [**Allor Plugin**](https://github.com/Nourepide/ComfyUI-Allor): Allor is a plugin for ComfyUI with an emphasis on transparency and performance.
 - [**ComfyUI-MuseTalk**](https://github.com/chaojie/ComfyUI-MuseTalk): ComfyUI MuseTalk
 - [**CosyVoice-ComfyUI**](https://github.com/AIFSH/CosyVoice-ComfyUI): a comfyui custom node for [a/CosyVoice](https://github.com/FunAudioLLM/CosyVoice)
-- [**ComfyUI-AniPortrait**](https://github.com/chaojie/ComfyUI-AniPortrait): ComfyUI [a/AniPortrait](https://github.com/Zejun-Yang/AniPortrait)
 - [**Comfyui_Comfly**](https://github.com/ainewsto/Comfyui_Comfly): NODES: Comfly_Mj, Comfly_mjstyle, Comfly_upload, Comfly_Mju, Comfly_Mjv, Comfly_kling_videoPreview
+- [**ComfyUI-AniPortrait**](https://github.com/chaojie/ComfyUI-AniPortrait): ComfyUI [a/AniPortrait](https://github.com/Zejun-Yang/AniPortrait)
 - [**ComfyUI Stable Audio Open 1.0 Sampler**](https://github.com/lks-ai/ComfyUI-StableAudioSampler): Nodes: StableAudioSampler. Wraps the new Stable Audio Open Model in the sampler that dropped Jun 5th. See Github for Features
 - [**Quick Connections**](https://github.com/niknah/quick-connections): Quick connections, Circuit board connections
 - [**sd-perturbed-attention**](https://github.com/pamparamm/sd-perturbed-attention): Perturbed-Attention Guidance, Smoothed Energy Guidance and Sliding Window Guidance for ComfyUI and SD Forge/reForge. (PAG)
@@ -265,21 +265,21 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI-mxToolkit**](https://github.com/Smirnov75/ComfyUI-mxToolkit): A set of useful nodes for convenient use of ComfyUI, including: Seed randomization before the generation process starts, with saving of the last used values and the ability to automatically interrupt the current generation; A function to pause the generation process; Slider nodes for convenient control of input parameters; An alternative version of the standard Reroute node.
 - [**Comfy Cloud**](https://github.com/nathannlu/ComfyUI-Cloud): Run your workflow using cloud GPU resources, from your local ComfyUI.
 - [**ComfyUI-TopazVideoAI**](https://github.com/sh570655308/ComfyUI-TopazVideoAI): Custom nodes use topazvideoai in comfyui.
-- [**Euler-Smea-Dyn-Sampler**](https://github.com/Koishi-Star/Euler-Smea-Dyn-Sampler): СomfyUI version of [a/Euler Smea Dyn Sampler](https://github.com/Koishi-Star/Euler-Smea-Dyn-Sampler). It adds samplers directly to KSampler nodes.
 - [**ComfyUI-LumaAI-API**](https://github.com/lumalabs/ComfyUI-LumaAI-API): Luma Dream Machine API official ComfyUI custom node.
+- [**Euler-Smea-Dyn-Sampler**](https://github.com/Koishi-Star/Euler-Smea-Dyn-Sampler): СomfyUI version of [a/Euler Smea Dyn Sampler](https://github.com/Koishi-Star/Euler-Smea-Dyn-Sampler). It adds samplers directly to KSampler nodes.
 - [**ComfyUI MotionDiff**](https://github.com/Fannovel16/ComfyUI-MotionDiff): Implementation of MDM, MotionDiffuse and ReMoDiffuse into ComfyUI.
 - [**ComfyUI-Lightning**](https://github.com/shenduldh/ComfyUI-Lightning): Accelerate FLUX inferencing speed for ComfyUI.
 - [**ComfyUI_BiRefNet_ll**](https://github.com/lldacing/ComfyUI_BiRefNet_ll): Sync with version of BiRefNet. NODES:AutoDownloadBiRefNetModel, LoadRembgByBiRefNetModel, RembgByBiRefNet.
 - [**ComfyUI-PuLID-Flux-Enhanced**](https://github.com/sipie800/ComfyUI-PuLID-Flux-Enhanced): adapted from [a/https://github.com/balazik/ComfyUI-PuLID-Flux](https://github.com/balazik/ComfyUI-PuLID-Flux).
 - [**ComfyUI-LuminaWrapper**](https://github.com/kijai/ComfyUI-LuminaWrapper): ComfyUI wrapper nodes for Lumina models
+- [**ComfyUI-ConDelta**](https://github.com/envy-ai/ComfyUI-ConDelta): This extension extends ComfyUI's capabilities with respect to manipulating conditionings.
 - [**Seamless tiling Node for ComfyUI**](https://github.com/spinagon/ComfyUI-seamless-tiling): Node for generating almost seamless textures, based on similar setting from A1111.
+- [**Flux Prompt Generator for ComfyUI**](https://github.com/fairy-root/Flux-Prompt-Generator): A flexible and customizable prompt generator for generating detailed and creative prompts for image generation models for ComfyUI
 - [**ComfyUI-Gemini-API**](https://github.com/CY-CHENYUE/ComfyUI-Gemini-API): A custom node for ComfyUI to integrate Google Gemini API.
 - [**ComfyUI-Lora-Auto-Trigger-Words**](https://github.com/idrirap/ComfyUI-Lora-Auto-Trigger-Words): This project is a fork of [a/https://github.com/Extraltodeus/LoadLoraWithTags](https://github.com/Extraltodeus/LoadLoraWithTags) The aim of these custom nodes is to get an easy access to the tags used to trigger a lora.
-- [**Flux Prompt Generator for ComfyUI**](https://github.com/fairy-root/Flux-Prompt-Generator): A flexible and customizable prompt generator for generating detailed and creative prompts for image generation models for ComfyUI
-- [**ComfyUI-ConDelta**](https://github.com/envy-ai/ComfyUI-ConDelta): This extension extends ComfyUI's capabilities with respect to manipulating conditionings.
+- [**ComfyUI InvSR**](https://github.com/yuvraj108c/ComfyUI_InvSR): This project is an unofficial ComfyUI implementation of [a/InvSR](https://github.com/zsyOAOA/InvSR) (Arbitrary-steps Image Super-resolution via Diffusion Inversion)
 - [**ComfyUI Web Viewer**](https://github.com/VrchStudio/comfyui-web-viewer): The ComfyUI Web Viewer by [a/vrch.ai](https://vrch.ai) is a custom node collection offering a real-time AI-generated interactive art framework. This utility integrates realtime streaming into ComfyUI workflows, supporting keyboard control nodes, OSC control nodes, sound input nodes, and more. Accessible from any device with a web browser, it enables real time interaction with AI-generated content, making it ideal for interactive visual projects and enhancing ComfyUI workflows with efficient content management and display.
 - [**ComfyUI-Portrait-Maker**](https://github.com/THtianhao/ComfyUI-Portrait-Maker): Nodes:RetainFace, FaceFusion, RatioMerge2Image, MaskMerge2Image, ReplaceBoxImg, ExpandMaskBox, FaceSkin, SkinRetouching, PortraitEnhancement, ...
-- [**ComfyUI InvSR**](https://github.com/yuvraj108c/ComfyUI_InvSR): This project is an unofficial ComfyUI implementation of [a/InvSR](https://github.com/zsyOAOA/InvSR) (Arbitrary-steps Image Super-resolution via Diffusion Inversion)
 - [**DZ-FaceDetailer**](https://github.com/nicofdga/DZ-FaceDetailer): Face Detailer is a custom node for the 'ComfyUI' framework inspired by !After Detailer extension from auto1111, it allows you to detect faces using Mediapipe and YOLOv8n to create masks for the detected faces.
 - [**ComfyUI 3D Pose Editor**](https://github.com/hinablue/ComfyUI_3dPoseEditor): Nodes:3D Pose Editor
 - [**ComfyUI-Logic**](https://github.com/theUpsider/ComfyUI-Logic): An extension to ComfyUI that introduces logic nodes and conditional rendering capabilities.
@@ -292,14 +292,14 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI nodes for ControlNext-SVD v2**](https://github.com/kijai/ComfyUI-ControlNeXt-SVD): These nodes include my wrapper for the original diffusers pipeline, as well as work in progress native ComfyUI implementation.
 - [**ComfyUI-ToSVG**](https://github.com/Yanick112/ComfyUI-ToSVG): This project converts raster images into SVG format using the [a/VTracer](https://github.com/visioncortex/vtracer) library. It's a handy tool for designers and developers who need to work with vector graphics programmatically.
 - [**Skimmed_CFG**](https://github.com/Extraltodeus/Skimmed_CFG): A powerful anti-burn allowing much higher CFG scales for latent diffusion models (for ComfyUI)
-- [**ComfyUI-Replicate**](https://github.com/replicate/comfyui-replicate): Run [a/Replicate models](https://replicate.com/explore) in ComfyUI.
+- [**ComfyUI-Lora-Manager**](https://github.com/willmiao/ComfyUI-Lora-Manager): LoRA Manager for ComfyUI - Access it at http://localhost:8188/loras for managing LoRA models with previews and metadata integration.
 - [**ComfyUI_experiments**](https://github.com/comfyanonymous/ComfyUI_experiments): Nodes: ModelSamplerTonemapNoiseTest, TonemapNoiseWithRescaleCFG, ReferenceOnlySimple, RescaleClassifierFreeGuidanceTest, ModelMergeBlockNumber, ModelMergeSDXL, ModelMergeSDXLTransformers, ModelMergeSDXLDetailedTransformers.
+- [**ComfyUI-Replicate**](https://github.com/replicate/comfyui-replicate): Run [a/Replicate models](https://replicate.com/explore) in ComfyUI.
 - [**ImagesGrid**](https://github.com/LEv145/images-grid-comfy-plugin): This tool provides a viewer node that allows for checking multiple outputs in a grid, similar to the X/Y Plot extension.
 - [**ComfyUI-Depth-Pro**](https://github.com/spacepxl/ComfyUI-Depth-Pro): Based on [a/https://github.com/apple/ml-depth-pro](https://github.com/apple/ml-depth-pro)
 - [**mape's helpers**](https://github.com/mape/ComfyUI-mape-Helpers): Multi-monitor image preview, Variable Assigment/Wireless Nodes, Prompt Tweaking, Command Palette, Pinned favourite nodes, Node navigation, Fuzzy search, Node time tracking, Organizing and Error management. For more info visit: [a/https://comfyui.ma.pe/](https://comfyui.ma.pe/)
 - [**InstanceDiffusion Nodes**](https://github.com/logtd/ComfyUI-InstanceDiffusion): A set of nodes to perform multi-object prompting with InstanceDiffusion
 - [**ComfyUI-LG_HotReload**](https://github.com/LAOGOU-666/ComfyUI-LG_HotReload): An extension for ComfyUI that allows hot reloading. Once installed, you can preview changes in real-time while developing custom nodes or installing plugins without restarting ComfyUI.
-- [**ComfyUI-Lora-Manager**](https://github.com/willmiao/ComfyUI-Lora-Manager): LoRA Manager for ComfyUI - Access it at http://localhost:8188/loras for managing LoRA models with previews and metadata integration.
 - [**Animatediff MotionLoRA Trainer**](https://github.com/kijai/ComfyUI-ADMotionDirector): This is a trainer for AnimateDiff MotionLoRAs, based on the implementation of MotionDirector by ExponentialML.
 - [**Comfy-Topaz**](https://github.com/choey/Comfy-Topaz): Comfy-Topaz is a custom node for ComfyUI, which integrates with Topaz Photo AI to enhance (upscale, sharpen, denoise, etc.) images, allowing this traditionally asynchronous step to become a part of ComfyUI workflows.
 - [**ComfyUI_MiniCPM-V-2_6-int4**](https://github.com/IuvenisSapiens/ComfyUI_MiniCPM-V-2_6-int4): This is an implementation of [a/MiniCPM-V-2_6-int4](https://github.com/OpenBMB/MiniCPM-V) by [a/ComfyUI](https://github.com/comfyanonymous/ComfyUI), including support for text-based queries, video queries, single-image queries, and multi-image queries to generate captions or responses.
@@ -314,15 +314,15 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI-ProPost**](https://github.com/digitaljohn/comfyui-propost): A set of custom ComfyUI nodes for performing basic post-processing effects including Film Grain and Vignette. These effects can help to take the edge off AI imagery and make them feel more natural.
 - [**StableZero123-comfyui**](https://github.com/deroberon/StableZero123-comfyui): StableZero123 is a node wrapper that uses the model and technique provided [here](https://github.com/SUDO-AI-3D/zero123plus/). It uses the Zero123plus model to generate 3D views using just one image.
 - [**ComfyUI-ppm**](https://github.com/pamparamm/ComfyUI-ppm): Fixed AttentionCouple, NegPip(negative weights in prompts) for SDXL and FLUX, more CFG++ and SMEA DY samplers, etc.
-- [**ComfyUI_ZenID**](https://github.com/vuongminh1907/ComfyUI_ZenID): Inspired by [a/InstantID](https://github.com/instantX-research/InstantID) and [a/InstantID Comfy](https://github.com/cubiq/ComfyUI_InstantID)
 - [**ComfyUI SAM2(Segment Anything 2)**](https://github.com/neverbiasu/ComfyUI-SAM2): This project adapts the SAM2 to incorporate functionalities from [a/comfyui_segment_anything](https://github.com/storyicon/comfyui_segment_anything). Many thanks to continue-revolution for their foundational work.
+- [**ComfyUI_ZenID**](https://github.com/vuongminh1907/ComfyUI_ZenID): Inspired by [a/InstantID](https://github.com/instantX-research/InstantID) and [a/InstantID Comfy](https://github.com/cubiq/ComfyUI_InstantID)
 - [**ComfyUI-Sub-Nodes**](https://github.com/vivax3794/ComfyUI-Sub-Nodes): Creating subgraph and Calling subgraphs.
 - [**ComfyUI_Sapiens**](https://github.com/smthemex/ComfyUI_Sapiens): You can call Using Sapiens to get seg，normal，pose，depth，mask.
+- [**IF_MemoAvatar**](https://github.com/if-ai/ComfyUI-IF_MemoAvatar): Talking avatars MemoAvatar Memory-Guided Diffusion for Expressive Talking Video Generation
 - [**ComfyUI_FL-Trainer**](https://github.com/filliptm/ComfyUI_FL-Trainer): Train Image Loras on both sd1.5 and SDXL. This repo git clones the pieces needed to train. It pops open a second terminal window do do the training. It will also display the inference samples in the node itself so you can track the results.
 - [**UniAnimate Nodes for ComfyUI**](https://github.com/Isi-dev/ComfyUI-UniAnimate-W): These are nodes to animate an image with a reference video using UniAnimate. [w/Name conflict with AIFSH/ComfyUI-UniAnimate. Cannot install simulatenously.]
 - [**Rembg Background Removal Node for ComfyUI**](https://github.com/Jcd1230/rembg-comfyui-node): Nodes: Image Remove Background (rembg)
 - [**ComfyUI-SVD**](https://github.com/kijai/ComfyUI-SVD): Preliminary use of SVD in ComfyUI.
-- [**IF_MemoAvatar**](https://github.com/if-ai/ComfyUI-IF_MemoAvatar): Talking avatars MemoAvatar Memory-Guided Diffusion for Expressive Talking Video Generation
 - [**ComfyUI-SuperBeasts**](https://github.com/SuperBeastsAI/ComfyUI-SuperBeasts): Nodes:HDR Effects (SuperBeasts.AI). This repository contains custom nodes for ComfyUI created and used by SuperBeasts.AI (@SuperBeasts.AI on Instagram)
 - [**ComfyUI_TRELLIS**](https://github.com/smthemex/ComfyUI_TRELLIS): You can use TRELLIS in comfyUI
 - [**ComfyUI_FaceShaper**](https://github.com/fssorc/ComfyUI_FaceShaper): Match two faces' shape before using other face swap nodes
@@ -339,11 +339,11 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI-Login**](https://github.com/liusida/ComfyUI-Login): A simple password to protect ComfyUI.
 - [**comfyUI_TJ_NormalLighting**](https://github.com/TJ16th/comfyUI_TJ_NormalLighting): Custom Node for comfyUI for virtual lighting based on normal map.
 - [**ComfyUX**](https://github.com/googincheng/ComfyUX): Better user experience plugin for ComfyUI.
-- [**🐰 MaraScott Nodes**](https://github.com/MaraScott/ComfyUI_MaraScott_Nodes): A set of nodes including a universal bus, an Inpainting By Mask and a large Upscaler/Refiner
 - [**comfyui_face_parsing**](https://github.com/Ryuukeisyou/comfyui_face_parsing): This is a set of custom nodes for ComfyUI. The nodes utilize the [a/face parsing model](https://huggingface.co/jonathandinu/face-parsing) to provide detailed segmantation of face. To improve face segmantation accuracy, [a/yolov8 face model](https://huggingface.co/Bingsu/adetailer/) is used to first extract face from an image. There are also auxiliary nodes for image and mask processing. A guided filter is also provided for skin smoothing.
+- [**🐰 MaraScott Nodes**](https://github.com/MaraScott/ComfyUI_MaraScott_Nodes): A set of nodes including a universal bus, an Inpainting By Mask and a large Upscaler/Refiner
 - [**ComfyUI-UltraEdit-ZHO**](https://github.com/ZHO-ZHO-ZHO/ComfyUI-UltraEdit-ZHO): Unofficial implementation of [a/UltraEdit](https://github.com/HaozheZhao/UltraEdit) (Diffusers) for ComfyUI
-- [**ComfyUI HiDiffusion**](https://github.com/florestefano1975/ComfyUI-HiDiffusion): Simple custom nodes for testing and use HiDiffusion technology: https://github.com/megvii-research/HiDiffusion/
 - [**Mikey Nodes**](https://github.com/bash-j/mikey_nodes): Nodes: Prompt With Style, Prompt With SDXL, Resize Image for SDXL, Save Image With Prompt Data, HaldCLUT, Empty Latent Ratio Select/Custom SDXL
+- [**ComfyUI HiDiffusion**](https://github.com/florestefano1975/ComfyUI-HiDiffusion): Simple custom nodes for testing and use HiDiffusion technology: https://github.com/megvii-research/HiDiffusion/
 - [**ComfyUI-DDColor**](https://github.com/kijai/ComfyUI-DDColor): Node to use [a/DDColor](https://github.com/piddnad/DDColor) in ComfyUI.
 - [**ComfyUI_OmniGen_Wrapper**](https://github.com/chflame163/ComfyUI_OmniGen_Wrapper): ComfyUI custom node of OmniGen project.
 - [**ComfyUI-Photopea**](https://github.com/coolzilj/ComfyUI-Photopea): Edit images in the Photopea editor directly within ComfyUI.
@@ -351,13 +351,13 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI-GigapixelAI**](https://github.com/sh570655308/ComfyUI-GigapixelAI): Custom nodes use gigapixelai in comfyui.
 - [**ComfyUI-BrushNet-Wrapper**](https://github.com/kijai/ComfyUI-BrushNet-Wrapper): ComfyUI wrapper nodes to use the Diffusers implementation of BrushNet
 - [**ComfyUI_StreamDiffusion**](https://github.com/jesenzhang/ComfyUI_StreamDiffusion): This is a simple implementation StreamDiffusion(A Pipeline-Level Solution for Real-Time Interactive Generation) for ComfyUI
+- [**ComfyUI-InstantCharacter**](https://github.com/jax-explorer/ComfyUI-InstantCharacter): [a/InstantCharacter](https://github.com/Tencent/InstantCharacter) ComfyUI Warpper
 - [**ComfyUI-Long-CLIP**](https://github.com/SeaArtLab/ComfyUI-Long-CLIP): This project implements the comfyui for long-clip, currently supporting the replacement of clip-l. For SD1.5, the SeaArtLongClip module can be used to replace the original clip in the model, expanding the token length from 77 to 248.
 - [**ComfyUI Flux Continuum: Modular Interface**](https://github.com/robertvoy/ComfyUI-Flux-Continuum): Set of custom nodes to use with the ComfyUI Flux Continuum: Modular Interface. NODES: Text Versions, Image64 Display, Tabs, Step Slider, Denoise Slider, Guidance Slider, Batch Slider, Max Shift Slider, ControlNet Slider
 - [**Civitai Comfy Nodes**](https://github.com/civitai/civitai_comfy_nodes): Tired of manually downloading and moving models, LoRAs, and more to the right places?
 - [**ComfyUI-MotionCtrl**](https://github.com/chaojie/ComfyUI-MotionCtrl): Nodes: Download the weights of MotionCtrl [a/motionctrl.pth](https://huggingface.co/TencentARC/MotionCtrl/blob/main/motionctrl.pth) and put it to ComfyUI/models/checkpoints
-- [**ComfyUI-InstantCharacter**](https://github.com/jax-explorer/ComfyUI-InstantCharacter): [a/InstantCharacter](https://github.com/Tencent/InstantCharacter) ComfyUI Warpper
-- [**SaveAsScript**](https://github.com/atmaranto/ComfyUI-SaveAsScript): A version of ComfyUI-to-Python-Extension that works as a custom node. Adds a button in the UI that saves the current workflow as a Python file, a CLI for converting workflows, and slightly better custom node support.
 - [**ComfyUI-FaceChain**](https://github.com/THtianhao/ComfyUI-FaceChain): The official ComfyUI version of facechain greatly improves the speed of reasoning and has great custom process controls.
+- [**SaveAsScript**](https://github.com/atmaranto/ComfyUI-SaveAsScript): A version of ComfyUI-to-Python-Extension that works as a custom node. Adds a button in the UI that saves the current workflow as a Python file, a CLI for converting workflows, and slightly better custom node support.
 - [**HivisionIDPhotos-ComfyUI**](https://github.com/AIFSH/HivisionIDPhotos-ComfyUI): a custom node for [a/HivisionIDPhotos](https://github.com/Zeyi-Lin/HivisionIDPhotos)
 - [**ComfyUI-sampler-lcm-alternative**](https://github.com/jojkaart/ComfyUI-sampler-lcm-alternative): Nodes:LCMScheduler, SamplerLCMAlternative, SamplerLCMCycle. ComfyUI Custom Sampler nodes that add a new improved LCM sampler functions
 - [**BilboX's ComfyUI Custom Nodes**](https://github.com/syllebra/bilbox-comfyui): Nodes: BilboX's PromptGeek Photo Prompt. This provides a convenient way to compose photorealistic prompts into ComfyUI. Post-Processing: adds various post processing effects. Bonus: Option to show a distant server shutdown menu.
@@ -378,13 +378,13 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI-0246**](https://github.com/Trung0246/ComfyUI-0246): Random nodes for ComfyUI I made to solve my struggle with ComfyUI (ex: pipe, process). Have varying quality.
 - [**Comfyui lama remover**](https://github.com/Layer-norm/comfyui-lama-remover): A very simple ComfyUI node to remove item with mask.
 - [**ComfyUI MLX Nodes**](https://github.com/thoddnn/ComfyUI-MLX): Faster workflows for ComfyUI users on Mac with Apple silicon
+- [**ComfyUI_RH_FramePack**](https://github.com/HM-RunningHub/ComfyUI_RH_FramePack): This is a ComfyUI plug-in for lllyasviel/FramePack, easy to use
 - [**Primere nodes for ComfyUI**](https://github.com/CosmicLaca/ComfyUI_Primere_Nodes): This extension provides various utility nodes. Inputs(prompt, styles, dynamic, merger, ...), Outputs(style pile), Dashboard(selectors, loader, switch, ...), Networks(LORA, Embedding, Hypernetwork), Visuals(visual selectors, )
 - [**ComfyUI_OOTDiffusion_CXH**](https://github.com/StartHua/ComfyUI_OOTDiffusion_CXH): Nodes:Ood_hd_CXH, Ood_hd_CXH. [a/OOTDiffusion](https://github.com/levihsu/OOTDiffusion)
 - [**ComfyUI_YuE**](https://github.com/smthemex/ComfyUI_YuE): [a/YuE](https://github.com/multimodal-art-projection/YuE) is a groundbreaking series of open-source foundation models designed for music generation, specifically for transforming lyrics into full songs (lyrics2song). you can use it in comfyUI
-- [**ComfyUI_RH_FramePack**](https://github.com/HM-RunningHub/ComfyUI_RH_FramePack): This is a ComfyUI plug-in for lllyasviel/FramePack, easy to use
 - [**FreeU_Advanced**](https://github.com/WASasquatch/FreeU_Advanced): This custom node provides advanced settings for FreeU.
-- [**comfyui_jankhidiffusion**](https://github.com/blepping/comfyui_jankhidiffusion): Janky implementation of [a/HiDiffusion](https://github.com/megvii-research/HiDiffusion) for ComfyUI. Enables generating at resolutions higher than what the model was trained for. Only supports SD 1.x (maybe 2.x) and SDXL.
 - [**ComfyMath**](https://github.com/evanspearman/ComfyMath): Provides Math Nodes for ComfyUI. Boolean Logic, Integer Arithmetic, Floating Point Arithmetic and Functions, Vec2, Vec3, and Vec4 Arithmetic and Functions
+- [**comfyui_jankhidiffusion**](https://github.com/blepping/comfyui_jankhidiffusion): Janky implementation of [a/HiDiffusion](https://github.com/megvii-research/HiDiffusion) for ComfyUI. Enables generating at resolutions higher than what the model was trained for. Only supports SD 1.x (maybe 2.x) and SDXL.
 - [**Vector_Sculptor_ComfyUI**](https://github.com/Extraltodeus/Vector_Sculptor_ComfyUI): The main node makes your conditioning go towards similar concepts so to enrich your composition or further away so to make it more precise. It gathers similar pre-cond vectors for as long as the cosine similarity score diminishes. If it climbs back it stops. This allows to set a relative direction to similar concepts.
 - [**Geowizard depth and normal estimation in ComfyUI**](https://github.com/kijai/ComfyUI-Geowizard): This is a diffusers (0.27.2) wrapper node for Geowizard: [https://github.com/fuxiao0719/GeoWizard]. The model is autodownloaded from Hugginface to ComfyUI/models/diffusers/geowizard
 - [**ComfyUI-Lotus**](https://github.com/kijai/ComfyUI-Lotus): ComfyUI nodes to use Lotus depth/normal prediction.
@@ -396,22 +396,22 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI-JDCN**](https://github.com/daxcay/ComfyUI-JDCN): Jerry Davos Custom Nodes for Saving Latents in Directory (BatchLatentSave) , Importing Latent from directory (BatchLatentLoadFromDir) , List to string, string to list, get any file list from directory which give filepath, filename, move any files from any directory to any other directory, VHS Video combine file mover, rebatch list of strings, batch image load from any dir, load image batch from any directory and other custom nodes.
 - [**ComfyUI_DiffuEraser**](https://github.com/smthemex/ComfyUI_DiffuEraser): DiffuEraser is a diffusion model for video Inpainting, you can use it in ComfyUI
 - [**wlsh_nodes**](https://github.com/wallish77/wlsh_nodes): Nodes: Checkpoint Loader with Name, Save Prompt Info, Outpaint to Image, CLIP Positive-Negative, SDXL Quick Empty Latent, Empty Latent by Ratio, Time String, SDXL Steps, SDXL Resolutions ...
+- [**ComfyUI-KLingAI-API**](https://github.com/KwaiVGI/ComfyUI-KLingAI-API): Provide high-quality video and image generation capabilities, meeting creators' needs for creative content production and management through more convenient operations, richer functionalities, professional parameters, and stunning effects.
 - [**comfyui-sound-lab**](https://github.com/shadowcz007/comfyui-sound-lab): Nodes:Music Gen, Audio Play, Stable Audio
 - [**IF_LLM**](https://github.com/if-ai/ComfyUI-IF_LLM): Run Local and API LLMs, Features Conditioning manipulation via Omost, supports Ollama, LlamaCPP LMstudio, Koboldcpp, TextGen, Transformers or via APIs Anthropic, Groq, OpenAI, Google Gemini, Mistral, xAI and create your own charcters assistants (SystemPrompts) with custom presets and muchmore
 - [**ComfyUI-Prompt-MZ**](https://github.com/MinusZoneAI/ComfyUI-Prompt-MZ): Use llama.cpp to help generate some nodes for prompt word related work
 - [**ControlAltAI Nodes**](https://github.com/gseth/ControlAltAI-Nodes): Quality of Life ComfyUI nodes starting with Flux Resolution Calculator and Flux Sampler.
-- [**ComfyUI-KLingAI-API**](https://github.com/KwaiVGI/ComfyUI-KLingAI-API): Provide high-quality video and image generation capabilities, meeting creators' needs for creative content production and management through more convenient operations, richer functionalities, professional parameters, and stunning effects.
 - [**comfyui-job-iterator**](https://github.com/ali1234/comfyui-job-iterator): Implements iteration over sequences within a single workflow run. [w/NOTE: This node replaces the execution of ComfyUI for iterative processing functionality.]
 - [**ComfyUI-ELLA-wrapper**](https://github.com/kijai/ComfyUI-ELLA-wrapper): ComfyUI wrapper nodes to use the Diffusers implementation of ELLA
 - [**ComfyUI-NodeAligner**](https://github.com/Tenney95/ComfyUI-NodeAligner): ComfyUI-NodeAligner is a lightweight ComfyUI layout plugin that includes features such as node alignment, distribution, and resizing. This plugin is designed to simplify layout adjustments in visual node editors or custom UI components, making node arrangement more convenient and efficient.
 - [**RES4LYF**](https://github.com/ClownsharkBatwing/RES4LYF): Advanced samplers with new noise scaling math to enable SDE sampling with all publicly available rectified flow models; new unsampling/noise inversion methods and other advanced techniques for inpainting and/or guiding the sampling process with latent images. 40 sampler types, 20 noise types, 7 noise scaling modes, in a single node. Also includes a wide variety of QoF and other utility nodes for manipulating sigmas, latents, images, and more.
 - [**V-Express: Conditional Dropout for Progressive Training of Portrait Video Generation**](https://github.com/tiankuan93/ComfyUI-V-Express): [Original] In the field of portrait video generation, the use of single images to generate portrait videos has become increasingly prevalent. A common approach involves leveraging generative models to enhance adapters for controlled generation. However, control signals can vary in strength, including text, audio, image reference, pose, depth map, etc. Among these, weaker conditions often struggle to be effective due to interference from stronger conditions, posing a challenge in balancing these conditions. In our work on portrait video generation, we identified audio signals as particularly weak, often overshadowed by stronger signals such as pose and original image. However, direct training with weak signals often leads to difficulties in convergence. To address this, we propose V-Express, a simple method that balances different control signals through a series of progressive drop operations. Our method gradually enables effective control by weak conditions, thereby achieving generation capabilities that simultaneously take into account pose, input image, and audio.
 - [**ComfyUI - Native DynamiCrafter**](https://github.com/ExponentialML/ComfyUI_Native_DynamiCrafter): DynamiCrafter that works natively with ComfyUI's nodes, optimizations, ControlNet, and more.
+- [**ComfyUI-HunyuanVideoMultiLora**](https://github.com/facok/ComfyUI-HunyuanVideoMultiLora): A custom LoRA-loading node designed to prevent issues such as blurriness and other artifacts when loading multiple LoRAs in HunYuan Video.
 - [**ComfyUI-MagickWand**](https://github.com/Fannovel16/ComfyUI-MagickWand): Proper implementation of ImageMagick - the famous software suite for editing and manipulating digital images to ComfyUI using [a/wandpy](https://github.com/emcconville/wand).
 - [**ComfyUI-MimicBrush**](https://github.com/AIFSH/ComfyUI-MimicBrush): a comfyui custom node for [a/MimicBrush](https://github.com/ali-vilab/MimicBrush),then inpainting with reference image.
 - [**ControlFlowUtils**](https://github.com/VykosX/ControlFlowUtils): Custom nodes to improve flow control and logic + several utilities to enhance capabilities
 - [**ComfyUI_MagicQuill**](https://github.com/magic-quill/ComfyUI_MagicQuill): Towards GPT-4 like large language and visual assistant.
-- [**ComfyUI-HunyuanVideoMultiLora**](https://github.com/facok/ComfyUI-HunyuanVideoMultiLora): A custom LoRA-loading node designed to prevent issues such as blurriness and other artifacts when loading multiple LoRAs in HunYuan Video.
 - [**ComfyUI-Text_Image-Composite [WIP]**](https://github.com/ZHO-ZHO-ZHO/ComfyUI-Text_Image-Composite): Nodes:Text_Image_Zho, Text_Image_Multiline_Zho, RGB_Image_Zho, AlphaChanelAddByMask, ImageComposite_Zho, ...
 - [**Comfyui-LG_Relight**](https://github.com/LAOGOU-666/Comfyui-LG_Relight): A simple implementation of real-time 3D lighting in ComfyUI. It's an open-source node, have fun playing around!
 - [**ComfyUI_WordCloud**](https://github.com/chflame163/ComfyUI_WordCloud): Nodes:Word Cloud, Load Text File
@@ -427,11 +427,12 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**Cozy Human Parser**](https://github.com/cozymantis/human-parser-comfyui-node): A ComfyUI node to automatically extract masks for body regions and clothing/fashion items. Made with 💚 by the CozyMantis squad.
 - [**ComfyUI_Mira**](https://github.com/mirabarukaso/ComfyUI_Mira): Slice regions of the canvas and convert them to masks for regional conditions widh PNG preview output. And a few support nodes.
 - [**WeiLin-Comfyui-Tools**](https://github.com/weilin9999/WeiLin-Comfyui-Tools): quickly use the prompt word tool in ComfyUI
+- [**ComfyUI_StepAudioTTS**](https://github.com/billwuhao/ComfyUI_StepAudioTTS): A Text To Speech node using Step-Audio-TTS in ComfyUI. Can speak, rap, sing, or clone voice.
 - [**ComfyUI-AudioScheduler**](https://github.com/a1lazydog/ComfyUI-AudioScheduler): Load mp3 files and use the audio nodes to power animations and prompt scheduling. Use with FizzNodes.
 - [**ComfyUI_MatAnyone_Kytra**](https://github.com/KytraScript/ComfyUI_MatAnyone_Kytra): Kytra's MatAnyone (Video Matting) implementation for ComfyUI - Based on pq-yang/MatAnyone
 - [**Flux Prompt Enhance Node for ComfyUI**](https://github.com/marduk191/ComfyUI-Fluxpromptenhancer): This custom node for ComfyUI integrates the Flux-Prompt-Enhance model, allowing you to enhance your prompts directly within your ComfyUI workflows.
-- [**ComfyUI_StepAudioTTS**](https://github.com/billwuhao/ComfyUI_StepAudioTTS): A Text To Speech node using Step-Audio-TTS in ComfyUI. Can speak, rap, sing, or clone voice.
 - [**ComfyUI-DeepSeek-JanusPro**](https://github.com/ZHO-ZHO-ZHO/ComfyUI-DeepSeek-JanusPro): ComfyUI-DeepSeek-JanusPro
+- [**ComfyUI-fal-API**](https://github.com/gokayfem/ComfyUI-fal-API): Custom nodes for using fal API. Video generation with Kling, Runway, Luma. Image generation with Flux. LLMs and VLMs OpenAI, Claude, Llama and Gemini.
 - [**ComfyUI Whisper**](https://github.com/yuvraj108c/ComfyUI-Whisper): Transcribe audio and add subtitles to videos using Whisper in ComfyUI
 - [**ComfyUI Depth Anything TensorRT**](https://github.com/yuvraj108c/ComfyUI-Depth-Anything-Tensorrt): This extension provides a ComfyUI Custom Node implementation of the [a/Depth-Anything-Tensorrt](https://github.com/spacewalk01/depth-anything-tensorrt) in Python for ultra fast depth map generation
 - [**Dream Project Animation Nodes**](https://github.com/alt-key-project/comfyui-dream-project): This extension offers various nodes that are useful for Deforum-like animations in ComfyUI.
@@ -450,10 +451,10 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI_Qwen2-VL-Instruct**](https://github.com/IuvenisSapiens/ComfyUI_Qwen2-VL-Instruct): This is an implementation of [a/Qwen2-VL-Instruct](https://github.com/QwenLM/Qwen2-VL) by [a/ComfyUI](https://github.com/comfyanonymous/ComfyUI), which includes, but is not limited to, support for text-based queries, video queries, single-image queries, and multi-image queries to generate captions or responses.
 - [**ComfyUI-APQNodes**](https://github.com/AIPOQUE/ComfyUI-APQNodes): Without fine-tuning, FLUX.1 Dev model cannot understand exact color codes. However, it is known that FLUX.1 Dev can repeatedly produce certain colors with certain prompt(color name). Fortunately, on CIVITAI, [a/“novuschroma” shared 155 pre-tested color names](https://civitai.com/models/879997/color-wildcards-for-flux-and-sdxl) that FLUX.1 Dev can handle. Thanks to his resource, color palette consists exclusively of 155 colors can be configured. ‘ColorPalette’ node from ComfyUI APQNodes converts input hex color code to the most similar color name(from pre-tested 155 color names) of which FLUX.1 Dev is aware.
 - [**ComfyUI fabric**](https://github.com/ssitu/ComfyUI_fabric): ComfyUI nodes based on the paper [a/FABRIC: Personalizing Diffusion Models with Iterative Feedback](https://arxiv.org/abs/2307.10159) (Feedback via Attention-Based Reference Image Conditioning)
+- [**SDXL Prompt Styler (customized version by wolfden)**](https://github.com/wolfden/ComfyUi_PromptStylers): These custom nodes provide a variety of customized prompt stylers based on [a/twri/SDXL Prompt Styler](https://github.com/twri/sdxl_prompt_styler).
 - [**Image Resize for ComfyUI**](https://github.com/palant/image-resize-comfyui): This custom node provides various tools for resizing images. The goal is resizing without distorting proportions, yet without having to perform any calculations with the size of the original image. If a mask is present, it is resized and modified along with the image.
 - [**ComfyUI Minimap**](https://github.com/OliverCrosby/Comfyui-Minimap): A simple minimap in the bottom-right of the window showing the full workflow, left click to navigate
 - [**ComfyUI_ColorMod**](https://github.com/city96/ComfyUI_ColorMod): This extension currently has two sets of nodes - one set for editing the contrast/color of images and another set for saving images as 16 bit PNG files.
-- [**SDXL Prompt Styler (customized version by wolfden)**](https://github.com/wolfden/ComfyUi_PromptStylers): These custom nodes provide a variety of customized prompt stylers based on [a/twri/SDXL Prompt Styler](https://github.com/twri/sdxl_prompt_styler).
 - [**ComfyUI Upscaler TensorRT**](https://github.com/yuvraj108c/ComfyUI-Upscaler-Tensorrt): This project provides a Tensorrt implementation for fast image upscaling inside ComfyUI (3-4x faster)
 - [**ComfyUI Fooocus Nodes**](https://github.com/Seedsa/Fooocus_Nodes): This extension provides image generation features based on Fooocus.
 - [**ComfyUI-UVR5**](https://github.com/AIFSH/ComfyUI-UVR5): the custom code for [a/UVR5](https://github.com/Anjok07/ultimatevocalremovergui) to separate vocals and background music
@@ -465,10 +466,10 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**LoraInfo**](https://github.com/jitcoder/lora-info): Shows Lora information from CivitAI and outputs trigger words and example prompt
 - [**ComfyUI_SVFR**](https://github.com/smthemex/ComfyUI_SVFR): SVFR is a unified framework for face video restoration that supports tasks such as BFR, Colorization, Inpainting，you can use it in ComfyUI
 - [**ComfyUI-EbSynth**](https://github.com/FuouM/ComfyUI-EbSynth): Run EbSynth, Fast Example-based Image Synthesis and Style Transfer, in ComfyUI.
+- [**ComfyUI-TeaCacheHunyuanVideo**](https://github.com/facok/ComfyUI-TeaCacheHunyuanVideo): This is a TeaCache acceleration node for HunYuan Video, supporting the native node workflow for seamless upgrades. Simply choose the acceleration multiplier you want—currently, three levels are available.
 - [**ComfyUI-Image-Selector**](https://github.com/SLAPaper/ComfyUI-Image-Selector): A custom node for ComfyUI, which can select one or some of images from a batch.
 - [**ComfyUI-Keyframed**](https://github.com/dmarx/ComfyUI-Keyframed): ComfyUI nodes to facilitate parameter/prompt keyframing using comfyui nodes for defining and manipulating parameter curves. Essentially provides a ComfyUI interface to the [a/keyframed](https://github.com/dmarx/keyframed) library.
 - [**ComfyUI-TangoFlux**](https://github.com/LucipherDev/ComfyUI-TangoFlux): ComfyUI Custom Nodes for 'TangoFlux: Super Fast and Faithful Text to Audio Generation with Flow Matching'. This generates high-quality 44.1kHz audio up to 30 seconds using just a text prompt.
-- [**ComfyUI-TeaCacheHunyuanVideo**](https://github.com/facok/ComfyUI-TeaCacheHunyuanVideo): This is a TeaCache acceleration node for HunYuan Video, supporting the native node workflow for seamless upgrades. Simply choose the acceleration multiplier you want—currently, three levels are available.
 - [**demofusion-comfyui**](https://github.com/deroberon/demofusion-comfyui): The Demofusion Custom Node is a wrapper that adapts the work and implementation of the [a/DemoFusion](https://ruoyidu.github.io/demofusion/demofusion.html) technique created and implemented by Ruoyi Du to the Comfyui environment.
 - [**img2txt-comfyui-nodes**](https://github.com/christian-byrne/img2txt-comfyui-nodes): Get general description or specify questions to ask about images (medium, art style, background, etc.). Supports Chinese 🇨🇳 questions via MiniCPM model.
 - [**ComfyUI-LJNodes**](https://github.com/coolzilj/ComfyUI-LJNodes): A variety of custom nodes to enhance ComfyUI for a buttery smooth experience.
@@ -481,10 +482,10 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI_V-Express**](https://github.com/AIFSH/ComfyUI_V-Express): the comfyui custom node of [a/V-Express](https://github.com/tencent-ailab/V-Express) to make audio driven videos!
 - [**Character Face Swap**](https://github.com/ArtBot2023/CharacterFaceSwap): Character face swap with LoRA and embeddings.
 - [**ComfyCanvas**](https://github.com/taabata/ComfyCanvas): Canvas to use with ComfyUI
+- [**Eden.art nodesuite**](https://github.com/edenartlab/eden_comfy_pipelines): Maintained by Eden.art, this is a growing suite of custom nodes for building advanced pipelines.
 - [**comfyui_segformer_b2_clothes**](https://github.com/StartHua/Comfyui_segformer_b2_clothes): SegFormer model fine-tuned on ATR dataset for clothes segmentation but can also be used for human segmentation!
 - [**ComfyUI-Nexus**](https://github.com/daxcay/ComfyUI-Nexus): Node to enable seamless multiuser workflow collaboration, run on local and remote comfy servers.
 - [**ComfyUI-CatvtonFluxWrapper**](https://github.com/lujiazho/ComfyUI-CatvtonFluxWrapper): ComfyUI-CatvtonFluxWrapper provides ComfyUI nodes for diffusers implementation of Catvton-Flux.
-- [**Eden.art nodesuite**](https://github.com/edenartlab/eden_comfy_pipelines): Maintained by Eden.art, this is a growing suite of custom nodes for building advanced pipelines.
 - [**ComfyUI-Redux-Prompt**](https://github.com/CY-CHENYUE/ComfyUI-Redux-Prompt): A ComfyUI custom node that provides fine-grained control over style transfer using Redux style models.
 - [**Recommended Resolution Calculator**](https://github.com/marhensa/sdxl-recommended-res-calc): Input your desired output final resolution, it will automaticaly set the initial recommended SDXL ratio/size and its Upscale Factor to reach that output final resolution, also there's an option for 2x/4x reverse Upscale Factor. These all to avoid using bad/arbitary initial ratio/resolution.
 - [**ComfyUI Llava-OneVision**](https://github.com/kijai/ComfyUI-LLaVA-OneVision): Nodes to use the OneVision LLaVA models: [a/https://github.com/LLaVA-VL/LLaVA-NeXT](https://github.com/LLaVA-VL/LLaVA-NeXT)
@@ -504,25 +505,25 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI-Latent-Modifiers**](https://github.com/Clybius/ComfyUI-Latent-Modifiers): Nodes: Latent Diffusion Mega Modifier. ComfyUI nodes which modify the latent during the diffusion process. (Sharpness, Tonemap, Rescale, Extra Noise)
 - [**ComfyUI_rgbx_Wrapper**](https://github.com/toyxyz/ComfyUI_rgbx_Wrapper): This is the rgb2x wrapper node for ComfyUI. The required models are automatically downloaded on the first run.
 - [**ComfyUI Image Saver**](https://github.com/alexopus/ComfyUI-Image-Saver): Allows you to save images with their generation metadata compatible with Civitai. Works with png, jpeg and webp. Stores LoRAs, models and embeddings hashes for resource recognition.
+- [**GeminiOllama ComfyUI Extension**](https://github.com/al-swaiti/ComfyUI-OllamaGemini): This extension integrates Google's Gemini API and Ollama into ComfyUI, allowing users to leverage these powerful language models directly within their ComfyUI workflows.
+- [**Comfyui-Spark-TTS**](https://github.com/1038lab/ComfyUI-SparkTTS): ComfyUI-SparkTTS is a custom ComfyUI node implementation of SparkTTS, an advanced text-to-speech system that harnesses the power of large language models (LLMs) to generate highly accurate and natural-sounding speech.
 - [**Comfyui-ergouzi-Nodes**](https://github.com/11dogzi/Comfyui-ergouzi-Nodes): This is a node group kit that covers multiple nodes such as local refinement, tag management, random prompt words, text processing, image processing, mask processing, etc
 - [**ComfyUI-AutoCropFaces**](https://github.com/liusida/ComfyUI-AutoCropFaces): Use RetinaFace to detect and automatically crop faces.
 - [**Flux blocks patcher sampler**](https://github.com/cubiq/Block_Patcher_ComfyUI): This is an (very) advanced and (very) experimental custom node for the ComfyUI. It allows you to iteratively change the blocks weights of Flux models and check the difference each value makes.
 - [**ComfyUI SegMoE**](https://github.com/ZHO-ZHO-ZHO/ComfyUI-SegMoE): Unofficial implementation of [a/SegMoE: Segmind Mixture of Diffusion Experts](https://github.com/segmind/segmoe) for ComfyUI
 - [**ComfyUI-Dream-Interpreter**](https://github.com/gokayfem/ComfyUI-Dream-Interpreter): Tell your dream and it interprets it and puts you inside your dream
-- [**GeminiOllama ComfyUI Extension**](https://github.com/al-swaiti/ComfyUI-OllamaGemini): This extension integrates Google's Gemini API and Ollama into ComfyUI, allowing users to leverage these powerful language models directly within their ComfyUI workflows.
-- [**Comfyui-Spark-TTS**](https://github.com/1038lab/ComfyUI-SparkTTS): ComfyUI-SparkTTS is a custom ComfyUI node implementation of SparkTTS, an advanced text-to-speech system that harnesses the power of large language models (LLMs) to generate highly accurate and natural-sounding speech.
 - [**ComfyUi-Ollama-YN**](https://github.com/wujm424606/ComfyUi-Ollama-YN): Custom ComfyUI Nodes for interacting with [a/Ollama](https://ollama.com/) using the [a/ollama python client](https://github.com/ollama/ollama-python).
 - [**ComfyUI Compression and Encryption Node**](https://github.com/RiceRound/ComfyUI_CryptoCat): a lightweight open-source node for ComfyUI, designed to simplify workflows while providing encryption protection for them.
 - [**ComfyUI-DiffusersImageOutpaint**](https://github.com/GiusTex/ComfyUI-DiffusersImageOutpaint): ComfyUI nodes for outpainting images with diffusers, based on [a/diffusers-image-outpaint](https://huggingface.co/spaces/fffiloni/diffusers-image-outpaint/tree/main) by fffiloni.
 - [**comfyui_ssl_gemini_EXP**](https://github.com/tatookan/comfyui_ssl_gemini_EXP): Calling gemini2.0 at comfyui . The project will continue to organize good APIs!
 - [**ComfyUI roop**](https://github.com/ssitu/ComfyUI_roop): ComfyUI nodes for the roop A1111 webui script.
 - [**LoRA Tag Loader for ComfyUI**](https://github.com/badjeff/comfyui_lora_tag_loader): A ComfyUI custom node to read LoRA tag(s) from text and load it into checkpoint model.
+- [**ComfyUI-YOLO**](https://github.com/kadirnar/ComfyUI-YOLO): Nodes:Load Ultralytics Model, Ultralytics Inference, Ultralytics Visualization, Convert to Dictionary, BBox to XYWH
 - [**Cozy Reference Pose Generator**](https://github.com/cozymantis/pose-generator-comfyui-node): Generate OpenPose face/body reference poses in ComfyUI with ease. Made with 💚 by the CozyMantis squad.
 - [**Jags_VectorMagic**](https://github.com/jags111/ComfyUI_Jags_VectorMagic): a collection of nodes to explore Vector and image manipulation
-- [**ComfyUI-Vextra-Nodes**](https://github.com/diontimmer/ComfyUI-Vextra-Nodes): Nodes: Pixel Sort, Swap Color Mode, Solid Color, Glitch This, Add Text To Image, Play Sound, Prettify Prompt, Generate Noise, Flatten Colors
-- [**ComfyUI-YOLO**](https://github.com/kadirnar/ComfyUI-YOLO): Nodes:Load Ultralytics Model, Ultralytics Inference, Ultralytics Visualization, Convert to Dictionary, BBox to XYWH
 - [**ComfyUI-FunAudioLLM**](https://github.com/SpenserCai/ComfyUI-FunAudioLLM): Comfyui custom node for [a/FunAudioLLM](https://funaudiollm.github.io/) include [a/CosyVoice](https://github.com/FunAudioLLM/CosyVoice) and [a/SenseVoice](https://github.com/FunAudioLLM/SenseVoice).
 - [**ComfyUI_DiffRhythm_MW**](https://github.com/billwuhao/ComfyUI_DiffRhythm): Blazingly Fast and Embarrassingly Simple End-to-End Full-Length Song Generation. A node for ComfyUI.
+- [**ComfyUI-Vextra-Nodes**](https://github.com/diontimmer/ComfyUI-Vextra-Nodes): Nodes: Pixel Sort, Swap Color Mode, Solid Color, Glitch This, Add Text To Image, Play Sound, Prettify Prompt, Generate Noise, Flatten Colors
 - [**komojini-comfyui-nodes**](https://github.com/komojini/komojini-comfyui-nodes): Nodes:YouTube Video Loader. Custom ComfyUI Nodes for video generation
 - [**comfyui-magic-clothing**](https://github.com/longgui0318/comfyui-magic-clothing): The comfyui supported version of the [a/Magic Clothing](https://github.com/ShineChen1024/MagicClothing) project, not the diffusers version, allows direct integration with modules such as ipadapter.[w/comfyui-oms-diffusion is renamed to comfyui-magic-clothing. You may need to reinstall this.]
 - [**Mecha Merge Node Pack**](https://github.com/ljleb/comfy-mecha): model merging nodes powered by sd-mecha, a memory efficient state dict recipe merger.
@@ -533,7 +534,6 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI-PixtralLlamaMolmoVision**](https://github.com/SeanScripts/ComfyUI-PixtralLlamaMolmoVision): For loading and running Pixtral, Llama 3.2 Vision, and Molmo models. Put models in the models/LLM folder.
 - [**KayTool**](https://github.com/kk8bit/KayTool): KayTool nodes is designed to enhance the efficiency of building ComfyUI workflows. It includes a variety of practical nodes: support for efficient models like BiRefNet and RemBG for background removal and mask post-processing, wireless data transfer (Set & Get ), AI translation (Tencent and Baidu), dynamic mathematical operations, image processing (size extraction, color adjustment, background removal, mask blurring and expansion), flexible text handling, precision sliders, advanced image saving with metadata support, and more.
 - [**comfyui-labs-google**](https://github.com/ainewsto/comfyui-labs-google): NODES: ComfyUI-ImageFx, ComfyUI-Whisk
-- [**comfy-plasma**](https://github.com/Jordach/comfy-plasma): Nodes: Plasma Noise, Random Noise, Greyscale Noise, Pink Noise, Brown Noise, Plasma KSampler
 - [**ComfyQR**](https://github.com/coreyryanhanson/ComfyQR): QR generation within ComfyUI. Contains nodes suitable for workflows from generating basic QR images to techniques with advanced QR masking.
 - [**ComfyUI-Prompt-Expansion**](https://github.com/meap158/ComfyUI-Prompt-Expansion): Dynamic prompt expansion, powered by GPT-2 locally on your device.
 - [**DepthFM IN COMFYUI**](https://github.com/ZHO-ZHO-ZHO/ComfyUI-DepthFM): Unofficial implementation of [a/DepthFM](https://github.com/CompVis/depth-fm) for ComfyUI
@@ -541,7 +541,10 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI_Hallo2**](https://github.com/smthemex/ComfyUI_Hallo2): Long-Duration and High-Resolution Audio-driven Portrait Image Animation,
 - [**ComfyUI-Chibi-Nodes**](https://github.com/chibiace/ComfyUI-Chibi-Nodes): Nodes:Loader, Prompts, ImageTool, Wildcards, LoadEmbedding, ConditionText, SaveImages, ...
 - [**Runware.ai ComfyUI Inference API Integration**](https://github.com/Runware/ComfyUI-Runware): Runware Inference API Integration for ComfyUI (No GPU Required).
+- [**ComfyUI_Anytext**](https://github.com/zmwv823/ComfyUI_Anytext): Unofficial Simple And Rough Implementation Of [a/AnyText](https://github.com/tyxsspa/AnyText) and [a/Glyph-ByT5] (https://github.com/AIGText/Glyph-ByT5) and [a/JoyType](https://github.com/jdh-algo/JoyType)
+- [**ComfyUI_InfiniteYou**](https://github.com/bytedance/ComfyUI_InfiniteYou): Official ComfyUI Support - InfiniteYou: Flexible Photo Recrafting While Preserving Your Identity
 - [**Jags_Audiotools**](https://github.com/jags111/ComfyUI_Jags_Audiotools): This extension offers various audio generation tools
+- [**comfy-plasma**](https://github.com/Jordach/comfy-plasma): Nodes: Plasma Noise, Random Noise, Greyscale Noise, Pink Noise, Brown Noise, Plasma KSampler
 - [**LoadLoraWithTags**](https://github.com/Extraltodeus/LoadLoraWithTags): Nodes:LoadLoraWithTags. Save/Load trigger words for loras from a json and auto fetch them on civitai if they are missing.
 - [**comfyui-easyapi-nodes**](https://github.com/lldacing/comfyui-easyapi-nodes): Provides some features and nodes related to API calls.
 - [**ComfyUI for InstructIR**](https://github.com/zhongpei/ComfyUI-InstructIR): Enhancing Image Restoration. (ref:[a/InstructIR](https://github.com/mv-lab/InstructIR))
@@ -550,14 +553,13 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI-Fast-Style-Transfer**](https://github.com/zeroxoxo/ComfyUI-Fast-Style-Transfer): ComfyUI node for fast neural style transfer. This is a simple conversion based on this: [a/https://github.com/rrmina/fast-neural-style-pytorch](https://github.com/rrmina/fast-neural-style-pytorch) Only basic inference functionality is ported for now.
 - [**ComfyUI_LoRA_Sidebar**](https://github.com/Kinglord/ComfyUI_LoRA_Sidebar): A custom front-end UX node that creates a visual library of all your LoRAs. It's designed to be fast, slim, and make using LoRAs in Comfy a lot more fun for visual users - especially if you have lots of LoRAs. Should make people used to A1111 and other UI heavy platforms feel more at home. If you've got lots of LoRAs, this sidebar could be your new best friend!
 - [**Comfyui-Ycanvas**](https://github.com/yichengup/Comfyui-Ycanvas): NODES:Canvas View
-- [**ComfyUI_Anytext**](https://github.com/zmwv823/ComfyUI_Anytext): Unofficial Simple And Rough Implementation Of [a/AnyText](https://github.com/tyxsspa/AnyText) and [a/Glyph-ByT5] (https://github.com/AIGText/Glyph-ByT5) and [a/JoyType](https://github.com/jdh-algo/JoyType)
 - [**Vid2vid**](https://github.com/sylym/comfy_vid2vid): A node suite for ComfyUI that allows you to load image sequence and generate new image sequence with different styles or content.
 - [**Dream Video Batches**](https://github.com/alt-key-project/comfyui-dream-video-batches): Provide utilities for batch based video generation workflows (s.a. AnimateDiff and Stable Video Diffusion).
 - [**ComfyUI-DragAnything**](https://github.com/chaojie/ComfyUI-DragAnything): DragAnything
 - [**ComfyUI-Ollama-Describer**](https://github.com/alisson-anjos/ComfyUI-Ollama-Describer): This is an extension for ComfyUI that makes it possible to use some LLM models provided by Ollama, such as Gemma, Llava (multimodal), Llama2, Llama3 or Mistral. Speaking specifically of the LLaVa - Large Language and Vision Assistant model, although trained on a relatively small dataset, it demonstrates exceptional capabilities in understanding images and answering questions about them. This model presents similar behaviors to multimodal models such as GPT-4, even when presented with invisible images and instructions.
+- [**ComfyUI_pose_inter**](https://github.com/fssorc/ComfyUI_pose_inter): Generate transition frames between two character posture images. The prerequisite for running is to have installed comfyui_controlnet_aux, using its Open Pose or DWPose preprocessor
 - [**ComfyUI-VisualArea-Nodes**](https://github.com/Fuwuffyi/ComfyUI-VisualArea-Nodes): This is a collection of nodes created to aid when managing area conditionings.
 - [**DiffusionLight implementation for ComfyUI**](https://github.com/kijai/ComfyUI-DiffusionLight): This is simplified implementation of the [a/DiffusionLight](https://github.com/DiffusionLight/DiffusionLight) method of creating light probes. You will need the included LoRA, place it in ComfyUI/loras folder like usual, it's converted from the original diffusers one.
-- [**ComfyUI_pose_inter**](https://github.com/fssorc/ComfyUI_pose_inter): Generate transition frames between two character posture images. The prerequisite for running is to have installed comfyui_controlnet_aux, using its Open Pose or DWPose preprocessor
 - [**ComfyUI-eesahesNodes**](https://github.com/EeroHeikkinen/ComfyUI-eesahesNodes): InstantX's Flux union ControlNet loader and implementation
 - [**JPS Custom Nodes for ComfyUI**](https://github.com/JPS-GER/ComfyUI_JPS-Nodes): Nodes: Various nodes to handle SDXL Resolutions, SDXL Basic Settings, IP Adapter Settings, Revision Settings, SDXL Prompt Styler, Crop Image to Square, Crop Image to Target Size, Get Date-Time String, Resolution Multiply, Largest Integer, 5-to-1 Switches for Integer, Images, Latents, Conditioning, Model, VAE, ControlNet
 - [**ComfyUI-SaveImageWithMetaData**](https://github.com/nkchocoai/ComfyUI-SaveImageWithMetaData): Add a node to save images with metadata (PNGInfo) extracted from the input values of each node.
@@ -572,12 +574,13 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI-APISR**](https://github.com/kijai/ComfyUI-APISR-KJ): Node to use [a/APISR](https://github.com/Kiteretsu77/APISR) upscale models in ComfyUI.[w/NOTE: repo name is changed from ComfyUI-APISR -> ComfyUI-APISR-KJ]
 - [**ComfyUI-ComfyWorkflows**](https://github.com/thecooltechguy/ComfyUI-ComfyWorkflows): The best way to run, share, & discover thousands of ComfyUI workflows.
 - [**LLM Node for ComfyUI**](https://github.com/Big-Idea-Technology/ComfyUI_LLM_Node): The LLM_Node enhances ComfyUI by integrating advanced language model capabilities, enabling a wide range of NLP tasks such as text generation, content summarization, question answering, and more. This flexibility is powered by various transformer model architectures from the transformers library, allowing for the deployment of models like T5, GPT-2, and others based on your project's needs.
+- [**ComfyUI-InpaintEasy**](https://github.com/CY-CHENYUE/ComfyUI-InpaintEasy): InpaintEasy is a set of optimized local repainting (Inpaint) nodes that provide a simpler and more powerful local repainting workflow. It makes local repainting work easier and more efficient with intelligent cropping and merging functions.
 - [**ComfyUI-Align**](https://github.com/Moooonet/ComfyUI-Align): A powerful node alignment and color management plugin for ComfyUI, designed to enhance your workflow efficiency
+- [**ComfyUI_FluxMod**](https://github.com/lodestone-rock/ComfyUI_FluxMod): A modulation layer addon for Flux that reduces model size to 8.8B parameters without significant quality loss.
 - [**ComfyUI_DanTagGen**](https://github.com/huchenlei/ComfyUI_DanTagGen): ComfyUI node of [a/Kohaku's DanTagGen Demo](https://huggingface.co/KBlueLeaf/DanTagGen?not-for-all-audiences=true).
 - [**Comfyui-ergouzi-kaiguan**](https://github.com/11dogzi/Comfyui-ergouzi-kaiguan): Group switching control, one click control to ignore and disable multiple groups, as well as wired switch combination nodes, allowing for arbitrary switching of annotation names
-- [**ComfyUI-InpaintEasy**](https://github.com/CY-CHENYUE/ComfyUI-InpaintEasy): InpaintEasy is a set of optimized local repainting (Inpaint) nodes that provide a simpler and more powerful local repainting workflow. It makes local repainting work easier and more efficient with intelligent cropping and merging functions.
-- [**ComfyUI_FluxMod**](https://github.com/lodestone-rock/ComfyUI_FluxMod): A modulation layer addon for Flux that reduces model size to 8.8B parameters without significant quality loss.
 - [**MW-ComfyUI_MegaTTS3**](https://github.com/billwuhao/ComfyUI_MegaTTS3): Lightweight and Efficient, 🎧Ultra High-Quality Voice Cloning, Chinese and English.
+- [**ComfyUI-HyperLoRA**](https://github.com/bytedance/ComfyUI-HyperLoRA): Official implementation in ComfyUI of CVPR 2025 paper 'HyperLoRA: Parameter-Efficient Adaptive Generation for Portrait Synthesis'
 - [**ComfyUI Serving toolkit**](https://github.com/matan1905/ComfyUI-Serving-Toolkit): This extension adds nodes that allow you to easily serve your workflow (for example using a discord bot) 
 - [**Qwen2-VL wrapper for ComfyUI**](https://github.com/alexcong/ComfyUI_QwenVL): ComfyUI Qwen2-VL wrapper that supports text-based and single-image queries.
 - [**ComfyUI-Zonos**](https://github.com/BuffMcBigHuge/ComfyUI-Zonos): TTS with Zyphra Zonos
@@ -593,8 +596,7 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI wrapper nodes for LVCD**](https://github.com/kijai/ComfyUI-LVCDWrapper): Original repo: [a/https://github.com/luckyhzt/LVCD](https://github.com/luckyhzt/LVCD)
 - [**IMAGDressing-ComfyUI**](https://github.com/AIFSH/IMAGDressing-ComfyUI): a custom nodde for [a/IMAGDressing](https://github.com/muzishen/IMAGDressing)
 - [**ComfyUI_AnyDoor**](https://github.com/smthemex/ComfyUI_AnyDoor): you can using anydoor ,change clothes,object
-- [**Snap Processing for Comfyui**](https://github.com/SS-snap/ComfyUI-Snap_Processing): preprocessing images, presented in a visual way. It also calculates the corresponding image area.
-- [**ComfyUI_InfiniteYou**](https://github.com/bytedance/ComfyUI_InfiniteYou): Official ComfyUI Support - InfiniteYou: Flexible Photo Recrafting While Preserving Your Identity
+- [**Snap Processing for Comfyui**](https://github.com/SS-snap/ComfyUI-Snap_Processing): The custom Snap processing node has been converted for ComfyUI production. It currently includes a simple PyQt5 interactive interface as well as practical nodes for basic operations like area calculation..
 - [**Stability API nodes for ComfyUI**](https://github.com/Stability-AI/ComfyUI-SAI_API): Nodes:Stability SD3, Stability Outpainting, Stability Search and Replace, Stability Image Core, Stability Inpainting, Stability Remove Background, Stability Creative Upscale.
 - [**A8R8 ComfyUI Nodes**](https://github.com/ramyma/A8R8_ComfyUI_nodes): Nodes: Base64Image Input Node, Base64Image Output Node. [a/A8R8](https://github.com/ramyma/a8r8) supporting nodes to integrate with ComfyUI
 - [**Image-Captioning-in-ComfyUI**](https://github.com/LarryJane491/Image-Captioning-in-ComfyUI): The LoRA Caption custom nodes, just like their name suggests, allow you to caption images so they are ready for LoRA training.
@@ -602,26 +604,27 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI_FoleyCrafter**](https://github.com/smthemex/ComfyUI_FoleyCrafter): FoleyCrafter is a video-to-audio generation framework which can produce realistic sound effects semantically relevant and synchronized with videos.
 - [**GraftingRayman**](https://github.com/GraftingRayman/ComfyUI_GraftingRayman): Image Manipulation and Prompt Generation Nodes
 - [**comfyui-deepseek-r1**](https://github.com/ziwang-com/comfyui-deepseek-r1): Comfyui-deepseek-r1 Node Plugin
-- [**LLM Polymath Chat Node**](https://github.com/lum3on/comfyui_LLM_Polymath): Advanced LLM driven node with many custom instructions, including node finder, expert prompter and json converter.
+- [**comfyui_LLM_Polymath**](https://github.com/lum3on/comfyui_LLM_Polymath): An advanced chat node integrating LLMs, real-time web search, image handling, and image scraping. Supports APIs from OpenAI, Google, Anthropic, Grok, DeepSeek, and local Ollama. Includes custom node finder, smart assistant tools, and growing subnodes like text masking and concept eraser.
 - [**ComfyUI-Background-Replacement**](https://github.com/meap158/ComfyUI-Background-Replacement): Instantly replace your image's background.
 - [**ComfyUI-FreeVC_wrapper**](https://github.com/ShmuelRonen/ComfyUI-FreeVC_wrapper): A voice conversion extension node for ComfyUI based on [a/FreeVC](https://github.com/OlaWod/FreeVC), enabling high-quality voice conversion capabilities within the ComfyUI framework.
 - [**ComfyUI_yanc**](https://github.com/ALatentPlace/ComfyUI_yanc): Yet Another Node Collection. Adds some useful nodes, check out the GitHub page for more details.
 - [**ComfyUI Universal Styler**](https://github.com/KoreTeknology/ComfyUI-Universal-Styler): A research Node based project on Artificial Intelligence using ComfyUI visual editor with Stable diffusion Local processing focus in mind. This custom node is intended to serve the purpose to offer a large palette of prompting scenrarios, based on Public Checkpoint Models OR/AND Private custom Models and LoRas. It includes an integrated learning machine process as well as a set of workflows.
 - [**comfyui-NDI**](https://github.com/ningxiaoxiao/comfyui-NDI): Real-time input output node for ComfyUI by NDI. Leveraging the powerful linking capabilities of NDI, you can access NDI video stream frames and send images generated by the model to NDI video streams.
 - [**ComfyUI_StableHair_ll**](https://github.com/lldacing/ComfyUI_StableHair_ll): Hair transfer
+- [**ComfyUI-GPENO**](https://github.com/SparknightLLC/ComfyUI-GPENO): A node for ComfyUI that performs GPEN face restoration on the input image(s). Significantly faster than other implementations of GPEN.
 - [**ComfyUI-InstantX-IPAdapter-SD3**](https://github.com/Slickytail/ComfyUI-InstantX-IPAdapter-SD3): ComfyUI implementation of the [a/InstantX IP-Adapter for SD3.5 Large](https://huggingface.co/InstantX/SD3.5-Large-IP-Adapter).
 - [**Pruna nodes for ComfyUI**](https://github.com/PrunaAI/ComfyUI_pruna): This repository explains how to accelerate image generation in ComfyUI using Pruna, an inference optimization engine that makes AI models faster, smaller, cheaper, and greener. ComfyUI is a popular node-based GUI for image generation models, for which we provide a custom compilation node that accelerates Stable Diffusion (SD) and Flux inference, while preserving output quality.
-- [**ComfyUI-GPENO**](https://github.com/SparknightLLC/ComfyUI-GPENO): A node for ComfyUI that performs GPEN face restoration on the input image(s). Significantly faster than other implementations of GPEN.
+- [**ComfyUI-RK-Sampler**](https://github.com/wootwootwootwoot/ComfyUI-RK-Sampler): Batched Runge-Kutta Samplers for ComfyUI
 - [**ComfyUI - Text Overlay Plugin**](https://github.com/mikkel/ComfyUI-text-overlay): The ComfyUI Text Overlay Plugin provides functionalities for superimposing text on images. Users can select different font types, set text size, choose color, and adjust the text's position on the image.
 - [**Comfy Couple**](https://github.com/Danand/ComfyUI-ComfyCouple):  If you want to draw two different characters together without blending their features, so you could try to check out this custom node.
 - [**ComfyUI-mnemic-nodes**](https://github.com/MNeMoNiCuZ/ComfyUI-mnemic-nodes): Added Lora Loader - Tag node, originally by badjeff
 - [**ComfyUI-XTTS**](https://github.com/AIFSH/ComfyUI-XTTS): a custom comfyui node for [a/coqui-ai/TTS](https://github.com/coqui-ai/TTS.git)'s xtts module! support 17 languages voice cloning and tts
 - [**ComfyUI_MS_Diffusion**](https://github.com/smthemex/ComfyUI_MS_Diffusion): you can make story in comfyUI using MS-diffusion
-- [**ComfyUI-RK-Sampler**](https://github.com/wootwootwootwoot/ComfyUI-RK-Sampler): Batched Runge-Kutta Samplers for ComfyUI
 - [**ComfyUI-FFmpeg**](https://github.com/MoonHugo/ComfyUI-FFmpeg): Encapsulate the commonly used functions of FFmpeg into ComfyUI nodes, making it convenient for users to perform various video processing tasks within ComfyUI.
 - [**ComfyUI-RecraftAI**](https://github.com/recraft-ai/ComfyUI-RecraftAI): Recraft AI official ComfyUI custom nodes. Recraft V3 (code-named red_panda) is a text-to-image model with the ability to generate long texts, images in a wide list of styles, including custom brand styles.
 - [**ComfyUI-Llama**](https://github.com/daniel-lewis-ab/ComfyUI-Llama): This is a set of nodes to interact with llama-cpp-python
 - [**ComfyUI_Aniportrait**](https://github.com/frankchieng/ComfyUI_Aniportrait): implementation of [a/AniPortrait](https://github.com/Zejun-Yang/AniPortrait) generating of videos, includes self driven, face reenacment and audio driven with a reference image
+- [**ComfyUI-TrainTools-MZ**](https://github.com/MinusZoneAI/ComfyUI-TrainTools-MZ): Nodes for fine-tuning lora in ComfyUI, dependent on training tools such as kohya-ss/sd-scripts
 - [**simple wildcard for ComfyUI**](https://github.com/lilly1987/ComfyUI_node_Lilly): These custom nodes provides a feature to insert arbitrary inputs through wildcards in the prompt. Additionally, this tool provides features that help simplify workflows, such as VAELoaderDecoder and SimplerSample.
 - [**Pixelization**](https://github.com/filipemeneses/comfy_pixelization): ComfyUI node that pixelizes images.
 - [**Adaptive Guidance for ComfyUI**](https://github.com/asagi4/ComfyUI-Adaptive-Guidance): An implementation of adaptive guidance for ComfyUI
@@ -629,15 +632,14 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI-GlifNodes**](https://github.com/glifxyz/ComfyUI-GlifNodes): Custom set of nodes used by glif.app. With glif you can build mini apps that are powered by custom comfy workflows.
 - [**EchoMimicV2-ComfyUI**](https://github.com/AIFSH/EchoMimicV2-ComfyUI): a custom node for [a/echomimic_v2](https://github.com/antgroup/echomimic_v2)
 - [**ComfyUI_KV_Edit**](https://github.com/smthemex/ComfyUI_KV_Edit): KV-Edit: Training-Free Image Editing for Precise Background Preservation,you can use it in comfyUI
-- [**ComfyUI-TrainTools-MZ**](https://github.com/MinusZoneAI/ComfyUI-TrainTools-MZ): Nodes for fine-tuning lora in ComfyUI, dependent on training tools such as kohya-ss/sd-scripts
 - [**ComfyUI-LMCQ**](https://github.com/sebord/ComfyUI-LMCQ): ComfyUI small node toolkit, this toolkit is mainly to update some practical small nodes, to make a contribution to the comfyui ecosystem, PS: 'LMCQ' is the abbreviation of the team name
+- [**Styles CSV Loader Extension for ComfyUI**](https://github.com/theUpsider/ComfyUI-Styles_CSV_Loader): This extension allows users to load styles from a CSV file, primarily for migration purposes from the automatic1111 Stable Diffusion web UI.
 - [**Comfyui-Lama**](https://github.com/hhhzzyang/Comfyui_Lama): Nodes: LamaaModelLoad, LamaApply, YamlConfigLoader. a costumer node is realized to remove anything/inpainting anything from a picture by mask inpainting.[w/WARN:This extension includes the entire model, which can result in a very long initial installation time, and there may be some compatibility issues with older dependencies and ComfyUI.]
 - [**ComfyUI-EasyAnimate**](https://github.com/chaojie/ComfyUI-EasyAnimate): ComfyUI-EasyAnimate
 - [**ComfyUI-PuLID-Flux-GR**](https://github.com/GraftingRayman/ComfyUI-PuLID-Flux-GR): This is a PuLID node that has been extended with new features.
 - [**ComfyUI-iTools**](https://github.com/MohammadAboulEla/ComfyUI-iTools): The iTools are some quality of life nodes, like read a possible prompt used to create an image, save a prompt to file as a new line, read prompts from a multiline file.
 - [**Disco Diffusion**](https://github.com/space-nuko/ComfyUI-Disco-Diffusion): Modularized version of Disco Diffusion for use with ComfyUI.
 - [**ComfyUI-AIT**](https://github.com/FizzleDorf/ComfyUI-AIT): A ComfyUI implementation of Facebook Meta's [a/AITemplate](https://github.com/facebookincubator/AITemplate) repo for faster inference using cpp/cuda. This new repo is behind the old version but is a much more stable foundation to keep AIT online. Please be patient as the repo will eventually include the same features as before.
-- [**Styles CSV Loader Extension for ComfyUI**](https://github.com/theUpsider/ComfyUI-Styles_CSV_Loader): This extension allows users to load styles from a CSV file, primarily for migration purposes from the automatic1111 Stable Diffusion web UI.
 - [**SimpleTiles**](https://github.com/kinfolk0117/ComfyUI_SimpleTiles): Nodes:TileSplit, TileMerge.
 - [**ComfyUI_HiDiffusion_Pro**](https://github.com/smthemex/ComfyUI_HiDiffusion_Pro): A HiDiffusion node for ComfyUI.
 - [**ComfyUI-Documents**](https://github.com/Excidos/ComfyUI-Documents): ComfyUI-Documents is a powerful extension for ComfyUI that enhances workflows with advanced document processing capabilities. It includes nodes for loading and parsing various document types (PDF, TXT, DOC, DOCX), converting PDF pages to images, splitting PDFs into individual pages, and selecting specific images from batches. Features include text extraction, image conversion, and seamless integration with existing ComfyUI projects.
@@ -646,23 +648,24 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**Comfyui_joytag**](https://github.com/StartHua/Comfyui_joytag): JoyTag is a state of the art AI vision model for tagging images, with a focus on sex positivity and inclusivity. It uses the Danbooru tagging schema, but works across a wide range of images, from hand drawn to photographic.
 - [**ComfyUI Scene Composer**](https://github.com/taches-ai/comfyui-scene-composer): A collection of nodes to facilitate the creation of scenes in ComfyUI.
 - [**ComfyUI-Moondream-Gaze-Detection**](https://github.com/jhj0517/ComfyUI-Moondream-Gaze-Detection): Moondream's gaze detection feature wrapper node.
+- [**ComfyUI-TD**](https://github.com/JiSenHua/ComfyUI-TD): A custom node for ComfyUI designed to facilitate the real-time transmission of rendered images, videos, or 3D models to TouchDesigner.
 - [**ComfyUI-Open-Sora-Plan**](https://github.com/chaojie/ComfyUI-Open-Sora-Plan): ComfyUI node for [a/Open-Sora-Plan](https://github.com/PKU-YuanGroup/Open-Sora-Plan)
 - [**ComfyUI Flux 1.1 Ultra & Raw Node**](https://github.com/ShmuelRonen/ComfyUI_Flux_1.1_RAW_API): A ComfyUI custom node for Black Forest Labs' FLUX 1.1 [pro] API, supporting both regular and Ultra modes with optional Raw mode.
 - [**ComfyUI CrewAI**](https://github.com/luandev/ComfyUI-CrewAI): ComfyUI-CrewAI aims to integrate Crew AI's multi-agent collaboration framework into the ComfyUI environment. By combining the strengths of Crew AI's role-based, collaborative AI agent system with ComfyUI's intuitive interface, we will create a robust platform for managing and executing complex AI tasks seamlessly
 - [**comfy-cliption**](https://github.com/pharmapsychotic/comfy-cliption): Image to caption with CLIP ViT-L/14. Small and fast addition to the CLIP-L model you already have loaded to generate captions for images within your workflow.
-- [**ComfyUI-TD**](https://github.com/JiSenHua/ComfyUI-TD): A custom node for ComfyUI designed to facilitate the real-time transmission of rendered images, videos, or 3D models to TouchDesigner.
 - [**ComfyUI_CogView4_Wrapper**](https://github.com/chflame163/ComfyUI_CogView4_Wrapper): The unofficial implementation of CogView4 project in ComfyUI.
 - [**comfyui-fitsize**](https://github.com/bronkula/comfyui-fitsize): Nodes:Fit Size From Int/Image/Resize, Load Image And Resize To Fit, Pick Image From Batch/List, Crop Image Into Even Pieces, Image Region To Mask... A simple set of nodes for making an image fit within a bounding box
 - [**ComfyUI-PixArt-alpha-Diffusers**](https://github.com/ZHO-ZHO-ZHO/ComfyUI-PixArt-alpha-Diffusers): Unofficial implementation of [a/PixArt-alpha-Diffusers](https://github.com/PixArt-alpha/PixArt-alpha) for ComfyUI
 - [**ComfyUI-Texture-Simple**](https://github.com/gokayfem/ComfyUI-Texture-Simple): Visualize your textures inside ComfyUI
+- [**ComfyUI-DataSet**](https://github.com/daxcay/ComfyUI-DataSet): Data research, preparation, and manipulation nodes for model trainers and artists.
 - [**comfyui's gaffer(ComfyUI native implementation of IC-Light. )**](https://github.com/huagetai/ComfyUI-Gaffer): Nodes:Load ICLight Model,Apply ICLight,Simple Light Source,Calculate Normal Map
 - [**ComfyUI_ProfilerX**](https://github.com/ryanontheinside/ComfyUI_ProfilerX): Node and workflow profiling. Find bottlenecks in your workflows. See trends over time.
 - [**Prompt Gallery**](https://github.com/Kinglord/ComfyUI_Prompt_Gallery): New UI on the sidebar that allows for quick and easy navigation of images to help build styles, characters, backgrounds, etc. or even entire random prompts.
+- [**ComfyUI_StringOps**](https://github.com/MeeeyoAI/ComfyUI_StringOps): StringOps is a versatile text processing toolkit built for ComfyUI's node-based workflows
 - [**ComfyUI-HFRemoteVae**](https://github.com/kijai/ComfyUI-HFRemoteVae): This node allows using Hugginface remote server for latent decoding. Currently supported models: SD, SDXL, Flux, HunyuanVideo
 - [**ComfyUI_MileHighStyler**](https://github.com/TripleHeadedMonkey/ComfyUI_MileHighStyler): This extension provides various SDXL Prompt Stylers. See: [a/youtube](https://youtu.be/WBHI-2uww7o?si=dijvDaUI4nmx4VkF)
 - [**ComfyUI-LightGlue**](https://github.com/chaojie/ComfyUI-LightGlue): This is an ComfyUI implementation of LightGlue to generate motion brush
 - [**ComfyUI Pets**](https://github.com/nathannlu/ComfyUI-Pets): Play with your pet while your workflow generates!
-- [**ComfyUI-DataSet**](https://github.com/daxcay/ComfyUI-DataSet): Data research, preparation, and manipulation nodes for model trainers and artists.
 - [**ComfyUI-WA**](https://github.com/daxcay/ComfyUI-WA): Node to enable WhatsApp in ComfyUI.
 - [**RealisDance-ComfyUI**](https://github.com/AIFSH/RealisDance-ComfyUI): a custom node for [a/RealisDance](https://github.com/damo-cv/RealisDance)
 - [**ComfyUI_MangaNinjia**](https://github.com/smthemex/ComfyUI_MangaNinjia): ComfyUI_MangaNinjia is a ComfyUI node of MangaNinja which  is a Line Art Colorization with Precise Reference Following method.
@@ -671,7 +674,6 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI-Fal-API-Flux**](https://github.com/yhayano-ponotech/ComfyUI-Fal-API-Flux): This repository contains custom nodes for ComfyUI that integrate the fal.ai FLUX.1 [dev] with LoRA API, specifically for text-to-image generation. These nodes allow you to use the FLUX.1 model directly within your ComfyUI workflows.
 - [**ComfyUI-KokoroTTS**](https://github.com/benjiyaya/ComfyUI-KokoroTTS): A Text To Speech node using Kokoro TTS in ComfyUI.
 - [**Preview 360 Panorama for ComfyUI**](https://github.com/ProGamerGov/ComfyUI_preview360panorama): A custom ComfyUI node for interactive 360° panorama image previews. Panoramic 360 images are also sometimes known as VR photography (virtual reality), HDRI environments (ex: skyboxes), image spheres, spherical images, 360 pano, and 360 degree photos.
-- [**ComfyUI_StringOps**](https://github.com/MeeeyoAI/ComfyUI_StringOps): StringOps is a versatile text processing toolkit built for ComfyUI's node-based workflows
 - [**ComfyUI-Bmad-DirtyUndoRedo**](https://github.com/bmad4ever/ComfyUI-Bmad-DirtyUndoRedo): ComfyUI extension that adds undo (and redo) functionality.
 - [**Uncond-Zero-for-ComfyUI**](https://github.com/Extraltodeus/Uncond-Zero-for-ComfyUI): Allows to sample without generating any uncond with Stable Diffusion!
 - [**ComfyUI-CUP**](https://github.com/AIGODLIKE/ComfyUI-CUP): Bridge between ComfyUI and blender's ComfyUI-BlenderAI-node addon.
@@ -681,19 +683,21 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI ReSharpen**](https://github.com/Haoming02/comfyui-resharpen): Manipulate the details of generations.
 - [**Eden.art LoRa Trainer**](https://github.com/edenartlab/sd-lora-trainer): Maintained by Eden.art, this is a very fast, well tuned trainer for SDXL and SD15
 - [**ComfyUI-Hangover-Moondream**](https://github.com/Hangover3832/ComfyUI-Hangover-Moondream): Moondream is a lightweight multimodal large language model.
+- [**comfyui_tag_filter**](https://github.com/sugarkwork/comfyui_tag_fillter): This is a custom node of ComfyUI that categorizes tags outputted by tools like WD14Tagger, filters them by each category, and returns the filtered results.
 - [**ComfyUI_CaptionThis**](https://github.com/MieMieeeee/ComfyUI-CaptionThis): Describe a single image or all images in a directory using models such as Janus Pro, Florence2, or JoyCaption (testing), with a particular focus on building datasets for training LoRA.
 - [**Comfy_KepListStuff**](https://github.com/M1kep/Comfy_KepListStuff): Nodes: Range(Step), Range(Num Steps), List Length, Image Overlay, Stack Images, Empty Images, Join Image Lists, Join Float Lists. This extension provides various list manipulation nodes
 - [**ComfyUI-StableXWrapper**](https://github.com/kijai/ComfyUI-StableXWrapper): ComfyUI wrapper for [a/StableX normal](https://github.com/Stable-X/StableNormal)/[a/delight](https://github.com/Stable-X/StableDelight) models
 - [**ComfyS3**](https://github.com/TemryL/ComfyS3): ComfyS3 seamlessly integrates with [a/Amazon S3](https://aws.amazon.com/en/s3/) in ComfyUI. This open-source project provides custom nodes for effortless loading and saving of images, videos, and checkpoint models directly from S3 buckets within the ComfyUI graph interface.
 - [**ComfyUI-LLMs**](https://github.com/leoleelxh/ComfyUI-LLMs): A minimalist node that calls LLMs, combined with one API, can call all language models, including local models.
-- [**comfyui_tag_filter**](https://github.com/sugarkwork/comfyui_tag_fillter): This is a custom node of ComfyUI that categorizes tags outputted by tools like WD14Tagger, filters them by each category, and returns the filtered results.
 - [**ComfyUI-GeekyRemB**](https://github.com/GeekyGhost/ComfyUI-GeekyRemB): GeekyRemB is a powerful suite of image processing nodes for ComfyUI, offering advanced background removal, animation, lighting effects, and keyframe-based positioning. Built on the rembg library with additional capabilities for chroma keying, mask refinement, realistic lighting, shadow generation, and dynamic animations.
 - [**ComfyUI_RH_APICall**](https://github.com/HM-RunningHub/ComfyUI_RH_APICall): This is a ComfyUI plugin that makes it easier to call and run workflows from RunningHub in your local ComfyUI setup.
 - [**ComfyUI-ColorshiftColor**](https://github.com/852wa/ComfyUI-ColorshiftColor): This is a custom node for ComfyUI.
 - [**Zuellni/ComfyUI-Custom-Nodes**](https://github.com/Zuellni/ComfyUI-Custom-Nodes): Nodes: DeepFloyd, Filter, Select, Save, Decode, Encode, Repeat, Noise, Noise
 - [**ComfyLiterals**](https://github.com/M1kep/ComfyLiterals): Nodes: Int, Float, String, Operation, Checkpoint
+- [**Image Filter**](https://github.com/chrisgoringe/cg-image-filter): A set of custom nodes that pause the flow to allow you to pick images, edit parameters, set masks etc..
 - [**ComfyUI-MoGe**](https://github.com/kijai/ComfyUI-MoGe): NODES:(Down)load MoGe Model, MoGe Process
 - [**qq-nodes-comfyui**](https://github.com/kenjiqq/qq-nodes-comfyui): Nodes:Any List, Image Accumulator Start, Image Accumulator End, Load Lines From Text File, XY Grid Helper, Slice List, Axis To String/Int/Float/Model, ...
+- [**ComfyUI-WhisperX**](https://github.com/AIFSH/ComfyUI-WhisperX): a comfyui cuatom node for audio subtitling based on [a/whisperX](https://github.com/m-bain/whisperX.git) and [a/translators](https://github.com/UlionTse/translators)
 - [**Arc2Face ComfyUI Node Library**](https://github.com/caleboleary/ComfyUI-Arc2Face): This ComfyUI node library builds upon the work done to train the [a/Arc2Face](https://github.com/foivospar/Arc2Face) model by foivospar. It provides a set of nodes for ComfyUI that allow users to extract face embeddings, generate images based on these embeddings, and perform image-to-image transformations.
 - [**ComfyUI-Addoor**](https://github.com/Eagle-CN/ComfyUI-Addoor): A collection of batch operation toolkits suitable for ComfyUI
 - [**gguf**](https://github.com/calcuis/gguf): gguf node for comfyui
@@ -703,21 +707,21 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**auto nodes layout**](https://github.com/phineas-pta/comfyui-auto-nodes-layout): A ComfyUI extension to apply better nodes layout algorithm to ComfyUI workflow (mostly for visualization purpose)
 - [**ComfyUI-OpenDiTWrapper**](https://github.com/kijai/ComfyUI-OpenDiTWrapper): Wrapper nodes for OpenDiT: [a/OpenDiT](https://github.com/NUS-HPC-AI-Lab/OpenDiT/), supports Open-Sora t2i and i2i
 - [**ComfyUI-RefUNet**](https://github.com/logtd/ComfyUI-RefUNet): A set of nodes to use Reference UNets
-- [**ComfyUI-WhisperX**](https://github.com/AIFSH/ComfyUI-WhisperX): a comfyui cuatom node for audio subtitling based on [a/whisperX](https://github.com/m-bain/whisperX.git) and [a/translators](https://github.com/UlionTse/translators)
+- [**florence_dw**](https://github.com/yiwangsimple/florence_dw): Based on the original repository [a/https://github.com/spacepxl/ComfyUI-Florence-2](https://github.com/spacepxl/ComfyUI-Florence-2), the model loading and storage methods have been improved, and sd3 has been newly added with enhanced speed and accuracy.
 - [**Comfyui-chatgpt-api**](https://github.com/ainewsto/Comfyui-chatgpt-api): A new ComfyUI node for OpenAI's ChatGPT API has been added. It currently supports single and multiple image inputs, text input, image generation, and image editing.
 - [**pre_cfg_comfy_nodes_for_ComfyUI**](https://github.com/Extraltodeus/pre_cfg_comfy_nodes_for_ComfyUI): A set of nodes to prepare the noise predictions before the CFG function
 - [**Crystools-save**](https://github.com/crystian/ComfyUI-Crystools-save): With this quality of life extension, you can save your workflow with a specific name and include additional details such as the author, a description, and the version (in metadata/json). Important: When you share your workflow (via png/json), others will be able to see your information!
 - [**ComfyUI-HunyuanVideoStyler**](https://github.com/ShmuelRonen/ComfyUI-HunyuanVideoStyler): A custom node for ComfyUI that adds cinematic and movie scene styles to video generation prompts. This node helps create more dynamic and professional-looking video outputs by incorporating iconic movie scene aesthetics.
 - [**ComfyUI_ParlerTTS**](https://github.com/smthemex/ComfyUI_ParlerTTS): Parler-TTS is a lightweight text-to-speech (TTS) model that can generate high-quality, natural sounding speech in the style of a given speaker (gender, pitch, speaking style, etc)
-- [**florence_dw**](https://github.com/yiwangsimple/florence_dw): Based on the original repository [a/https://github.com/spacepxl/ComfyUI-Florence-2](https://github.com/spacepxl/ComfyUI-Florence-2), the model loading and storage methods have been improved, and sd3 has been newly added with enhanced speed and accuracy.
 - [**SDVN Comfy node**](https://github.com/StableDiffusionVN/SDVN_Comfy_node): Update IC Lora Layout Support Node
 - [**ComfyUI-CADS**](https://github.com/asagi4/ComfyUI-CADS): Attempts to implement [a/CADS](https://arxiv.org/abs/2310.17347) for ComfyUI. Credit also to the [a/A1111 implementation](https://github.com/v0xie/sd-webui-cads/tree/main) that I used as a reference.
-- [**Image Filter**](https://github.com/chrisgoringe/cg-image-filter): A set of custom nodes that pause the flow to allow you to pick images, edit parameters, set masks etc..
 - [**ComfyUI-LogicUtils**](https://github.com/aria1th/ComfyUI-LogicUtils): Logical Utils (compare, string, boolean operations) for ComfyUI
 - [**IF_AI_WishperSpeechNode**](https://github.com/if-ai/ComfyUI-IF_AI_WishperSpeechNode): This repository hosts a Text-to-Speech (TTS) application that leverages Whisper Speech for voice synthesis, allowing users to train a voice model on-the-fly. It is built on ComfyUI and supports rapid training and inference processes.
 - [**ComfyUI_Personalize_Anything**](https://github.com/smthemex/ComfyUI_Personalize_Anything): Personalize Anything for Free with Diffusion Transformer,use it in comfyUI with wrapper mode
 - [**Runtime44 ComfyUI Nodes**](https://github.com/runtime44/comfyui_r44_nodes): Nodes: Runtime44Upscaler, Runtime44ColorMatch, Runtime44DynamicKSampler, Runtime44ImageOverlay, Runtime44ImageResizer, Runtime44ImageToNoise, Runtime44MaskSampler, Runtime44TiledMaskSampler, Runtime44IterativeUpscaleFactor, Runtime44ImageEnhance, Runtime44FilmGrain
 - [**LoRA Power-Merger ComfyUI**](https://github.com/larsupb/LoRA-Merger-ComfyUI): An extension for merging LoRAs. Offers a wide range of LoRA merge techniques (including dare) and XY plots. XY plots require efficiency nodes.
+- [**ComfyUI_RH_UNO**](https://github.com/HM-RunningHub/ComfyUI_RH_UNO): This is a UNO ComfyUI plugin implementation that can run the full version with 24GB VRAM, as well as quickly run the FP8 version.
+- [**ComfyUI Old Photo Restoration**](https://github.com/Haoming02/comfyui-old-photo-restoration): Perform Bringing-Old-Photos-Back-to-Life
 - [**ComfyUI-Hangover-Nodes**](https://github.com/Hangover3832/ComfyUI-Hangover-Nodes): Nodes: MS kosmos-2 Interrogator, Save Image w/o Metadata, Image Scale Bounding Box. An implementation of Microsoft [a/kosmos-2](https://huggingface.co/microsoft/kosmos-2-patch14-224) image to text transformer.
 - [**ComfyUI-sonar**](https://github.com/blepping/ComfyUI-sonar): A janky implementation of Sonar sampling (momentum-based sampling) for ComfyUI.
 - [**ComfyUI-ImageMotionGuider**](https://github.com/ShmuelRonen/ComfyUI-ImageMotionGuider): A custom ComfyUI node designed to create seamless motion effects from single images by integrating with Hunyuan Video through latent space manipulation.
@@ -731,13 +735,12 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI BEN - Background Erase Network**](https://github.com/DoctorDiffusion/ComfyUI-BEN): Remove backgrounds from images with [a/BEN](https://huggingface.co/PramaLLC/BEN) in ComfyUI
 - [**ComfyUI Christmas Theme 🎄✨**](https://github.com/AEmotionStudio/ComfyUI-ChristmasTheme): A beautiful theme extension for ComfyUI that adds festive touches with dynamic backgrounds, snowfall effects, and animated node connections
 - [**ComfyUI_CGAnimittaTools**](https://github.com/cganimitta/ComfyUI_CGAnimittaTools): A series of functional custom plugins, including Blender Bridge, Extract the value of any list type data, read text files, etc.
-- [**ComfyUI Old Photo Restoration**](https://github.com/Haoming02/comfyui-old-photo-restoration): Perform Bringing-Old-Photos-Back-to-Life
 - [**ComfyUI Sequential Image Loader**](https://github.com/bruefire/ComfyUI-SeqImageLoader): This is an extension node for ComfyUI that allows you to load frames from a video in bulk and perform masking and sketching on each frame through a GUI.
 - [**ComfyUI-sudo-latent-upscale**](https://github.com/styler00dollar/ComfyUI-sudo-latent-upscale): Directly upscaling inside the latent space. Model was trained for SD1.5 and drawn content. Might add new architectures or update models at some point. This took heavy inspriration from [city96/SD-Latent-Upscaler](https://github.com/city96/SD-Latent-Upscaler) and [Ttl/ComfyUi_NNLatentUpscale](https://github.com/Ttl/ComfyUi_NNLatentUpscale). 
 - [**ComfyUI-MotionThiefExperiment**](https://github.com/logtd/ComfyUI-MotionThiefExperiment): experimental node pack to test using reference videos for their motion.
 - [**IF_VideoPrompts**](https://github.com/if-ai/ComfyUI-IF_VideoPrompts): ComfyUI extension for video-based prompting and processing with support for various models and video processing capabilities
 - [**ComfyUI MiniCPM-V**](https://github.com/hay86/ComfyUI_MiniCPM-V): Unofficial implementation of [a/MiniCPM-V](https://github.com/OpenBMB/MiniCPM-V) for ComfyUI
-- [**ComfyUI_RH_UNO**](https://github.com/HM-RunningHub/ComfyUI_RH_UNO): This is a UNO ComfyUI plugin implementation that can run the full version with 24GB VRAM, as well as quickly run the FP8 version.
+- [**DJZ-Nodes**](https://github.com/MushroomFleet/DJZ-Nodes): AspectSize and other nodes
 - [**SeeCoder [WIP]**](https://github.com/BlenderNeko/ComfyUI_SeeCoder): It provides the capability to generate CLIP from an image input, unlike unCLIP, which works in all models. (To use this extension, you need to download the required model file from **Install Models**)
 - [**Integrated Nodes for ComfyUI**](https://github.com/palant/integrated-nodes-comfyui): This tool will turn entire workflows or parts of them into single integrated nodes. In a way, it is similar to the Node Templates functionality but hides the inner structure. This is useful if all you want is to reuse and quickly configure a bunch of nodes without caring how they are interconnected.
 - [**ComfyUI-Openpose-Editor-Plus**](https://github.com/whmc76/ComfyUI-Openpose-Editor-Plus): Nodes:Openpose Editor Plus
@@ -746,8 +749,9 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI-UniAnimate**](https://github.com/AIFSH/ComfyUI-UniAnimate): a comfyui custom node for [a/UniAnimate](https://github.com/ali-vilab/UniAnimate)
 - [**GSTTS-ComfyUI**](https://github.com/AIFSH/GSTTS-ComfyUI): a comfyui custom node for [a/GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)
 - [**ComfyUI_OmniParser**](https://github.com/smthemex/ComfyUI_OmniParser): Try [a/OmniParser](https://github.com/microsoft/OmniParser) in ComfyUI which a simple screen parsing tool towards pure vision based GUI agent.
-- [**DJZ-Nodes**](https://github.com/MushroomFleet/DJZ-Nodes): AspectSize and other nodes
+- [**ComfyUI_StarNodes**](https://github.com/Starnodes2024/ComfyUI_StarNodes): NODES: StarNode Startsettings for Flux and SD, Smplers for Flux and SD, Detail Deamon, Wildcards and more Helper Nodes
 - [**ComfyUI_SparkTTS**](https://github.com/billwuhao/ComfyUI_SparkTTS): Using Spark-TTS in Comfyui. Spark-TTS: An Efficient LLM-Based Text-to-Speech Model with Single-Stream Decoupled Speech Tokenss
+- [**ComfyUI_MieNodes**](https://github.com/MieMieeeee/ComfyUI-MieNodes): Offering a series of utility nodes designed to simplify workflows and enhance efficiency
 - [**ComfyUI-SDXL-EmptyLatentImage**](https://github.com/shingo1228/ComfyUI-SDXL-EmptyLatentImage): Nodes:SDXL Empty Latent Image. An extension node for ComfyUI that allows you to select a resolution from the pre-defined json files and output a Latent Image.
 - [**ComfyUI-SyncTalk**](https://github.com/Ryuukeisyou/ComfyUI-SyncTalk): ComfyUI implemntation for [a/SyncTalk](https://github.com/ZiqiaoPeng/SyncTalk)
 - [**Lazy Pony Prompter**](https://github.com/Siberpone/lazy-pony-prompter): A booru API powered prompt generator for A1111 and ComfyUI with flexible tag filtering system and customizable prompt templates.
@@ -756,8 +760,6 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI-RTX-Remix**](https://github.com/NVIDIAGameWorks/ComfyUI-RTX-Remix): Use ComfyUI with RTX Remix to remaster classic games [a/https://github.com/NVIDIAGameWorks/rtx-remix](https://github.com/NVIDIAGameWorks/rtx-remix)
 - [**ComfyUI_Lam**](https://github.com/yanlang0123/ComfyUI_Lam): This extension has some useful nodes, loops, wechat public number +AI chat drawing, distributed cluster
 - [**ComfyUI-VideoBlender**](https://github.com/yichengup/ComfyUI-VideoBlender): Video clip mixing
-- [**ComfyUI_StarNodes**](https://github.com/Starnodes2024/ComfyUI_StarNodes): NODES: StarNode Startsettings for Flux and SD, Smplers for Flux and SD, Detail Deamon, Wildcards and more Helper Nodes
-- [**ComfyUI_MieNodes**](https://github.com/MieMieeeee/ComfyUI-MieNodes): Offering a series of utility nodes designed to simplify workflows and enhance efficiency
 - [**ComfyUI-DSD**](https://github.com/irreveloper/ComfyUI-DSD): An Unofficial ComfyUI custom node package that integrates [a/Diffusion Self-Distillation (DSD)](https://github.com/primecai/diffusion-self-distillation) for zero-shot customized image generation.
 - [**Cute Comfy**](https://github.com/zer0TF/cute-comfy): Adds a configurable folder watcher that auto-converts Comfy metadata into a Civitai-friendly format for automatic resource tagging when you upload images. Oh, and it makes your UI awesome, too. 💜
 - [**Touchpad two-finger gesture support for macOS**](https://github.com/subtleGradient/TinkerBot-tech-for-ComfyUI-Touchpad): Two-finger scrolling (vertical and horizontal) to pan the canvas. Two-finger pinch to zoom in and out. Command-scroll up and down to zoom in and out. Fixes [a/comfyanonymous/ComfyUI#2059](https://github.com/comfyanonymous/ComfyUI/issues/2059).
@@ -766,6 +768,8 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**FancyVideo-ComfyUI**](https://github.com/AIFSH/FancyVideo-ComfyUI): a custom node for [a/FancyVideo](https://github.com/360CVGroup/FancyVideo)
 - [**ComfyUI_NotaGen**](https://github.com/billwuhao/ComfyUI_NotaGen): Symbolic Music Generation, NotaGen node for ComfyUI.
 - [**ComfyUI-Flux-TryOff**](https://github.com/asutermo/ComfyUI-Flux-TryOff): Try Off for ComfyUI using Flux and CatVTON.
+- [**ComfyUI-Index-TTS**](https://github.com/chenpipi0807/ComfyUI-Index-TTS): NODES: An industrial-grade zero-shot text-to-speech synthesis system with a ComfyUI interface.
+- [**ComfyUI-StepVideo**](https://github.com/stepfun-ai/ComfyUI-StepVideo): This repository contains ComfyUI custom nodes for StepVideo.
 - [**ComfyUI PickScore Nodes**](https://github.com/Zuellni/ComfyUI-PickScore-Nodes): Image scoring nodes for ComfyUI using PickScore with a batch of images to predict which ones fit a given prompt the best.
 - [**comfyui-popup_preview**](https://github.com/NimaNzrii/comfyui-popup_preview): popup preview for comfyui
 - [**ComfyUI-Img2Img-Turbo**](https://github.com/chaojie/ComfyUI-Img2Img-Turbo): ComfyUI Img2Img-Turbo
@@ -775,13 +779,14 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**BRIA AI API nodes**](https://github.com/Bria-AI/ComfyUI-BRIA-API): Custom nodes for ComfyUI using BRIA's API.
 - [**ComfyUI_Florence2SAM2**](https://github.com/rdancer/ComfyUI_Florence2SAM2): ComfyUI custom node implementing Florence 2 + Segment Anything Model 2, based on [a/SkalskiP's HuggingFace space](https://huggingface.co/spaces/SkalskiP/florence-sam)
 - [**ComfyUI-EnhancedLinksandNodes 🎨✨**](https://github.com/AEmotionStudio/ComfyUI-EnhancedLinksandNodes): A visually stunning extension for ComfyUI that adds beautiful, customizable animations to both links and nodes in your workflow, with a focus on performance and customization. Includes an end-of-render animation and a text visibility tool for nodes. No extra packages are required, works with the latest version of ComfyUI, and should be compatible with most workflows. Larger workflows may experience performance issues, especially if you have a lot of nodes and are using a lower end system.
-- [**ComfyUI-StepVideo**](https://github.com/stepfun-ai/ComfyUI-StepVideo): This repository contains ComfyUI custom nodes for StepVideo.
 - [**ComfyUI-send-Eagle(slim)**](https://github.com/shingo1228/ComfyUI-send-eagle-slim): Nodes:Send Webp Image to Eagle. This is an extension node for ComfyUI that allows you to send generated images in webp format to Eagle. This extension node is a re-implementation of the Eagle linkage functions of the previous ComfyUI-send-Eagle node, focusing on the functions required for this node.
 - [**Prompt Format**](https://github.com/Haoming02/comfyui-prompt-format): Add a button that formats the prompts in textfields
 - [**ComfyUI-EdgeTTS**](https://github.com/1038lab/ComfyUI-EdgeTTS): ComfyUI-EdgeTTS is a powerful text-to-speech node for ComfyUI, leveraging Microsoft's Edge TTS capabilities. It enables seamless conversion of text into natural-sounding speech, supporting multiple languages and voices. Ideal for enhancing user interactions, this node is easy to integrate and customize, making it perfect for various applications.
 - [**ComfyUI-EasyOCR**](https://github.com/prodogape/ComfyUI-EasyOCR): This node is primarily based on Easy-OCR to implement OCR text recognition functionality.
 - [**Dimensional Latent Perlin for ComfyUI**](https://github.com/NeuralSamurAI/ComfyUI-Dimensional-Latent-Perlin): Dimensional Latent Perlin is a custom node for ComfyUI that generates Perlin noise in the latent space. This node is designed to work seamlessly with various diffusion models and can be used as an alternative or complement to standard random noise generators in image generation pipelines.
+- [**F5-TTS-ComfyUI**](https://github.com/AIFSH/F5-TTS-ComfyUI): a custom node for [a/F5-TTS](https://github.com/SWivid/F5-TTS)
 - [**Nodes for use with real-time applications of ComfyUI**](https://github.com/ryanontheinside/ComfyUI_RealtimeNodes): These nodes are for real-time applications of ComfyUI.
+- [**ComfyUI Hunyuan-3D-2**](https://github.com/niknah/ComfyUI-Hunyuan-3D-2): Image to 3D using Hunyuan-3D-2
 - [**ComfyUI_Isulion Random Prompt Generator**](https://github.com/Isulion/ComfyUI_Isulion): ComfyUI Nodes that generate prompts and many more.
 - [**ComfyUI-BS_Kokoro-onnx**](https://github.com/Burgstall-labs/ComfyUI-BS_Kokoro-onnx): A ComfyUI wrapper for [a/Kokoro-onnx](https://github.com/thewh1teagle/kokoro-onnx)
 - [**WAS_Extras**](https://github.com/WASasquatch/WAS_Extras): Nodes:Conditioning (Blend), Inpainting VAE Encode (WAS), VividSharpen. Experimental nodes, or other random extra helper nodes.
@@ -794,10 +799,9 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**cspnodes**](https://github.com/cerspense/ComfyUI_cspnodes): Nodes:Image Dir Iterator, Modelscopet2v, Modelscopev2v, Vid Dir Iterator, Image Dir Iterator, Text File Line Iterator, Remap Range, Split Image Channels, Resize By Image, Increment Every N.
 - [**ComfyUI-Prompt-Preview**](https://github.com/Chan-0312/ComfyUI-Prompt-Preview): Welcome to ComfyUI Prompt Preview, where you can visualize the styles from [sdxl_prompt_styler](https://github.com/twri/sdxl_prompt_styler).
 - [**ComfyUI-IP_LAP**](https://github.com/AIFSH/ComfyUI-IP_LAP): Nodes:IP_LAP Node, Video Loader, PreView Video, Combine Audio Video. the comfyui custom node of [a/IP_LAP](https://github.com/Weizhi-Zhong/IP_LAP) to make audio driven videos!
-- [**F5-TTS-ComfyUI**](https://github.com/AIFSH/F5-TTS-ComfyUI): a custom node for [a/F5-TTS](https://github.com/SWivid/F5-TTS)
 - [**D2 Nodes ComfyUI**](https://github.com/da2el-ai/D2-nodes-ComfyUI): This is a collection of custom nodes that make ComfyUI slightly more convenient.
-- [**ComfyUI Hunyuan-3D-2**](https://github.com/niknah/ComfyUI-Hunyuan-3D-2): Image to 3D using Hunyuan-3D-2
 - [**Model and Checkpoint Loaders for NF4 and FP4**](https://github.com/silveroxides/ComfyUI_bitsandbytes_NF4): Nodes for loading both Checkpoints and UNET/Diffussion models quantized to bitsandbytes NF4 or FP4 format.
+- [**ComfyUI-MiniCPM-o**](https://github.com/CY-CHENYUE/ComfyUI-MiniCPM-o): ComfyUI custom nodes for MiniCPM
 - [**SAMURAI Nodes for ComfyUI**](https://github.com/takemetosiberia/ComfyUI-SAMURAI--SAM2-): ComfyUI nodes for video object segmentation using [a/SAMURAI](https://github.com/yangchris11/samurai) model.
 - [**ComfyUI SKBundle**](https://github.com/SKBv0/ComfyUI_SKBundle): Nodes: MultiText, TextBox, TitlePlus, SeamlessTexture, AspectRatioPlus, DisplayEverything, ComparerPlus, AnySwitch, Node Design Tools...
 - [**ComfyUI-CSM-Nodes**](https://github.com/thezveroboy/ComfyUI-CSM-Nodes): Custom nodes for ComfyUI implementing the csm model for text-to-speech generation.
@@ -809,7 +813,6 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**comfyui_jankdiffusehigh**](https://github.com/blepping/comfyui_jankdiffusehigh): Janky implementation of [a/DiffuseHigh](https://github.com/yhyun225/DiffuseHigh/) for ComfyUI. Enables generating at resolutions higher than what the model was trained for without requiring model patches.
 - [**Stable Projectorz Bridge**](https://github.com/tianlang0704/ComfyUI-StableProjectorzBridge): This custom nodes enables Stable Projectorz to work with ComfyUI Directly.
 - [**ComfyUI-Roboflow**](https://github.com/DareFail/ComfyUI-Roboflow): This is a ComfyUI node that connects with [a/Roboflow workflows](https://roboflow.com/workflows/build).
-- [**ComfyUI-MiniCPM-o**](https://github.com/CY-CHENYUE/ComfyUI-MiniCPM-o): ComfyUI custom nodes for MiniCPM
 - [**ComfyUI-Flux-Inpainting**](https://github.com/rubi-du/ComfyUI-Flux-Inpainting): This node wraps the flux fill model as ComfyUI nodes. Use NF4 flux fill model, support for inpainting and outpainting image. Compared to the flux fill dev model, these nodes can use the flux fill model to perform inpainting and outpainting work under lower VRM conditions.
 - [**ComfyUI-TinyBreaker**](https://github.com/martin-rizzo/ComfyUI-TinyBreaker): ComfyUI-TinyBreaker is a collection of custom nodes specifically designed to generate images using the TinyBreaker model. It's actively developed with ongoing improvements. Although still in progress, these nodes are functional and allow you to explore the potential of the model.
 - [**ComfyUI-wanBlockswap**](https://github.com/orssorbit/ComfyUI-wanBlockswap): This is a simple Wan block swap node for ComfyUI native nodes, works by swapping upto 40 blocks to the CPU to reduce VRAM.
@@ -825,7 +828,7 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**Gallery&Tabs**](https://github.com/OgreLemonSoup/ComfyUI-Load-Image-Gallery): Adds a gallery to the Load Image node and tabs for Load Checkpoint/Lora/etc nodes
 - [**Human Parts Detector**](https://github.com/metal3d/ComfyUI_Human_Parts): Detect human parts using the DeepLabV3+ ResNet50 model from Keras-io. You can extract hair, arms, legs, and other parts with ease and with small memory usage.
 - [**Prompt PostProcessor**](https://github.com/acorderob/sd-webui-prompt-postprocessor): Stable Diffusion WebUI & ComfyUI extension to post-process the prompt, including sending content from the prompt to the negative prompt and wildcards.
-- [**ComfyUI_KimNodes**](https://github.com/wjl0313/ComfyUI_KimNodes): Image effects, icon layout processing, cropping — this toolbox is a node library organized according to my own needs.
+- [**ComfyUI_KimNodes**](https://github.com/wjl0313/ComfyUI_KimNodes): ComfyUI node collection: icon layout & processing, YOLO intelligent cropping, image filters & enhancement, text processing tools, metadata management, mask handling and image classification in one comprehensive toolbox.
 - [**ComfyUI-Loop-image**](https://github.com/WainWong/ComfyUI-Loop-image): ComfyUI Loop Image is a node package specifically designed for image loop processing. It provides two main processing modes: Batch Image Processing and Single Image Processing, along with supporting image segmentation and merging functions.
 - [**ComfyUI-CoCoTools**](https://github.com/Conor-Collins/coco_tools): A set of custom nodes for ComfyUI providing advanced image processing, file handling, and utility functions.
 - [**ComfyUI-KepOpenAI**](https://github.com/M1kep/ComfyUI-KepOpenAI): ComfyUI-KepOpenAI is a user-friendly node that serves as an interface to the GPT-4 with Vision (GPT-4V) API. This integration facilitates the processing of images coupled with text prompts, leveraging the capabilities of the OpenAI API to generate text completions that are contextually relevant to the provided inputs.
@@ -842,27 +845,29 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ImageReward**](https://github.com/ZaneA/ComfyUI-ImageReward): NODES: ImageRewardLoader, ImageRewardScore
 - [**Prompt Info**](https://github.com/chrisgoringe/cg-prompt-info): Prompt Info
 - [**ComfyUI_MSSpeech_TTS**](https://github.com/chflame163/ComfyUI_MSSpeech_TTS): A text-to-speech plugin used under ComfyUI. It utilizes the Microsoft Speech TTS interface to convert text content into MP3 format audio files.
+- [**Flex.1 tools**](https://github.com/ostris/ComfyUI-FlexTools): Some tools to help with [a/Flex.1-alpha](https://huggingface.co/ostris/Flex.1-alpha) inference on Comfy UI.
 - [**ComfyUI-NegiTools**](https://github.com/natto-maki/ComfyUI-NegiTools): Nodes:OpenAI DALLe3, OpenAI Translate to English, String Function, Seed Generator
 - [**ComfyUI-APGScaling**](https://github.com/logtd/ComfyUI-APGScaling): ComfyUI nodes to use [a/APG scaling](https://huggingface.co/papers/2410.02416) for CFG, allowing for better image quality with higher CFG.
 - [**for comfyui image proprocessor**](https://github.com/TTPlanetPig/Comfyui_TTP_CN_Preprocessor): Adapt for Hunyuan now
 - [**ComfyUI-Merlin: Magic Photo Prompter**](https://github.com/Xclbr7/ComfyUI-Merlin): ComfyUI-Merlin is a custom node extension for ComfyUI, introducing the Magic Photo Prompter. This powerful tool enhances your prompt engineering process by allowing users to easily construct detailed, high-quality prompts for photo-realistic image generation.
 - [**ComfyUI-FLUX-BFL-API**](https://github.com/gelasdev/ComfyUI-FLUX-BFL-API): Custom nodes for integrating Flux models with the BFL API.
+- [**ComfyUI-PixydustQuantizer**](https://github.com/sousakujikken/ComfyUI-PixydustQuantizer): Pixydust Quantizer is a custom node extension for ComfyUI that allows for the simplified recreation of tile patterns used in 1990s 16-color PC graphics, offering advanced color quantization and palette optimization features.Additionally, it includes a CRT-like effect node that mimics the phosphor glow and slight color bleeding of old CRT displays, adding a nostalgic aesthetic.With version 2.0.0, it now supports batch image processing, enabling efficient handling of video frames and image sequences.
 - [**Comfyui-Deepseek**](https://github.com/yichengup/Comfyui-Deepseek): About DeepSeek Chat API
+- [**ComfyUI-HunyuanVideoImagesGuider**](https://github.com/benjiyaya/ComfyUI-HunyuanVideoImagesGuider): A specialized node for ComfyUI that enable advanced motion and animation capabilities for image as guider for video processing In Hunyuan Video.
 - [**ComfyUI-Coziness**](https://github.com/skfoo/ComfyUI-Coziness): Nodes:MultiLora Loader, Lora Text Extractor. Provides a node for assisting in loading loras through text.
 - [**Ostris Nodes ComfyUI**](https://github.com/ostris/ostris_nodes_comfyui): This is a collection of custom nodes for ComfyUI that I made for some QOL. I will be adding much more advanced ones in the future once I get more familiar with the API.
 - [**ComfyUI_GradientDeepShrink**](https://github.com/kinfolk0117/ComfyUI_GradientDeepShrink): Nodes:GradientPatchModelAddDownscale (Kohya Deep Shrink).
 - [**Gridswapper**](https://github.com/kinfolk0117/ComfyUI_GridSwapper): Gridswapper takes a batch of latents and spreads them over the necessary amount of grids. It then automatically shuffles the images in the grids for each step. So, a batch of 12 latents for a 2x2 grid will generate 3 grid images in each step. It will then shuffle around the images for the next step. This makes it possible for all images to influence the others during the denoising process. This approach works well for generating 2-4 grids.
 - [**ComfyUI - Mask Bounding Box**](https://github.com/mikkel/comfyui-mask-boundingbox): The ComfyUI Mask Bounding Box Plugin provides functionalities for selecting a specific size mask from an image. Can be combined with ClipSEG to replace any aspect of an SDXL image with an SD1.5 output.
 - [**ComfyUI-I2VGEN-XL**](https://github.com/chaojie/ComfyUI-I2VGEN-XL): This is an implementation of [a/i2vgen-xl](https://github.com/ali-vilab/i2vgen-xl)
+- [**ComfyUI-WildPromptor**](https://github.com/1038lab/ComfyUI-WildPromptor): WildPromptor simplifies prompt creation, organization, and customization in ComfyUI, turning chaotic workflows into an efficient, intuitive process.
 - [**ComfyUI StoryCreater**](https://github.com/oztrkoguz/ComfyUI_StoryCreator): Nodes:story_sampler_simple, text2, kosmos2_sampler.
-- [**ComfyUI-PixydustQuantizer**](https://github.com/sousakujikken/ComfyUI-PixydustQuantizer): Pixydust Quantizer is a custom node extension for ComfyUI that allows for the simplified recreation of tile patterns used in 1990s 16-color PC graphics, offering advanced color quantization and palette optimization features.Additionally, it includes a CRT-like effect node that mimics the phosphor glow and slight color bleeding of old CRT displays, adding a nostalgic aesthetic.With version 2.0.0, it now supports batch image processing, enabling efficient handling of video frames and image sequences.
-- [**ComfyUI-HunyuanVideoImagesGuider**](https://github.com/benjiyaya/ComfyUI-HunyuanVideoImagesGuider): A specialized node for ComfyUI that enable advanced motion and animation capabilities for image as guider for video processing In Hunyuan Video.
 - [**ComfyUI-TTS**](https://github.com/daniel-lewis-ab/ComfyUI-TTS): Text To Speech (TTS) for ComfyUI
 - [**WebUI Monaco Prompt**](https://github.com/Taremin/webui-monaco-prompt): Make it possible to edit the prompt using the Monaco Editor, an editor implementation used in VSCode.
 - [**ComfyUI PiperTTS**](https://github.com/yuvraj108c/ComfyUI-PiperTTS): Convert Text-to-Speech inside ComfyUI using [a/Piper](https://github.com/rhasspy/piper)
 - [**ComfyUI-WanVideoKsampler**](https://github.com/ShmuelRonen/ComfyUI-WanVideoKsampler): An advanced custom node for ComfyUI that provides optimized access to Wan2.1, a state-of-the-art video foundation model suite. The WanVideoKsampler node features intelligent memory management to enable higher resolution outputs and longer video sequences, even on consumer-grade hardware.
 - [**Batch Rembg for ComfyUI**](https://github.com/Mamaaaamooooo/batchImg-rembg-ComfyUI-nodes): Remove background of plural images.
-- [**ComfyUI-WildPromptor**](https://github.com/1038lab/ComfyUI-WildPromptor): WildPromptor simplifies prompt creation, organization, and customization in ComfyUI, turning chaotic workflows into an efficient, intuitive process.
+- [**ComfyUI-MegaTTS**](https://github.com/1038lab/ComfyUI-MegaTTS): A ComfyUI custom node based on ByteDance MegaTTS3 MegaTTS3, enabling high-quality text-to-speech synthesis with voice cloning capabilities for both Chinese and English.
 - [**ComfyUI-GPT4V-Image-Captioner**](https://github.com/438443467/ComfyUI-GPT4V-Image-Captioner): Nodes:GPT4V-Image-Captioner
 - [**ComfyUI_ModelScopeT2V**](https://github.com/ExponentialML/ComfyUI_ModelScopeT2V): Allows native usage of ModelScope based Text To Video Models in ComfyUI
 - [**ComfyUI-Hunyuan3D-1-wrapper**](https://github.com/jtydhr88/ComfyUI-Hunyuan3D-1-wrapper): ComfyUI Hunyuan3D-1-wrapper is a custom node that allows you to run [a/Tencent/Hunyuan3D-1](https://github.com/Tencent/Hunyuan3D-1) in ComfyUI as a wrapper.
@@ -872,11 +877,9 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI-Thumbnails**](https://github.com/audioscavenger/ComfyUI-Thumbnails): Load Image thumbnails, delete images, browse input subfolders.
 - [**tri3d-comfyui-nodes**](https://github.com/TRI3D-LC/tri3d-comfyui-nodes): Nodes: tri3d-extract-hand, tri3d-fuzzification, tri3d-position-hands, tri3d-atr-parse.
 - [**ComfyUI MuseV Evolved**](https://github.com/storyicon/comfyui_musev_evolved): Nodes:MuseVImg2Vid (comfyui_musev_evolved)
-- [**Flex.1 tools**](https://github.com/ostris/ComfyUI-FlexTools): Some tools to help with [a/Flex.1-alpha](https://huggingface.co/ostris/Flex.1-alpha) inference on Comfy UI.
 - [**OpenAINode**](https://github.com/Electrofried/ComfyUI-OpenAINode): A simply node for hooking in to openAI API based servers via comfyUI
 - [**ComfyUI-RAFT**](https://github.com/chaojie/ComfyUI-RAFT): This is an ComfyUI implementation of RAFT to generate motion brush
 - [**comfyui_overly_complicated_sampling**](https://github.com/blepping/comfyui_overly_complicated_sampling): Experimental and mathematically unsound (but fun!) sampling for ComfyUI.
-- [**ComfyUI-MegaTTS**](https://github.com/1038lab/ComfyUI-MegaTTS): A ComfyUI custom node based on ByteDance MegaTTS3 MegaTTS3, enabling high-quality text-to-speech synthesis with voice cloning capabilities for both Chinese and English.
 - [**Comfyui-ergouzi-samplers**](https://github.com/11dogzi/Comfyui-ergouzi-samplers): Partial redraw sampler and variant seed sampler
 - [**ComfyUI_Llama3_8B**](https://github.com/smthemex/ComfyUI_Llama3_8B): Llama3_8B for comfyUI， using pipeline workflow.
 - [**comfyui-tensorop**](https://github.com/un-seen/comfyui-tensorops): Nodes to perform tensor operations in ComfyUI
@@ -904,6 +907,7 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI Yolov8**](https://github.com/zcfrank1st/Comfyui-Yolov8): Nodes: Yolov8Detection, Yolov8Segmentation. Deadly simple yolov8 comfyui plugin
 - [**ComfyUI-Champ**](https://github.com/chaojie/ComfyUI-Champ): ComfyUI Champ
 - [**Amazon Bedrock nodes for ComfyUI**](https://github.com/aws-samples/comfyui-llm-node-for-amazon-bedrock): Amazon Bedrock is a fully managed service that offers a choice of high-performing foundation models (FMs) from leading AI companies. This repo is the ComfyUI nodes for Bedrock service. You could invoke the foundation model in your ComfyUI pipeline.
+- [**ComfyUI Dwpose TensorRT**](https://github.com/yuvraj108c/ComfyUI-Dwpose-Tensorrt): This project provides a Tensorrt implementation of Dwpose for ultra fast pose estimation inside ComfyUI
 - [**IF_Dreamtalk**](https://github.com/if-ai/ComfyUI-IF_AI_Dreamtalk): Talking avatars Heads for the IF_AI tools integrates dreamtalk in ComfyUI
 - [**ComfyUI_ChatGLM_API**](https://github.com/smthemex/ComfyUI_ChatGLM_API): You can call Chatglm's API in comfyUI to translate and describe pictures, and the API similar to OpenAI.
 - [**ComfyUI_ID_Animator**](https://github.com/smthemex/ComfyUI_ID_Animator): This node allows you to use ID_Animator, the zero shot video generation model
@@ -915,9 +919,9 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI-StableAudioOpen**](https://github.com/MoonHugo/ComfyUI-StableAudioOpen): The implementation of the audio generation model stable-audio-open in ComfyUI enables ComfyUI to achieve text-to-audio functionality.
 - [**ComfyUI-TagClassifier**](https://github.com/Wenaka2004/ComfyUI-TagClassifier): ComfyUI custom node，use Deepseek v3 to classify the input tags
 - [**comfy-easy-grids**](https://github.com/shockz0rz/comfy-easy-grids): A set of custom nodes for creating image grids, sequences, and batches in ComfyUI.
+- [**DistanceSampler**](https://github.com/Extraltodeus/DistanceSampler): Heuristic modification of the Heun sampler using a custom function based on normalized distances. For ComfyUI.
 - [**cd-tuner_negpip-ComfyUI**](https://github.com/laksjdjf/cd-tuner_negpip-ComfyUI): Nodes:Apply CDTuner, Apply Negapip. This extension provides the [a/CD(Color/Detail) Tuner](https://github.com/hako-mikan/sd-webui-cd-tuner) and the [a/Negative Prompt in the Prompt](https://github.com/hako-mikan/sd-webui-negpip) features.
 - [**ComfyUI_Mexx_Styler**](https://github.com/SoftMeng/ComfyUI_Mexx_Styler): Nodes: ComfyUI Mexx Styler, ComfyUI Mexx Styler Advanced
-- [**ComfyUI Dwpose TensorRT**](https://github.com/yuvraj108c/ComfyUI-Dwpose-Tensorrt): This project provides a Tensorrt implementation of Dwpose for ultra fast pose estimation inside ComfyUI
 - [**ComfyUI-Veo2-Experimental**](https://github.com/ShmuelRonen/ComfyUI-Veo2-Experimental): A custom node extension for ComfyUI that integrates Google's Veo 2 text-to-video generation capabilities.
 - [**Comfyui-Yolov8-JSON**](https://github.com/prodogape/Comfyui-Yolov8-JSON): This node is mainly based on the Yolov8 model for object detection, and it outputs related images, masks, and JSON information.[w/Repository url is changed. Please remove previous one and reinstall.]
 - [**IF_Gemini**](https://github.com/if-ai/ComfyUI-IF_Gemini): Enjoy the latest GEMINI V2 API for ComfyUI - generate images, analyze content, and use multimodal capabilities with Google's Gemini models
@@ -925,6 +929,7 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI_StableAudio_Open**](https://github.com/smthemex/ComfyUI_StableAudio_Open): You can use stable-audio-open-1.0 in comfyUI
 - [**ZZX Nodes**](https://github.com/ZZXYWQ/ComfyUI-ZZXYWQ): Nodes: StreamRecorder, VideoFormatConverter, ZZX_PaintsUndo
 - [**ComfyUI-FrameFX**](https://github.com/mgfxer/ComfyUI-FrameFX): A set of custom nodes for frame interpolation and video processing in ComfyUI.
+- [**ComfyUI-ReLight**](https://github.com/EnragedAntelope/comfyui-relight): Transform your images with cinematic lighting effects in a single click! ReLight is a powerful ComfyUI node that adds professional-grade lighting capabilities including multiple light sources, rim lighting, and 3D lighting simulation.
 - [**ComfyUI-Flux-Replicate-API**](https://github.com/smlbiobot/ComfyUI-Flux-Replicate-API): Flux Pro via Replicate API
 - [**ComfyUI Steudio**](https://github.com/Steudio/ComfyUI_Steudio): Divide and Conquer Node Suite: It calculates the optimal upscale resolution and seamlessly divides the image into tiles, ready for individual processing using your preferred workflow. After processing, the tiles are seamlessly merged into a larger image, offering sharper and more detailed visuals.
 - [**ComfyUI-Color_Transfer**](https://github.com/45uee/ComfyUI-Color_Transfer): Postprocessing nodes that implement color palette transfer for images.
@@ -937,7 +942,6 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**AIFSH/ComfyUI-AuraSR**](https://github.com/AIFSH/ComfyUI-AuraSR): a node for [a/AuraSR](https://github.com/fal-ai/aura-sr)
 - [**ComfyUI-I2V-Adapter**](https://github.com/AIFSH/ComfyUI-I2V-Adapter): a comfyui custom node for [a/I2V-Adapter](https://github.com/KwaiVGI/I2V-Adapter)
 - [**MBM's Music Visualizer**](https://github.com/Sorcerio/MBM-Music-Visualizer): An image generation based music visualizer integrated into comfyanonymous/ComfyUI as custom nodes.
-- [**ComfyUI-ReLight**](https://github.com/EnragedAntelope/comfyui-relight): Transform your images with cinematic lighting effects in a single click! ReLight is a powerful ComfyUI node that adds professional-grade lighting capabilities including multiple light sources, rim lighting, and 3D lighting simulation.
 - [**ComfyUI-decadetw-auto-prompt-llm**](https://github.com/xlinx/ComfyUI-decadetw-auto-prompt-llm): NODES: Auto-LLM-Text-Vision, Auto-LLM-Text, Auto-LLM-Vision
 - [**ComfyUI LivePhoto Creator**](https://github.com/stormcenter/ComfyUI-LivePhotoCreator): A custom node for ComfyUI that allows you to create iPhone-compatible Live Photos from videos. This node can convert video sequences into Live Photo format, with the ability to select key frames and customize the output.
 - [**ComfyUI Connection Helper**](https://github.com/ltdrdata/comfyui-connection-helper): This is a helper extension for ComfyUI that assists with node connections.
@@ -957,6 +961,7 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**TryOff Anyone**](https://github.com/RodrigoSKohl/comfyui-tryoff-anyone): Node to tryoff clothes
 - [**FASHN Virtual Try-On**](https://github.com/fashn-AI/ComfyUI-FASHN): Node for the FASHN Virtual Try-On API. Requires an API Key from fashn.ai
 - [**Playbook Nodes**](https://github.com/playbook3d/playbook3d-comfyui-nodes): Custom nodes for connecting 3D scenes and ComfyUI workflows.
+- [**ComfyUI_KokoroTTS_MW**](https://github.com/billwuhao/ComfyUI_KokoroTTS_MW): A Text To Speech node using Kokoro TTS in ComfyUI. Supports 8 languages and 150 voices
 - [**ImageProcessing**](https://github.com/bvhari/ComfyUI_ImageProcessing): ComfyUI custom nodes to apply various image processing techniques.
 - [**pfaeff-comfyui**](https://github.com/Pfaeff/pfaeff-comfyui): Nodes: AstropulsePixelDetector, BackgroundRemover, ImagePadForBetterOutpaint, InpaintingPipelineLoader, Inpainting, ...
 - [**ComfyUI-Animated-optical-illusions**](https://github.com/ZHO-ZHO-ZHO/ComfyUI-Animated-optical-illusions): Animated optical illusions in ComfyUI
@@ -973,9 +978,9 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI-SD3-Powerlab**](https://github.com/G-370/ComfyUI-SD3-Powerlab): Nodes:Render SD3 Attention, SD3 Attention To Image, SD3 Image Into Attention.
 - [**ComfyUI_SSStereoscope**](https://github.com/MrSamSeen/ComfyUI_SSStereoscope): Side by Side 3D Stereoscope generation node for ComfyUI by SamSeen.
 - [**ImageBlender**](https://github.com/vault-developer/comfyui-image-blender): ComfyuiImageBlender is a custom node for ComfyUI. It may be used to blend two images together using a specified blending mode.
+- [**TTP_Comfyui_FramePack_SE**](https://github.com/TTPlanetPig/TTP_Comfyui_FramePack_SE): Provide ComfyUI support for FramePack start-and-end image reference
 - [**ComfyUI-LivePortrait_v3**](https://github.com/VangengLab/ComfyUI-LivePortrait_v3): We developed a custom_node for Liveportrait_v3 that enables flexible use on Comfyui to drive image-based emoji generation from photos.
 - [**ComfyUI-Background-Edit**](https://github.com/yondonfu/ComfyUI-Background-Edit): ComfyUI nodes for editing background of images/videos with CUDA acceleration support.
-- [**ComfyUI_KokoroTTS_MW**](https://github.com/billwuhao/ComfyUI_KokoroTTS_MW): A Text To Speech node using Kokoro TTS in ComfyUI. Supports 8 languages and 150 voices
 - [**ComfyUI-Gallery**](https://github.com/PanicTitan/ComfyUI-Gallery): Real-time Output Gallery for ComfyUI with image metadata inspection.
 - [**Image to Text Node**](https://github.com/yolanother/DTAIImageToTextNode): Nodes: Image URL to Text, Image to Text.
 - [**ComfyUI-Jjk-Nodes**](https://github.com/jjkramhoeft/ComfyUI-Jjk-Nodes): Nodes: SDXLRecommendedImageSize, JjkText, JjkShowText, JjkConcat. A set of custom nodes for ComfyUI - focused on text and parameter utility
@@ -987,10 +992,12 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**Dir Gir**](https://github.com/AshMartian/ComfyUI-DirGir): A collection of ComfyUI directory automation utility nodes. Directory Get-It-Right adds a GUI directory browser, and a smart directory loop/iteration node that supports regex + file extension filtering + sorting methods.
 - [**Fearnworks Nodes**](https://github.com/fearnworks/ComfyUI_FearnworksNodes): This extension provides various nodes to support multimodal workflows.
 - [**Dobidop ComfyStereo**](https://github.com/Dobidop/ComfyStereo): Two simple nodes for stereoscopic image generation. Nodes: Stereo Image Node - a basic port from the Automatic1111 stereo script in thygate/stable-diffusion-webui-depthmap-script, LazyStereo - a naïve stereo image generator
+- [**Efficiency Nodes ExtendeD**](https://github.com/NyaamZ/efficiency-nodes-ED): Expansion of Efficiency Nodes for ComfyUI. Significant UX improvements.[w/NOTE: This node requires [a/Efficiency Nodes for ComfyUI Version 2.0+](https://github.com/jags111/efficiency-nodes-comfyui) and [a/ComfyUI-Custom-Scripts](https://github.com/pythongosssss/ComfyUI-Custom-Scripts). Also, this node makes changes to user.css.]
+- [**ComfyUI-Rodin**](https://github.com/Ravenmelt/ComfyUI-Rodin): Comfyui-rodin is a 3D generation extension based on Rodin-API. It provides many of the functionality nodes currently available in RodinAPI and It provides a 3D preview node for ComfyUI.
 - [**ComfyUI Resynthesizer**](https://github.com/brayevalerien/ComfyUI-resynthesizer): This repository is a quick port of [a/Resynthesizer](https://github.com/bootchk/resynthesizer) to ComfyUI.
 - [**Comfyui_three_js**](https://github.com/lo-th/Comfyui_three_js): Use power of three.js in 3d view on comfyui.
+- [**ComfyUI-EasyNoobai**](https://github.com/regiellis/ComfyUI-EasyNoobai): Simple set of nodes to assist with prompt generation for NOOBAI XL / Illustrious models
 - [**MW-ComfyUI_OneButtonPrompt**](https://github.com/billwuhao/ComfyUI_OneButtonPrompt): A node that assists in one click generation of prompts (for image and video generation, etc.) in Comfyui.
-- [**DistanceSampler**](https://github.com/Extraltodeus/DistanceSampler): Heuristic modification of the Heun sampler using a custom function based on normalized distances. For ComfyUI.
 - [**ComfyUI-StyleGan**](https://github.com/spacepxl/ComfyUI-StyleGan): Basic support for StyleGAN2 and StyleGAN3 models.
 - [**comfyui-psd2png**](https://github.com/violet-chen/comfyui-psd2png): Nodes: Psd2Png.
 - [**ComfyUI Facerestore TensorRT**](https://github.com/yuvraj108c/ComfyUI-Facerestore-Tensorrt): This project provides an experimental Tensorrt implementation for ultra fast face restoration inside ComfyUI.
@@ -1010,13 +1017,10 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI_Prompt-Quill**](https://github.com/osi1880vr/prompt_quill_comfyui): Nodes for Comfyui to use Prompt Quill within complex workflows
 - [**ComfyUI-Img2DrawingAssistants**](https://github.com/Isi-dev/ComfyUI-Img2DrawingAssistants): These are ComfyUI nodes to assist in converting an image to sketches or lineArts.
 - [**ComfyUI_DiffusionModel_fp8_converter**](https://github.com/Shiba-2-shiba/ComfyUI_DiffusionModel_fp8_converter): This is a custom node to convert only the Diffusion model part or CLIP model part to fp8 in ComfyUI.
-- [**Efficiency Nodes ExtendeD**](https://github.com/NyaamZ/efficiency-nodes-ED): Expansion of Efficiency Nodes for ComfyUI. Significant UX improvements.[w/NOTE: This node requires [a/Efficiency Nodes for ComfyUI Version 2.0+](https://github.com/jags111/efficiency-nodes-comfyui) and [a/ComfyUI-Custom-Scripts](https://github.com/pythongosssss/ComfyUI-Custom-Scripts). Also, this node makes changes to user.css.]
 - [**ComfyUI GLM-4 Wrapper**](https://github.com/Nojahhh/ComfyUI_GLM4_Wrapper): ComfyUI GLM-4 Wrapper. This powerful tool enhances your prompt engineering process by allowing users to easily construct detailed, high-quality prompts for image/video generation based on user image and/or user prompts.
 - [**ComfyUI-ShellAgent-Plugin**](https://github.com/myshell-ai/ComfyUI-ShellAgent-Plugin): This repository provides utility nodes for defining inputs and outputs in ComfyUI workflows. These nodes are essential for running ShellAgent apps with ComfyUI, but they can also be used independently to specify input/output variables and their requirements explicitly.
-- [**ComfyUI-Rodin**](https://github.com/Ravenmelt/ComfyUI-Rodin): Comfyui-rodin is a 3D generation extension based on Rodin-API. It provides many of the functionality nodes currently available in RodinAPI and It provides a 3D preview node for ComfyUI.
 - [**ComfyUI-Easyai**](https://github.com/jianzhichun/ComfyUI-Easyai): ComfyUI-Easyai is a powerful extension for ComfyUI that enables users to share workflows and models to easyai.
 - [**ComfyUI-YCNodes**](https://github.com/yichengup/ComfyUI-YCNodes): A collection of image processing extension nodes for ComfyUI.
-- [**ComfyUI-EasyNoobai**](https://github.com/regiellis/ComfyUI-EasyNoobai): Simple set of nodes to assist with prompt generation for NOOBAI XL / Illustrious models
 - [**ComfyUI-PersianText**](https://github.com/shahkoorosh/ComfyUI-PersianText): A powerful ComfyUI node for rendering text with advanced styling options, including full support for Persian/Farsi and Arabic scripts.
 - [**WWAA-CustomNodes**](https://github.com/hgabha/WWAA-CustomNodes): Custom Nodes by the team at WeirdWonderfulAI.Art. Line Count, Join String, Dither Image, Image Batch Loader, Prompt Writer
 - [**ComfyUI NPNet (Golden Noise)**](https://github.com/asagi4/ComfyUI-NPNet): A very barebones mostly-copypaste implementation of [a/https://github.com/xie-lab-ml/Golden-Noise-for-Diffusion-Models](https://github.com/xie-lab-ml/Golden-Noise-for-Diffusion-Models)
@@ -1038,6 +1042,8 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI-Alimama-ControlNet-compatible**](https://github.com/zhiselfly/ComfyUI-Alimama-ControlNet-compatible): Compatible with alimama's SD3-ControlNet Demo on ComfyUI.
 - [**ComfyUI-StoryMaker**](https://github.com/tanglaoya321/ComfyUI-StoryMaker): NODES:StoryMakerSinglePortraitNode, StoryMakerTwoPortraitNode, StoryMakerSwapClothNode.
 - [**ComfyUI-RegionalAdaptiveSampling**](https://github.com/Slickytail/ComfyUI-RegionalAdaptiveSampling): ComfyUI implementation of Regional Adaptive Sampling, (original implementation at https://github.com/microsoft/RAS).
+- [**ComfyUI-Nudenet**](https://github.com/phuvinh010701/ComfyUI-Nudenet): Nodes for NSFW content filtering
+- [**ComfyUI-InferenceTimeScaling**](https://github.com/YRIKKA/ComfyUI-InferenceTimeScaling): Inference-time techniques to enhance diffusion-based image generation quality through random search and zero-order optimization algorithms
 - [**MergeBlockWeighted_fo_ComfyUI**](https://github.com/YinBailiang/MergeBlockWeighted_fo_ComfyUI): Nodes: MergeBlockWeighted
 - [**Auto-MBW**](https://github.com/szhublox/ambw_comfyui): Auto-MBW for ComfyUI loosely based on sdweb-auto-MBW. Nodes: auto merge block weighted
 - [**LCMSampler-ComfyUI**](https://github.com/laksjdjf/LCMSampler-ComfyUI): This extension node is intended for the use of LCM conversion for SSD-1B-anime. It does not guarantee operation with the original LCM (as it cannot load weights in the current version). To take advantage of fast generation with LCM, a node for using TAESD as a decoder is also provided. This is inspired by ComfyUI-OtherVAEs.
@@ -1066,12 +1072,11 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI-DiffusersLoader**](https://github.com/Scorpinaus/ComfyUI-DiffusersLoader): This node pack allows loading of SD checkpoints that uses diffusers format in comfyUI.
 - [**Wild Divide**](https://github.com/Julian-adv/WildDivide): This extension provides the ability to build prompts using wildcards for each region of a split image.
 - [**ComfyUI-Image-Compressor**](https://github.com/liuqianhonga/ComfyUI-Image-Compressor): A ComfyUI custom node for image compression that supports multiple compression formats and parameter adjustments.
+- [**ComfyUI-SkyReels-A2**](https://github.com/Yuan-ManX/ComfyUI-SkyReels-A2): ComfyUI nodes for SkyReels-A2 model.
 - [**Kimara.ai's Advanced Watermarking Tools**](https://github.com/kimara-ai/ComfyUI-Kimara-AI-Advanced-Watermarks): The KimaraAIWatermarker custom node allows you to apply watermark text and logo overlays to images. Optionally, the watermark can be moved by the move_watermark_step amount of pixels after each generated image. To apply a moving watermark to a list of images, use the KimaraAIBatchImages node to concatenate the list into a single tensor, then use that as an input for the watermark node, as shown in the example image below.
 - [**ComfyUI-InstagramDownloader**](https://github.com/rohitsainier/ComfyUI-InstagramDownloader): A ComfyUI custom node package that allows downloading and organizing Instagram content directly in your ComfyUI Output folder
-- [**ComfyUI-Nudenet**](https://github.com/phuvinh010701/ComfyUI-Nudenet): Nodes for NSFW content filtering
 - [**ComfyUI_BiRefNet_Universal**](https://github.com/moon7star9/ComfyUI_BiRefNet_Universal): A comprehensive node package that seamlessly integrates all BiRefNet series models into ComfyUI
 - [**GKK·CosyVoice**](https://github.com/benda1989/CosyVoice2_ComfyUI): a plugin of ComfyUI for CosyVoice2
-- [**ComfyUI-InferenceTimeScaling**](https://github.com/YRIKKA/ComfyUI-InferenceTimeScaling): Inference-time techniques to enhance diffusion-based image generation quality through random search and zero-order optimization algorithms
 - [**GlitchNodes**](https://github.com/pxl-pshr/GlitchNodes): GlitchNodes is a collection of image processing nodes designed for ComfyUI that specializes in creating glitch art and retro effects.
 - [**Civicomfy - Civitai Model Downloader for ComfyUI**](https://github.com/MoonGoblinDev/Civicomfy): Civicomfy seamlessly integrates Civitai's vast model repository directly into ComfyUI, allowing you to search, download, and organize AI models without leaving your workflow.
 - [**ComfyUI-CogVideoX**](https://github.com/florestefano1975/ComfyUI-CogVideoX): Experience the CogVideoX model on ComfyUI
@@ -1083,8 +1088,8 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI-VideoBasic**](https://github.com/jax-explorer/ComfyUI-VideoBasic): Used to solve the OOM (Out Of Memory) issue caused by loading all frames of a video at once in ComfyUI. All nodes use streamingly, and no longer load all frames of the video into memory at once.
 - [**RiceRound Cloud Node**](https://github.com/RiceRound/ComfyUI_RiceRound): This is an imaginative project that allows for one-click deployment, providing both an online page and a ComfyUI cloud node.[w/This custom node is vulnerable because it can dynamically download and execute nodes.]
 - [**MediaMixer**](https://github.com/DoctorDiffusion/ComfyUI-MediaMixer): A node suite for downloading audio and video from youtube as we all sevral useful video utilits such as a final frame selector and a node that merges two videos into one.
-- [**ComfyUI-SkyReels-A2**](https://github.com/Yuan-ManX/ComfyUI-SkyReels-A2): ComfyUI nodes for SkyReels-A2 model.
 - [**DeepExtract**](https://github.com/abdozmantar/ComfyUI-DeepExtract): DeepExtract is a powerful and efficient tool designed to separate vocals and sounds from audio files, providing an enhanced experience for musicians, producers, and audio engineers. With DeepExtract, you can quickly and effectively isolate vocals or instruments from mixed audio tracks, facilitating tasks like remixing, karaoke preparation, or audio analysis.
+- [**ComfyUI_AudioTools**](https://github.com/billwuhao/ComfyUI_AudioTools): A ComfyUI node containing multiple audio processing tools.
 - [**ComfyUI Fisheye Effects Nodes**](https://github.com/Kidev/ComfyUI-Fisheye-effects): Provides tools for applying and removing fisheye lens effects from images.
 - [**SyntaxNodes - Image Processing Effects for ComfyUI**](https://github.com/dream-computing/syntax-nodes): A collection of custom nodes for ComfyUI designed to apply various image processing effects, stylizations, and analyses.
 - [**ComfyUI_TravelSuite**](https://github.com/NicholasMcCarthy/ComfyUI_TravelSuite): ComfyUI custom nodes to apply various latent travel techniques.
@@ -1101,7 +1106,6 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI CustomScheduler**](https://github.com/BlakeOne/ComfyUI-CustomScheduler): Simple node for setting the sigma values directly. Note, for a full denoise the last sigma should be zero.
 - [**PyramidFlow-ComfyUI**](https://github.com/AIFSH/PyramidFlow-ComfyUI): a custom node for [a/Pyramid-Flow](https://github.com/jy0205/Pyramid-Flow)
 - [**quadmoon's ComfyUI nodes**](https://github.com/traugdor/ComfyUI-quadMoons-nodes): These are just some nodes I wanted and couldn't find where anyone else had made them yet.
-- [**Simswap Node for ComfyUI**](https://github.com/TaiTair/comfyui-simswap): A hacky implementation of Simswap based on [a/Comfyui ReActor Node 0.5.1](https://github.com/Gourieff/comfyui-reactor-node) and [a/Simswap](https://github.com/neuralchen/SimSwap).
 - [**D2 Send Eagle**](https://github.com/da2el-ai/ComfyUI-d2-send-eagle): Send images generated by ComfyUI to Eagle image management software
 - [**ComfyUI-Notifications**](https://github.com/royceschultz/ComfyUI-Notifications): Send notifications when a workflow completes.
 - [**LM Studio Image to Text Node for ComfyUI**](https://github.com/mattjohnpowell/comfyui-lmstudio-image-to-text-node): A custom node for ComfyUI that integrates LM Studio's vision models to generate text descriptions of images. It provides a flexible and customizable way to add image-to-text capabilities to your ComfyUI workflows, working with LM Studio's local API.
@@ -1112,7 +1116,6 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**comfyui-imgmake**](https://github.com/dafeng012/comfyui-imgmake): This extension integrates ebsynth_utility into comfyui, and I've written some of my own nodes for secondary use.
 - [**ComfyUI-Texturaizer**](https://github.com/LatentSpaceDirective/ComfyUI-Texturaizer): These are companion nodes for Texturaizer, a Blender plugin that connects complex 3D data to ComfyUI. https://texturaizer.com
 - [**ComfyUI-Desert-Pixel-Nodes**](https://github.com/DesertPixelAi/ComfyUI-Desert-Pixel-Nodes): A collection of custom nodes for ComfyUI focused on animation, image processing, and workflow optimization.
-- [**ComfyUI_AudioTools**](https://github.com/billwuhao/ComfyUI_AudioTools): A ComfyUI node containing multiple audio processing tools.
 - [**ComfyUI-LoRA-Assistant**](https://github.com/Bellzs/ComfyUI-LoRA-Assistant): The plug-in is designed to automatically save the association between the LoRA model and Trigger words to a Local JSON file so that when the LoRA model is loaded, the associated trigger words can be automatically loaded via the node 'LoRA Trigger Local' without manual input.
 - [**ComfyUI-Montagen**](https://github.com/MontagenAI/ComfyUI-Montagen): ComfyUI-Montagen is an extension designed to enhance the video editing ability of ComfyUI with custom nodes and Montagen. It offers basic video editing features and integrates media clips with the ComfyUI workflow. Furthermore, this extension unlocks the full potential of AI-based video generation and task automation.
 - [**ComfyUI_AutoDownloadModels**](https://github.com/AIExplorer25/ComfyUI_AutoDownloadModels): This custom node helps to auto download models from huggingface
@@ -1127,6 +1130,7 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI-3d-photo-inpainting**](https://github.com/AIFSH/ComfyUI-3d-photo-inpainting): a comfyui custom node for [a/3d-photo-inpainting](https://github.com/vt-vl-lab/3d-photo-inpainting),then you can render one image to zoom-in/dolly zoom/swing motion/circle motion video
 - [**SenseVoice-ComfyUI**](https://github.com/AIFSH/SenseVoice-ComfyUI): a custom node for SenseVoice
 - [**ComfyUI-MX-post-processing-nodes**](https://github.com/Intersection98/ComfyUI_MX_post_processing-nodes): A collection of post processing nodes for ComfyUI, dds image post-processing adjustment capabilities to the ComfyUI.
+- [**Simswap Node for ComfyUI**](https://github.com/TaiTair/comfyui-simswap): A hacky implementation of Simswap based on [a/Comfyui ReActor Node 0.5.1](https://github.com/Gourieff/comfyui-reactor-node) and [a/Simswap](https://github.com/neuralchen/SimSwap).
 - [**ComfyUI_InternVL2**](https://github.com/leeguandong/ComfyUI_InternVL2): ComfyUI for [a/InternVL](https://github.com/OpenGVLab/InternVL)
 - [**sml-comfyui-prompt-expansion**](https://github.com/smlbiobot/sml-comfyui-prompt-expansion): Prompt Expansion for Stable Diffusion, using Deepseek API.
 - [**ComfyUI_FluxPromptGen**](https://github.com/dfghsdh/ComfyUI_FluxPromptGen): Flux Prompt Generator is a custom node set for ComfyUI that enhances prompt generation and image captioning capabilities. It integrates advanced language models and image captioning techniques to provide versatile and powerful prompt manipulation tools for your AI image generation workflows.
@@ -1171,6 +1175,7 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI-Static-Primitives**](https://github.com/80sVectorz/ComfyUI-Static-Primitives): Adds Static Primitives to ComfyUI. Mostly to work with reroute nodes
 - [**ComfyUI-TextOnSegs**](https://github.com/nkchocoai/ComfyUI-TextOnSegs): Add a node for drawing text with CR Draw Text of ComfyUI_Comfyroll_CustomNodes to the area of SEGS detected by Ultralytics Detector of ComfyUI-Impact-Pack.
 - [**comfyui-clip-with-break**](https://github.com/dfl/comfyui-clip-with-break): CLIP text encoder with BREAK formatting like A1111 (uses chained ComfyUI conditioning concat).
+- [**ComfyUI-ReduxFineTune**](https://github.com/1038lab/ComfyUI-ReduxFineTune): ComfyUI-ReduxFineTune is a custom node for ComfyUI that enables advanced style fine-tuning using the Flux Redux approach. It offers multiple unified fusion modes for precise and consistent control over style transfer, allowing users to fine-tune image styles with high flexibility and detail.
 - [**ComfyUI-DiLightNet**](https://github.com/logtd/ComfyUI-DiLightNet): ComfyUI nodes to use [a/DiLightNet](https://github.com/iamNCJ/DiLightNet).
 - [**lollms_nodes_suite**](https://github.com/ParisNeo/lollms_nodes_suite): lollms_nodes_suite is a set of nodes for comfyui that harnesses the power of lollms, a state-of-the-art AI text generation tool, to improve the quality of image generation.
 - [**ComfyUI-PixelOE-Wrapper**](https://github.com/A4P7J1N7M05OT/ComfyUI-PixelOE-Wrapper): A barebones ComfyUI wrapper for [a/PixelOE](https://github.com/KohakuBlueleaf/PixelOE).
@@ -1185,9 +1190,10 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI-Image-Captioner**](https://github.com/neverbiasu/ComfyUI-Image-Captioner): A ComfyUI extension for generating captions for your images. Runs on your own system, no external services used, no filter.
 - [**ComfyUI_FluxLayerDiffuse**](https://github.com/leeguandong/ComfyUI_FluxLayerDiffuse): ComfyUI nodes to use [a/Flux-version-LayerDiffuse](https://github.com/RedAIGC/Flux-version-LayerDiffuse)
 - [**ComfyUI-Elegant-Resource-Monitor**](https://github.com/ChrisColeTech/ComfyUI-Elegant-Resource-Monitor): This custom node for ComfyUI will add a simple and elegant resource monitor.
+- [**Control Freak for ComfyUI**](https://github.com/ryanontheinside/ComfyUI_ControlFreak): Control Freak gives you physical control over your ComfyUI workflows by mapping MIDI controllers, gamepads, and other input devices to any node parameter or UI element. Transform your image generation experience with tactile, responsive control. Ever heard of 'flow state'?
 - [**ComfyUI-decadetw-spout-syphon-im-vj**](https://github.com/xlinx/ComfyUI-decadetw-spout-syphon-im-vj): I'm SD-VJ. (share SD-generating-process in realtime by gpu)
 - [**ComfyUI-InfiniteYou**](https://github.com/niknah/ComfyUI-InfiniteYou): ComfyUI custom_node for ByteDance's InfiniteYou
-- [**Cyber-BlackCat**](https://github.com/Cyber-BCat/ComfyUI_Auto_Caption): Load images in order(All other nodes are in the wrong order)! Using LLM and Joy tag pipeline to tag your image(s folder), it's suitable for train FLUX LoRA and also sdxl.
+- [**Cyber-BlackCat**](https://github.com/Cyber-BlackCat/ComfyUI_Auto_Caption): Using LLM and Joy tag pipeline to tag your image(s folder), it's suitable for train FLUX LoRA and also sdxl. Load images in order!
 - [**ComfyUI-tagcomplete**](https://github.com/waterminer/ComfyUI-tagcomplete): This extension provides tag completion feature in textbox.
 - [**VEnhancer ComfyUI Extension**](https://github.com/VikramxD/VEnhancer-ComfyUI-Wrapper): ComfyUI workflow for VEnhancer Inference
 - [**ComfyUI-HaiperAI-API**](https://github.com/Haiper-ai/ComfyUI-HaiperAI-API): Haiper API official ComfyUI custom node.
@@ -1195,6 +1201,7 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**comfyui-finegrain**](https://github.com/finegrain-ai/comfyui-finegrain): ComfyUI custom nodes to interact with the Finegrain API.
 - [**ComfyUI-Apt_Preset**](https://github.com/cardenluo/ComfyUI-Apt_Preset): ComfyUI Preset Manager, supporting various preset templates and workflow management
 - [**ComfyUI_FaceAlignPaste**](https://github.com/CHAOSEA/ComfyUI_FaceAlignPaste): Smart Face Alignment and Pasting Node
+- [**ComfyUI Pause Workflow Node**](https://github.com/wywywywy/ComfyUI-pause): ComfyUI custom node to pause a workflow
 - [**ComfyUi_String_Function_Tree**](https://github.com/wolfden/ComfyUi_String_Function_Tree): This custom node provides the capability to manipulate multiple string inputs.
 - [**ComfyUI Ricing**](https://github.com/jmkl/ComfyUI-ricing): ComfyUI custom user.css and some script stuff. mainly for web interface.
 - [**ComfyUI_NoxinNodes**](https://github.com/noxinias/ComfyUI_NoxinNodes): Nodes: Noxin Complete Chime, Noxin Scaled Resolutions, Load from Noxin Prompt Library, Save to Noxin Prompt Library
@@ -1218,7 +1225,6 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI_M3Net**](https://github.com/leeguandong/ComfyUI_M3Net): ComfyUI for [a/M3Net](https://github.com/I2-Multimedia-Lab/M3Net)
 - [**Propmt Worker**](https://github.com/lenskikh/ComfyUI-Prompt-Worker): Node:Prompt Worker. A text manipulation node for postprocessing of prompt.
 - [**ComfyUI_Qwen2-Audio-7B-Instruct-Int4**](https://github.com/IuvenisSapiens/ComfyUI_Qwen2-Audio-7B-Instruct-Int4): This is an implementation of [a/Qwen2-Audio-7B-Instruct-Int4](https://github.com/QwenLM/Qwen2-Audio) by [a/ComfyUI](https://github.com/comfyanonymous/ComfyUI), including support for text-based queries and audio queries to generate captions or responses.
-- [**Control Freak for ComfyUI**](https://github.com/ryanontheinside/ComfyUI_ControlFreak): Control Freak gives you physical control over your ComfyUI workflows by mapping MIDI controllers, gamepads, and other input devices to any node parameter or UI element. Transform your image generation experience with tactile, responsive control. Ever heard of 'flow state'?
 - [**Huggingface Api Serverless**](https://github.com/alexgenovese/ComfyUI_HF_Servelress_Inference): Huggingface Api Serverless request
 - [**ComfyUI-Light-Tool**](https://github.com/ihmily/ComfyUI-Light-Tool): An awesome light image processing tool nodes for ComfyUI.
 - [**Head-Orientation-Node - by PabloGFX**](https://github.com/lazniak/Head-Orientation-Node-for-ComfyUI---by-PabloGFX): A custom node for ComfyUI that analyzes and sorts images based on head orientation using MediaPipe. It detects facial landmarks, calculates head pose, and intelligently sorts images for enhanced AI image processing workflows.
@@ -1231,7 +1237,6 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI-LTXVideoLoRA**](https://github.com/dorpxam/ComfyUI-LTXVideoLoRA): A set of custom nodes enabling LoRA support for LTX Video
 - [**Face Cropper Node (2:3 Ratio)**](https://github.com/marawan206/ComfyUI-FaceCropper): The Face Cropper Node (MarwanFaceCropping) is a custom image processing node designed for ComfyUI. It takes an input image and crops it to a 2:3 aspect ratio, ensuring that most of the subject remains in the frame while maintaining the correct proportions.
 - [**comfy-ex-tagcomplete**](https://github.com/jupo-ai/comfy-ex-tagcomplete): tag completer with csv file
-- [**ComfyUI Pause Workflow Node**](https://github.com/wywywywy/ComfyUI-pause): ComfyUI custom node to pause a workflow
 - [**comfyui_ab_sampler**](https://github.com/bmad4ever/comfyui_ab_samplercustom): Experimental sampler node. Sampling alternates between A and B inputs until only one remains, starting with A. B steps run over a 2x2 grid, where 3/4's of the grid are copies of the original input latent. When the optional mask is used, the region outside the defined roi is copied from the original latent at the end of every step.
 - [**comfyui_quilting**](https://github.com/bmad4ever/comfyui_quilting): image and latent quilting nodes for comfyui
 - [**Semantic-aware Guidance (S-CFG)**](https://github.com/shiimizu/ComfyUI-semantic-aware-guidance): ComfyUI node for Semantic-aware Guidance based on the [a/paper](https://arxiv.org/abs/2404.05384) 'Rethinking the Spatial Inconsistency in Classifier-Free Diffusion Guidance'
@@ -1270,6 +1275,7 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI_PNGInfo_Sidebar**](https://github.com/KLL535/ComfyUI_PNGInfo_Sidebar): Frontend extension that adds a sidebar for easy viewing of PNG file metadata.
 - [**ComfyUI-AdvancedAlphaProcessor**](https://github.com/852wa/ComfyUI-AAP): This is a custom node for ComfyUI.
 - [**ComfyUI-IG2MV**](https://github.com/hunzmusic/ComfyUI-IG2MV): This custom node package provides nodes specifically for using the mvadapter_ig2mv_sdxl.safetensors adapter within ComfyUI. This adapter is designed for image-guided multi-view generation, typically used for creating textures from 3D mesh renders (position and normal maps).
+- [**NoteManager**](https://github.com/Danteday/ComfyUI-NoteManager): A powerful extension for ComfyUI that enables adding notes to many node in your workflow. Keep track of important settings, reminders, and workflow documentation directly within your ComfyUI canvas.
 - [**ComfyUI-nodes-hnmr**](https://github.com/CYBERLOOM-INC/ComfyUI-nodes-hnmr): Provide various custom nodes for Latent, Sampling, Model, Loader, Image, Text. This is the fixed version of the original [a/ComfyUI-nodes-hnmr](https://github.com/hnmr293/ComfyUI-nodes-hnmr) by hnmr293.
 - [**trNodes**](https://github.com/trojblue/trNodes): Nodes: image_layering, color_correction, model_router
 - [**asagi4/comfyui-utility-nodes**](https://github.com/asagi4/comfyui-utility-nodes): Nodes:MUJinjaRender, MUSimpleWildcard
@@ -1288,6 +1294,7 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI_photomakerV2_native**](https://github.com/zhangp365/ComfyUI_photomakerV2_native): Nodes: PhotoMakerLoaderV2,PhotoMakerEncodeV2
 - [**ComfyUI-RGT**](https://github.com/viperyl/ComfyUI-RGT): This repo cast Recursive Generalization Transformer for Image Super-Resolution to ComfyUI, the original [a/paper link](https://arxiv.org/abs/2303.06373) and [a/github link](https://github.com/zhengchen1999/RGT)
 - [**ComfyUI Nich Utils**](https://github.com/nickve28/ComfyUI-Nich-Utils): Several utility nodes for use with ComfyUI.
+- [**StereoVision Plugin for ComfyUI**](https://github.com/DrMWeigand/ComfyUI-StereoVision): A ComfyUI node for producing stereoscopic and autostereogram (magic eye) images and videos.
 - [**ViewCrafter-ComfyUI**](https://github.com/AIFSH/ViewCrafter-ComfyUI): a custom node for [a/ViewCrafter](https://github.com/Drexubery/ViewCrafter)
 - [**EzAudio-ComfyUI**](https://github.com/AIFSH/EzAudio-ComfyUI): a custom node for [a/EzAudio](https://github.com/haidog-yaqub/EzAudio)
 - [**ComfyUI_Demucs**](https://github.com/smthemex/ComfyUI_Demucs): Using Demucs in comfyUI, make Music Source Separation
@@ -1310,6 +1317,7 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI-Yuan**](https://github.com/Cyber-Blacat/ComfyUI-Yuan): Some simple&practical ComfyUI image processing nodes.
 - [**chinese_clip_encode**](https://github.com/yuan199696/chinese_clip_encode): Support input of Chinese prompts.
 - [**ComfyUI_SuperResolution**](https://github.com/ryanontheinside/ComfyUI_SuperResolution): A collection of high-performance neural network-based Super Resolution models for ComfyUI.
+- [**Latent Walk**](https://github.com/rnbwdsh/ComfyUI-LatentWalk): Latent space walks for latents, conditionals and noise
 - [**Image to Painting and Inspyrenet Assistant Nodes**](https://github.com/Isi-dev/ComfyUI-Img2PaintingAssistant): These are ComfyUI nodes to assist in converting images to paintings and to assist the Inspyrenet Rembg node to totally remove, or replace with a color, the original background from images so that the background does not reappear in videos or in nodes that do not retain the alpha channel in rgba images.
 - [**ComfyUI-BiRefNet-lite**](https://github.com/rubi-du/ComfyUI-BiRefNet-Super): This repository packages the latest BiRefNet model as a ComfyUI node for use, supporting chunked loading on both CPU and GPU, as well as model caching features.
 - [**ComfyUI-MaskEditor-Extension**](https://github.com/rubi-du/ComfyUI-MaskEditor-Extension): This repository packages the latest BiRefNet model as a ComfyUI node for use, supporting chunked loading on both CPU and GPU, as well as model caching features.
@@ -1321,7 +1329,6 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI_depthMapOperation**](https://github.com/chri002/ComfyUI_depthMapOperation): A simple set of nodes to generate a point cloud from an image and its depth map, perform transformations and some basic operations.
 - [**ComfyUI_Model_Cache**](https://github.com/infinigence/ComfyUI_Model_Cache): A model cached-loader custom node for ComfyUI.
 - [**ComfyUI_RS-SaturationNode**](https://github.com/Raykosan/ComfyUI_RS-SaturationNode): Professional image saturation control with artifact and highlight protection.
-- [**NoteManager**](https://github.com/Danteday/ComfyUI-NoteManager): A powerful extension for ComfyUI that enables adding notes to many node in your workflow. Keep track of important settings, reminders, and workflow documentation directly within your ComfyUI canvas.
 - [**ComfyUI-DAAM**](https://github.com/nisaruj/comfyui-daam): ComfyUI custom nodes for Diffusion Attentive Attribution Maps (DAAM)
 - [**As_ComfyUI_CustomNodes**](https://github.com/flyingshutter/As_ComfyUI_CustomNodes): Manipulation nodes for Image, Latent
 - [**ComfyUI_Pilgram**](https://github.com/kinfolk0117/ComfyUI_Pilgram): Use [a/Pilgram2](https://github.com/mgineer85/pilgram2) filters in ComfyUI
@@ -1340,7 +1347,6 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI-Text**](https://github.com/MarkoCa1/ComfyUI-Text): Why make this node? Because I only need simple text related operations and don't want to install anything extra.
 - [**ComfyUI DDColor**](https://github.com/hay86/ComfyUI_DDColor): Unofficial implementation of [a/DDColor](https://github.com/piddnad/DDColor) for ComfyUI
 - [**comfygen**](https://github.com/wei30172/comfygen): Setting Up a Web Interface Using ComfyUI.
-- [**StereoVision Plugin for ComfyUI**](https://github.com/DrMWeigand/ComfyUI-StereoVision): A ComfyUI node for producing stereoscopic and autostereogram (magic eye) images and videos.
 - [**ComfyUI-Live2DViewer**](https://github.com/AIFSH/ComfyUI-Live2DViewer): a comfyui node for viewing Live2D model
 - [**JoyHallo-ComfyUI**](https://github.com/AIFSH/JoyHallo-ComfyUI): a custom node for [a/JoyHallo](https://github.com/jdh-algo/JoyHallo)
 - [**YANC_LMStudio**](https://github.com/ALatentPlace/YANC_LMStudio): A custom node for a LMStudio integration into ComfyUI.
@@ -1355,7 +1361,6 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI_MTCLIPEncode**](https://github.com/Marksusu/ComfyUI_MTCLIPEncode): MTCLIPEncode: An extension for ComfyUI's CLIPTextEncode node, offering multilingual translation (using MarianMT) and prompt enhancement (using Ollama). Seamlessly translate your native language prompts into English and further optimize them for generating your desired images with Stable Diffusion. Supports Krita AI Diffusion.
 - [**ComfyUI_FluxCustomId**](https://github.com/leeguandong/ComfyUI_FluxCustomId): ComfyUI nodes to use FluxCustomId
 - [**add_text_2_img**](https://github.com/yuan199696/add_text_2_img): Support adding custom text to the generated images.
-- [**Latent Walk**](https://github.com/rnbwdsh/ComfyUI-LatentWalk): Latent space walks for latents, conditionals and noise
 - [**paint-by-example @ ComfyUI**](https://github.com/phyblas/paint-by-example_comfyui): Implementation of paint-by-example on ComfyUI
 - [**ComfyUI-decadetw-auto-messaging-realtime**](https://github.com/xlinx/ComfyUI-decadetw-auto-messaging-realtime): Auto messging sd-image and sd-info to mobile phone IM realtime. (LINE | Telegram | Discord)
 - [**ComfyUI-PromptList**](https://github.com/NakamuraShippo/ComfyUI-PromptList): Custom node to manage prompts in YAML format.
@@ -1443,9 +1448,11 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI-BDsInfiniteYou**](https://github.com/game4d/ComfyUI-BDsInfiniteYou): ComfyUI custom_node for [a/ByteDance's InfiniteYou](https://github.com/bytedance/InfiniteYou).
 - [**ComfyUI-Creepy_nodes**](https://github.com/Creepybits/ComfyUI-Creepy_nodes): A collection of switch nodes for ComfyUI
 - [**ComfyUI-ToSVG-Potracer**](https://github.com/ImagineerNL/ComfyUI-ToSVG-Potracer): ComfyUI node to vectorize images using the pure Python 'potracer' library.
+- [**wavespeed-comfyui**](https://github.com/WaveSpeedAI/wavespeed-comfyui): This is a custom node for ComfyUI that allows you to use the WaveSpeed AI API directly in ComfyUI. WaveSpeed AI is a high-performance AI image and video generation service platform offering industry-leading generation speeds. For more information, see [a/WaveSpeed AI Documentation](https://wavespeed.ai/docs).
 - [**ComfyUI-DrawThings-gRPC**](https://github.com/Jokimbe/ComfyUI-DrawThings-gRPC): Connect to any Draw Things gRPC server
 - [**ComfyUI_RaykoStudio**](https://github.com/Raykosan/ComfyUI_RaykoStudio): A node for ComfyUI that allows you to overlay text on an image in an area defined by a mask, with support for text rotation, custom fonts, line breaks and transparency.
 - [**Comfy-Topaz-Photo**](https://github.com/leoleelxh/Comfy-Topaz-Photo): A new ComfyUI node for integrating Topaz Photo AI's powerful image enhancement capabilities
+- [**anaglyphTool-Comfyui**](https://github.com/Cryptyox/anaglyphTool-Comfyui): This Comfyui node creates an anaglyph image from a color and depth map input. It achieves high speeds suitable for video to anaglyph conversion by using CUDA GPU acceleration.
 - [**ComfyUI_DiT [WIP]**](https://github.com/city96/ComfyUI_DiT): Testbed for [a/DiT(Scalable Diffusion Models with Transformers)](https://github.com/facebookresearch/DiT). [w/None of this code is stable, expect breaking changes if for some reason you want to use this.]
 - [**comfyui_wfc_like**](https://github.com/bmad4ever/comfyui_wfc_like): An 'opinionated' Wave Function Collapse implementation with a set of nodes for comfyui
 - [**Comfy UI Prompt Agent**](https://github.com/yolanother/DTAIComfyPromptAgent): Nodes: Prompt Agent, Prompt Agent (String). This script provides a prompt agent node for the Comfy UI stable diffusion client.
@@ -1473,6 +1480,7 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI-YouTubeVideoPlayer**](https://github.com/daxcay/ComfyUI-YouTubeVideoPlayer): Plays youtube videos in comfy. Use this node to share tutorials or renders. Youtube Playlists mode is also in Future Development in which you can add multiple youtube links and form a playlist which would be ideal for chained tutorials or lisitening and sharing songs playlists with others.
 - [**ComfyUI-nevysha-top-menu**](https://github.com/Nevysha/ComfyUI-nevysha-top-menu): A simple sidebar tweak to force fixe the ComfyUI menu to the top of the screen. Reaaally quick and dirty. May break with some ComfyUI setup.
 - [**comfyui-random-node**](https://github.com/shinich39/comfyui-ramdom-node): Shuffle nodes after queue added. [w/Repository name has been changed from comfyui-random-node-39 to comfyui-random-node. Please remove and reinstall it.]
+- [**comfyui-dynamic-routes**](https://github.com/shinich39/comfyui-dynamic-routes): Shuffle nodes after queue execution.
 - [**ComfyUI_KytraWebhookHTTP**](https://github.com/KytraScript/ComfyUI_KytraWebhookHTTP): A ComfyUI node that utilizes Moviepy to convert and send your images or videos to a webhook endpoint directly from ComfyUI.
 - [**ComfyUI-SD3-nodes**](https://github.com/liusida/ComfyUI-SD3-nodes): Nodes that support Stable Diffusion 3 Medium better.
 - [**AniTalker-ComfyUI**](https://github.com/AIFSH/AniTalker-ComfyUI): a comfyui custom node for [a/AniTalker](https://github.com/X-LANCE/AniTalker)
@@ -1507,13 +1515,14 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI_sloppy-comic**](https://github.com/blob8/ComfyUI_sloppy-comic): Using IPAdapter for style consistency, the node accepts a story structured as text {prompt} text {prompt} etc. and generates a comic, saving it to /output. It also adds LLM API Request node, providing an openai compatible LLM API for generating the stories.
 - [**YALLM-LlamaVision**](https://github.com/asaddi/YALLM-LlamaVision): A set of nodes for basic Llama 3.2 Vision support in ComfyUI. Give it an image and query and it will output a text response.
 - [**ComfyUI-YCYY-LoraInfo**](https://github.com/ycyy/ComfyUI-YCYY-LoraInfo): You can use this node to get information about lora. For example trigger words, description and example images.
-- [**ComfyUI-Ad-scheduler**](https://github.com/SS-snap/ComfyUI-Ad_scheduler): For denoising tasks that handle noise at any time period, with the ability to add noise in post-processing to enhance details or correct structural accuracy while maintaining the original similarity. Allocating more steps allows the image to regress to an earlier stage..
+- [**ComfyUI-Ad-scheduler**](https://github.com/SS-snap/ComfyUI-Ad_scheduler): This node is used to enhance image details. We can add a latent space image and introduce any amount of noise. Then, we can start denoising at any timestep. This allows us to add more details to the image while maintaining overall consistency as much as possible.
 - [**Simple JSON Parser Node for ComfyUI**](https://github.com/Q-Bug4/Comfyui-Simple-Json-Node): A custom node for ComfyUI to parse and extract data from JSON strings.
 - [**Segment Any Bedroom Interior**](https://github.com/NguynHungNguyen/Segment-Bedroom-Interior): Segment Any Bedroom Interior is a Python-based project designed to segment furniture and objects within a bedroom image. The segmentation process uses RGB codes to accurately differentiate between various pieces of furniture, providing a precise mask output for each segmented object. This project is integrated with ComfyUI to allow easy and intuitive usage.
 - [**ComfyUI-Ardenius**](https://github.com/ArdeniusAI/ComfyUI-Ardenius): ARD ComfyUI Ardenius include ARD Control Box, ARD Math nodes and other helper nodes to be added in the future. for more info https://ko-fi.com/ardenius.
 - [**ComfyUI-KYNode**](https://github.com/yorkane/ComfyUI-KYNode): NODES:Advanced Lying Sigma Sampler, Save Image To target Path
 - [**Bytebeat Synthesizer: Composing with Operators**](https://github.com/c0ffymachyne/ComfyUI_BeatByte): Bytebeat is like composing music with the tools of a programmer’s toolkit. Instead of piano keys, you have operators like >>, |, and &. It’s like giving your CPU a guitar and letting it shred! 🤘
 - [**Joy Caption Alpha Two for ComfyUI**](https://github.com/tungdop2/Comfyui_joy-caption-alpha-two): The Joy Caption Alpha Two node for ComfyUI, based on https://huggingface.co/spaces/fancyfeast/joy-caption-alpha-two
+- [**ComfyUI-OrpheusTTS**](https://github.com/Yuan-ManX/ComfyUI-OrpheusTTS): ComfyUI nodes for OrpheusTTS model.
 - [**ComfyUI-VLM_Captions**](https://github.com/5x00/ComfyUI-VLM-Captions): A simple ComfyUI node that let's you use Claude or ChatGPT 4o's VLM capabilities to generate captions/tags for images.
 - [**ComfyUI-Seed-Nodes**](https://github.com/Aerse/ComfyUI-Seed-Nodes): ComfyUI-Seed-Nodes is a custom node library that extends the functionality of ComfyUI, offering advanced image loading and pixelation tools.
 - [**PromptCollapse**](https://github.com/kraglik/prompt_collapse): A prompt generation system that manages relationships between prompt components to maintain logical consistency. Integrates with ComfyUI as a custom node.
@@ -1529,7 +1538,6 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI-Pt-Wrapper**](https://github.com/HowToSD/ComfyUI-Pt-Wrapper): PyTorch extension for ComfyUI featuring extensive PyTorch wrapper nodes for seamless tensor operations and PyTorch model training.
 - [**Audio nodes**](https://github.com/gitmylo/ComfyUI-audio-nodes): Various nodes related to audio.
 - [**ComfyUI Gemini Pro Node**](https://github.com/penposs/ComfyUI_Gemini_Pro): This is a Google Gemini Pro API integration node for ComfyUI, supporting text, image, video, and audio inputs.
-- [**wavespeed-comfyui**](https://github.com/WaveSpeedAI/wavespeed-comfyui): This is a custom node for ComfyUI that allows you to use the WaveSpeed AI API directly in ComfyUI. WaveSpeed AI is a high-performance AI image and video generation service platform offering industry-leading generation speeds. For more information, see [a/WaveSpeed AI Documentation](https://wavespeed.ai/docs).
 - [**oshtz Nodes**](https://github.com/oshtz/ComfyUI-oshtz-nodes): Custom ComfyUI nodes including LLM integration, LoRA switchers, image tools, and more
 - [**Negative Rejection Steering**](https://github.com/Reithan/negative_rejection_steering): NRS seeks to replace the 'naive' linear interpolation of Classifier Free Guidance with a more nuanced and composable steering of the generation process with better mathematical basis.
 - [**Comfy UI QR Codes**](https://github.com/yolanother/DTAIComfyQRCodes): This extension introduces QR code nodes for the Comfy UI stable diffusion client. NOTE: ComfyUI qrcode extension required.
@@ -1569,6 +1577,7 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**comfyui-selector**](https://github.com/exdysa/comfyui-selector): Selector and Recourse. Presets & failsafes. Work flow. EXDYSA
 - [**ComfyUI-Image-Inpainting**](https://github.com/SherryXieYuchen/ComfyUI-Image-Inpainting): Nodes:VAE Encode Inpaint, VAE Decode Inpaint, ColorCorrection Inpaint, ImagePreprocess Inpaint, ImagePostprocess Inpaint, Load Model Inpaint, Inpainting (using Model)
 - [**ComfyUI-TCD-Sampler**](https://github.com/licyk/ComfyUI-TCD-Sampler): Adding TCD sampling
+- [**APZmedia Fast Image Save Node**](https://github.com/APZmedia/APZmedia-comfyui-fast-image-save): This node for ComfyUI allows saving images with an optional alpha channel (transparency). It supports saving images in formats like PNG, JPEG, and WebP.
 - [**z-a1111-sd-webui-DanTagGen**](https://github.com/Aaron-CHM/ComfyUI-z-a1111-sd-webui-DanTagGen): Improved DanTagGen implementation that posesses all functionality of the A1111 webui extension.
 - [**ComfyUI-DenoiseChooser**](https://github.com/Koushakur/ComfyUI-DenoiseChooser): The latent gets passed straight through unaltered, if it's empty (i.e from a 'Empty Latent Image' node) FLOAT outputs the first value, otherwise it outputs the second value
 - [**Comfyui-ThinkRemover**](https://github.com/lrzjason/Comfyui-ThinkRemover): Remove content inside 'think' tag from reasoning llm
@@ -1597,7 +1606,6 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI-MaskArbiter**](https://github.com/SparknightLLC/ComfyUI-MaskArbiter): A node for ComfyUI that takes a list of masks and returns a single mask based on your criteria.
 - [**ComfyUI-LLaMA-Mesh**](https://github.com/Yuan-ManX/ComfyUI-LLaMA-Mesh): ComfyUI nodes for LLaMA-Mesh model.
 - [**ComfyUI-StyleStudio**](https://github.com/Yuan-ManX/ComfyUI-StyleStudio): ComfyUI nodes for StyleStudio model.
-- [**ComfyUI-OrpheusTTS**](https://github.com/Yuan-ManX/ComfyUI-OrpheusTTS): ComfyUI nodes for OrpheusTTS model.
 - [**ComfyUI-LayerAnimate**](https://github.com/Yuan-ManX/ComfyUI-LayerAnimate): ComfyUI nodes for LayerAnimate model.
 - [**ComfyUI-InstantStudio**](https://github.com/InstantStudioAI/ComfyUI-InstantStudio): A collection of nodes to enhance your experience with ComfyUI.
 - [**comfyui-save-vpred**](https://github.com/Miyuutsu/comfyui-save-vpred): Simple ComfyUI Custom Node to enable saving checkpoints with V-Pred ZTSNR tensors and metadata.
@@ -1606,6 +1614,7 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI_CSM**](https://github.com/billwuhao/ComfyUI_CSM): ComfyUI node of Conversational Speech Model (CSM).
 - [**ComfyUI-ImageLabel**](https://github.com/gremlation/ComfyUI-ImageLabel): A ComfyUI node that extends an image vertically to add a label either above or below it.
 - [**WatermarkRemoval**](https://github.com/l-comm/WatermarkRemoval): Watermark removal project
+- [**ComfyUI jhj Kokoro Onnx**](https://github.com/jhj0517/ComfyUI-jhj-Kokoro-Onnx): kokoro-onnx (opensource TTS model) wrapper for ComfyUI.
 - [**ComfyUI_HuggingFace_Downloader**](https://github.com/jnxmx/ComfyUI_HuggingFace_Downloader): Nodes for auto download models from Hugging Face using their filenames as part of workflows
 - [**KurdKnight ComfyUI System Check Node**](https://github.com/Kurdknight/Kurdknight_comfycheck): A comprehensive system information node for ComfyUI that provides detailed information about your system, GPU, CUDA, and AI libraries configuration. Works on both Windows and Linux systems.
 - [**ComfyUI OpenAI Prompter**](https://github.com/nisimjoseph/ComfyUI_OpenAI-Prompter): A custom node for ComfyUI that generates creative and detailed prompts using OpenAI's GPT models.
@@ -1668,7 +1677,6 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**Comfy-UI on-complete-email-me**](https://github.com/hyunamy/comfy-ui-on-complete-email-me): A feature that sends an email via Gmail once image generation is completed in Comfy-ui.
 - [**Pipeline Parallel ComfyUI**](https://github.com/DeJoker/pipeline-parallel-comfy): provide extra api to run prompt request with parallel execution of independent node
 - [**ComfyUI_CAS**](https://github.com/BenNarum/ComfyUI_CAS): This extension provides nodes that allow experimentation with various elements (samplers, latent, activators, attenuator, scheulders, ...) of Stable Diffusion.
-- [**APZmedia Fast Image Save Node**](https://github.com/APZmedia/APZmedia-comfyui-fast-image-save): This node for ComfyUI allows saving images with an optional alpha channel (transparency). It supports saving images in formats like PNG, JPEG, and WebP.
 - [**ComfyUI-Latte**](https://github.com/RhizoNymph/ComfyUI-Latte): Nodes to use [a/latte](https://github.com/Vchitect/Latte) for text to video generation
 - [**ComfyUI-Prompt-Wildcards**](https://github.com/MakkiShizu/ComfyUI-Prompt-Wildcards): Optional wildcards in ComfyUI
 - [**ComfyUI-MatAnyone**](https://github.com/FuouM/ComfyUI-MatAnyone): MatAnyone in ComfyUI (Remove background)
@@ -1684,6 +1692,7 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI_Textarea_Loaders**](https://github.com/Sieyalixnet/ComfyUI_Textarea_Loaders): An easy custom node that makes the some loaders' input as Text instead of file selector.
 - [**Video XY Plot**](https://github.com/markuryy/ComfyUI-Simple-Video-XY-Plot): A collection of custom nodes for ComfyUI
 - [**ComfyUI Local Save Node**](https://github.com/yhayano-ponotech/comfyui-save-image-local): ComfyUI custom node for directly downloading generated images to your local PC with customizable filenames and formats (PNG/JPEG).
+- [**ComfyUI-NS-ManySliders**](https://github.com/NakamuraShippo/ComfyUI-NS-ManySliders): ComfyUI-NS-ManySliders is a custom node developed for ComfyUI that allows you to manipulate values using multiple sliders. With this node, you can easily adjust numerous numerical parameters intuitively, making it useful for various purposes.
 - [**ComfyUI_mittimiLoadPreset2**](https://github.com/mittimi/ComfyUI_mittimiLoadPreset2): This node can easily switch between models and prompts by saving presets.
 - [**comfyui-dreambait-nodes**](https://github.com/drmbt/comfyui-dreambait-nodes): A collection of forks, QoL nodes and utilities for ComfyUI
 - [**Google Photos Loader - by PabloGFX**](https://github.com/lazniak/comfyui-google-photos-loader): A ComfyUI custom node that integrates Google Photos into your workflows. List albums, load images from specific albums, and search photos directly within ComfyUI. Features customizable image loading options, sorting, and efficient caching for seamless integration of your Google Photos library into AI image processing pipelines.
@@ -1696,6 +1705,7 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI-mrv2**](https://github.com/ggarra13/ComfyUI-mrv2): Nodes to interact with the mrv2 player
 - [**ComfyUI-LBW_flux**](https://github.com/SS-snap/ComfyUI-LBW_flux): Through this node, you can more easily test the impact of different blocks in flux_lora on the final result.
 - [**ComfyUI and Claude**](https://github.com/tkreuziger/comfyui-claude): A set of custom nodes that are using Anthropic's Claude models for describing images and transforming texts.
+- [**ComfyUI-Orpheus**](https://github.com/numz/Comfyui-Orpheus): TTS with emotional speech capabilities in 8 Languages 24 speakers.
 - [**ComfyUI-googletrans**](https://github.com/sweetndata/ComfyUI-googletrans): NODES:Google Translate
 - [**ComfyUI-FLUX-TOGETHER-API**](https://github.com/BZcreativ/ComfyUI-FLUX-TOGETHER-API): A custom node implementation for ComfyUI that integrates with Together.ai's FLUX image generation models. This project is inspired by and adapted from [a/ComfyUI-FLUX-BFL-API](https://github.com/gelasdev/ComfyUI-FLUX-BFL-API) to work with the Together.ai API.
 - [**ComfyUI_Appstore**](https://github.com/ronaldzgithub/ComfyUI_Appstore): ComfyUI_Appstore, a tool that converts ComfyUI workflows into web apps on huaxiaobao.net with one click, and supports payments, like ComfyUI_Bxb (Bxb) does. Providing a way for the comfyui authors to get profit from.
@@ -1720,7 +1730,6 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI_Finetuners_Suite**](https://github.com/FinetunersAI/ComfyUI_Finetuners_Suite): A suite of nodes for ComfyUI that helps making ComfyUI more accesible for artists
 - [**comfyui-sasolver**](https://github.com/mira-6/comfyui-sasolver): SASolver for Comfyui. Adapted from [a/comfyanonymous/ComfyUI#4454](https://github.com/comfyanonymous/ComfyUI/pull/4454) and [a/https://github.com/Koishi-Star/Euler-Smea-Dyn-Sampler](https://github.com/Koishi-Star/Euler-Smea-Dyn-Sampler)
 - [**ComfyUI_Delay**](https://github.com/a-und-b/ComfyUI_Delay): Simple custom node for ComfyUI to artificially delay a workflow at any point.
-- [**ComfyUI jhj Kokoro Onnx**](https://github.com/jhj0517/ComfyUI-jhj-Kokoro-Onnx): kokoro-onnx (opensource TTS model) wrapper for ComfyUI.
 - [**ComfyUI-Autogen**](https://github.com/strand1/ComfyUI-Autogen): A collection of nodes for using Autogen with ComfyUI
 - [**Hunyuan LoRA Loader Nodes**](https://github.com/PixelFunAI/ComfyUI_PixelFun): This collection provides four additional nodes for loading and managing Hunyuan Video LoRAs in ComfyUI
 - [**ComfyLab Pack**](https://github.com/bugltd/ComfyLab-Pack): Nodes: XY Plot with many options, Output Config (JSON / JSON5 / YAML), Queue, Format String, List utilities, Input nodes, ....
@@ -1737,6 +1746,8 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**Mesh Simplifier for ComfyUI**](https://github.com/roundyyy/ComfyUI-mesh-simplifier): A custom node for ComfyUI that implements mesh simplification with texture preservation using PyMeshLab. This node allows you to reduce the complexity of 3D meshes while preserving visual quality, and is compatible with ComfyUI-3D-Pack's mesh format.
 - [**ComfyUI Model Bending**](https://github.com/abuzreq/ComfyUI-Model-Bending): Use model bending to push your model beyond its visuals' limits. These nodes allow you to apply transformations to the intemediate densoising steps during sampling, e.g. add, multiplty, scale, rotate, dilate, erode ..etc.
 - [**ComfyUI-WebpToPNGSequence**](https://github.com/Sekiun/ComfyUI-WebpToPNGSequence): Utility node for converting a .webp format image into sequential png images in ComfyUI
+- [**ComfyUI-MixMod**](https://github.com/kantsche/ComfyUI-MixMod): A custom node extension for ComfyUI that allows mixing multiple models during the sampling process for enhanced image generation.
+- [**comfyui_flux_corrector**](https://github.com/BNP1111/comfyui_flux_corrector): This model was fine-tuned on Flux.1-Dev to with reflection tuning to serve as a corrector for self-refinement framework introduced in From Reflection to Perfection: Scaling Inference-Time Optimization for Text-to-Image Diffusion Models via Reflection Tuning. 
 - [**pants**](https://github.com/pants007/comfy-pants): Nodes: Make Square Node, Interrogate Node, TextEncodeAIO
 - [**ComfyUI-OtherVAEs**](https://github.com/M1kep/ComfyUI-OtherVAEs): Nodes: TAESD VAE Decode
 - [**ComfyUI Sokes Nodes**](https://github.com/m-sokes/ComfyUI-Sokes-Nodes): Nodes: Current Date, Latent Switch x9, Replace Text with RegEx, Load Random Image
@@ -1786,6 +1797,7 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**Cozy Communication**](https://github.com/cozy-comfyui/cozy_comm): Post images and video to Discord. Nodes to facilitate communication using REST.
 - [**ComfyUI-KerasOCR**](https://github.com/Mintbeer96/ComfyUI-KerasOCR): An OCR node for detect text in image and returns covering mask.
 - [**ComfyUI_PRNodes**](https://github.com/pikenrover/ComfyUI_PRNodes): Nodes:RandomPrompt, RandomPromptMixed, ImageScaleTo, EmptyLatentImageScaleBy, LoraLoaderExtended, Save Image w/Metadata, CheckpointLoaderSimpleExtended
+- [**ComfyUI-ChatTTS**](https://github.com/neverbiasu/ComfyUI-ChatTTS): A ComfyUI integration for [a/ChatTTS](https://github.com/2noise/ChatTTS), enabling high-quality, controllable text-to-speech generation directly in your ComfyUI workflows.
 - [**ComfyUI-RemoteVAE**](https://github.com/Visionatrix/ComfyUI-RemoteVAE): ComfyUI Nodes for Remote VAE Decoding.
 - [**comfyui-loadimagewithsubfolder**](https://github.com/liangt/comfyui-loadimagewithsubfolder): Extend LoadImage node with subfolder support
 - [**foxpack**](https://github.com/gisu/comfyui-foxpack): Collection of nodes for the automation of workflows
@@ -1795,7 +1807,6 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI_ChatGen**](https://github.com/leeguandong/ComfyUI_ChatGen): ComfyUI nodes to use [a/ChatGen](https://github.com/chengyou-jia/ChatGen)
 - [**ComfyUI_QWQ32B**](https://github.com/leeguandong/ComfyUI_QWQ32B): ComfyUI nodes to use [a/QwQ-32B](https://huggingface.co/Qwen/QwQ-32B)
 - [**ComfyUI-Line-counter**](https://github.com/ChrisColeTech/ComfyUI-Line-counter): This custom node package for ComfyUI is designed to streamline your workflow with powerful file-counting capabilities.
-- [**ComfyUI-NS-ManySliders**](https://github.com/NakamuraShippo/ComfyUI-NS-ManySliders): ComfyUI-NS-ManySliders is a custom node developed for ComfyUI that allows you to manipulate values using multiple sliders. With this node, you can easily adjust numerous numerical parameters intuitively, making it useful for various purposes.
 - [**StyledCLIPTextEncode**](https://github.com/microbote/ComfyUI-StyledCLIPTextEncode): StyledCLIPTextEncode is a node that enables you to build your prompts(both postive and negative) based on the selected style. It provides up-to 77 styles currently and has been tested on SDXL and SD1.5 checkpoints. It's ported from project [a/Style Selector for SDXL 1.0](https://github.com/ahgsql/StyleSelectorXL), which is only availabe on WebUI.
 - [**InstaSD nodes for ComfyUI**](https://github.com/WaddingtonHoldings/ComfyUI-InstaSD): A collection of nodes for use with InstaSD. These nodes will be transformed into app inputs when you deploy your ComfyUI workflow on InstaSD.
 - [**ComfyUI-color-ascii-art-node**](https://github.com/Shiba-2-shiba/comfyui-color-ascii-art-node): This is a custom node to convert png images into color ASCII art. As noted below, multiple font sizes are used in the specification. The resolution of the generated file is set to be the same as the input image.
@@ -1808,7 +1819,6 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**Nilor Nodes by Nilor Corp**](https://github.com/nilor-corp/nilor-nodes): Custom utility nodes for ComfyUI by Nilor Corp. Probably not useful for most people, but contains stuff for working with lists, filenames, image batches, etc in a very specifc way.
 - [**Export Workflow With Cyuai Api Available Nodes**](https://github.com/dionren/ComfyUI-Pro-Export-Tool): This is a node to convert workflows to cyuai api available nodes.
 - [**comfyui-qbug-batch**](https://github.com/Q-Bug4/comfyui-qbug-batch): ComfyUI Batch Toolkit: Custom nodes that simplify batch operations and improve efficiency.
-- [**ComfyUI-Orpheus**](https://github.com/numz/Comfyui-Orpheus): TTS with emotional speech capabilities in 8 Languages 24 speakers.
 - [**ComfyUi-MzMaXaM**](https://github.com/MzMaXaM/ComfyUi-MzMaXaM): A pack of nodes(only 2 for now) to make my life easier and hopefully yours ;)
 - [**ComfyUI-SimpleLogger**](https://github.com/moustafa-nasr/ComfyUI-SimpleLogger): A simple node to save your history in html file. I saves the WorkFlow with all it's input values so you can duplicate it later.
 - [**BV Nodes**](https://github.com/BlackVortexAI/ComfyUI-BVortexNodes): This repository contains a user-defined node for ComfyUI, currently there are nodes for capturing captions. But will be expanded in the future.
@@ -1835,6 +1845,8 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI-LatentClamp**](https://github.com/SparknightLLC/ComfyUI-LatentClamp): A node for ComfyUI that modifies the values in the samples input that fall outside of a min and max range using a multiplier.
 - [**ComfyUI_pyannote**](https://github.com/ramesh-x90/ComfyUI_pyannote): This repository provides custom nodes for ComfyUI designed to process audio files, performing speaker diarization and integrating speaker data into whisper-transcribed segments. These nodes utilize the PyAnnote library for speaker identification and pandas for efficient data handling.
 - [**Info Utils**](https://github.com/exectails/comfyui-et_infoutils): Nodes that facilitate simpler information providing and gathering, such as Text Box, Show Data and Token Counter nodes.
+- [**ComfyUI-LiveCC**](https://github.com/Yuan-ManX/ComfyUI-LiveCC): ComfyUI nodes for LiveCC model.
+- [**ComfyUI-Dia**](https://github.com/Yuan-ManX/ComfyUI-Dia): Make Dia avialbe in ComfyUI.
 - [**AIRedoon**](https://github.com/purpen/ComfyUI-AIRedoon): NODES:AIRedoon Qwen Model Loader, AIRedoon Translator, AIRedoon Image Caption, AIRedoon LoRA Stack, AIRedoon Image RGBA2RGB, AIRedoon Preview Text, AIRedoon Save Text, ...
 - [**ComfyUI-ImageTagger**](https://github.com/purpen/ComfyUI-ImageTagger): NODES:AIRedoon Image Caption.
 - [**ComfyUI_Eugene_Nodes**](https://github.com/JEONG-JIWOO/ComfyUI_Eugene_Nodes): A collection of utility nodes using Dictionary designed to optimize and manage workflows in ComfyUI.
@@ -1853,6 +1865,7 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI-OneForOne**](https://github.com/Meettya/ComfyUI-OneForOne): Node:Image Fit Calculator
 - [**ComfyUI-My-Mask**](https://github.com/jerrylongyan/ComfyUI-My-Mask): Some nodes for processing masks, currently including nodes that fill in the concave parts of existing masks with convex hulls.
 - [**ComfyUI_JSON_Helper**](https://github.com/a-und-b/ComfyUI_JSON_Helper): Simple custom node for ComfyUI that converts JSON strings to JSON objects.
+- [**IC-Light V2 (fal.ai)**](https://github.com/a-und-b/ComfyUI_IC-Light-v2_fal): ComfyUI custom node using the fal.ai API for the IC-Light V2 model
 - [**HommageTools for ComfyUI**](https://github.com/ArtHommage/HommageTools): Entry point for HommageTools node collection for ComfyUI. Handles node registration, imports, and logging configuration.
 - [**ComfyUI Watermark Image Node**](https://github.com/meanin2/comfyui-watermarking): This custom node allows you to overlay a watermark image onto an existing image within ComfyUI.
 - [**Node_Fun_ComfyUI**](https://github.com/nofunstudio/Node_Fun_ComfyUI): ComfyUI Custom Node Pack Layered Infinite Zoom Node
@@ -1881,6 +1894,7 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**AS_LLM_nodes**](https://github.com/svetozarov/AS_LLM_nodes): This ComfyUI extension provides custom nodes for working with Google Gemini and OpenAI ChatGPT.
 - [**ComfyUI-Ovis2**](https://github.com/Andro-Meta/ComfyUI-Ovis2): A ComfyUI custom node set for integrating [a/Ovis2](https://huggingface.co/AIDC-AI/Ovis2-34B), a powerful multimodal large language model designed to analyze images and videos.
 - [**SwD Preset Selector for ComfyUI**](https://github.com/YaroslavIv/comfyui_swd): The SwD Preset Selector is a custom node for ComfyUI that provides a simple way to select predefined SwD configurations.
+- [**ComfyUI-Y7-SBS-2Dto3D**](https://github.com/yushan777/ComfyUI-Y7-SBS-2Dto3D): Convert 2D images and videos to 3D SBS (side-by-side) format
 - [**Y7Nodes for ComfyUI**](https://github.com/yushan777/ComfyUI-Y7Nodes): A collection of utility / quality-of-life nodes for ComfyUI. Probably only useful to me.
 - [**ComfyUI-Batch-Process**](https://github.com/Zar4X/ComfyUI-Batch-Process): A collection of nodes for batch processing texts and images in ComfyUI
 - [**ComfyUI_format-lora-stack**](https://github.com/mobilehacker/ComfyUI_format-lora-stack): Simple node to convert lora_stack output into string to generate a1111-style lora strength output text, like <lora:name:0.69>. Used to include your Lora names from Lora Stack in text input-output nodes and so on.
@@ -2064,7 +2078,6 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI Equirectangular Tools**](https://github.com/kukuo6666/ComfyUI-Equirect): Tools for processing equirectangular images, supporting conversion from equirectangular format to cubemap.
 - [**HF-Flux-ComfyUI**](https://github.com/Semper-Sursum/HF-Flux-ComfyUI): This custom node for ComfyUI enables direct integration with Hugging Face Flux models for image generation via API. Users can leverage the power of Flux models like FLUX.1 [schnell] and FLUX.1 [dev] without leaving the ComfyUI environment
 - [**comfyui-OreX**](https://github.com/orex2121/comfyui-OreX): comfyui-OreX is a set of nodes for using LLM models via a free API.
-- [**ComfyUI-Y7-SBS-2Dto3D**](https://github.com/yushan777/ComfyUI-Y7-SBS-2Dto3D): Convert 2D images and videos to 3D SBS (side-by-side) format
 - [**ComfyUI_CustomNode_Image2Spectrum**](https://github.com/bemoregt/ComfyUI_CustomNode_Image2Spectrum): ComfyUI Custom Node for converting images to frequency spectrum visualizations using FFT
 - [**MIGraphX Node for ComfyUI**](https://github.com/pnikolic-amd/ComfyUI_MIGraphX): This node enables better performance for Stable Diffusion models, by leveraging AMD MIGraphX, on Navi3 and Navi4 GPUs.
 - [**AI4ArtsEd Ollama Prompt Node**](https://github.com/joeriben/ai4artsed_comfyui): Experimental nodes for ComfyUI. For more, see [a/https://kubi-meta.de/ai4artsed](https://kubi-meta.de/ai4artsed) A custom ComfyUI node for stylistic and cultural transformation of input text using local LLMs served via Ollama. This node allows you to combine a free-form prompt (e.g. translation, poetic recoding, genre shift) with externally supplied text in the ComfyUI graph. The result is processed via an Ollama-hosted model and returned as plain text.
@@ -2072,6 +2085,7 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI Prompt Formatter**](https://github.com/younyokel/comfyui_prompt_formatter): This is a custom node for ComfyUI that provides tools to clean, optimize, and format text prompts. It includes features like converting tags, aligning brackets, and applying weights to prompts.
 - [**comfyui-lopi999-nodes**](https://github.com/LaVie024/comfyui-lopi999-nodes): A collection of some nodes I got Deepseek and ChatGPT to make. Mildly useful for some randomness and a scheduler.
 - [**Hal.fun Hugging Face Model Downloader**](https://github.com/michaelgold/ComfyUI-Hal-Dot-Fun-Model-Downloader): Easily download and install 2D to 3D and Flux models from Hugging Face.
+- [**ComfyUI-WebhookNotifier**](https://github.com/iSuneast/ComfyUI-WebhookNotifier): The Webhook Notification plugin for ComfyUI, used to send webhook notifications when image generation is complete.
 - [**ComfyUI_FaceEnhancer**](https://github.com/synthetai/ComfyUI_FaceEnhancer): A ComfyUI custom node based on GFPGAN for face enhancement, capable of restoring and enhancing faces in images and videos
 - [**ComfyUI-JM-KLing-API**](https://github.com/synthetai/ComfyUI-JM-KLing-API): This is a custom node for ComfyUI that allows you to use the KLingAI API directly within the ComfyUI environment. It is developed based on the KLingAI API documentation. For more details, please refer to the official documentation. [a/KLingAI API Documentation](https://app.klingai.com/global/dev/document-api/quickStart/productIntroduction/overview).
 - [**ComfyUI_PromptBatcher**](https://github.com/synthetai/ComfyUI_PromptBatcher): A custom node extension for ComfyUI that enables batch processing of prompts from text files to generate multiple images.
@@ -2081,7 +2095,10 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI-zw-tools**](https://github.com/zzw5516/ComfyUI-zw-tools): Automatic prompt translation to Chinese, custom prompt management, AI-based prompt expansion and translation, AI-generated image/video record management (file browser), and cloud storage upload management.
 - [**ComfyUI-WarpedToolset**](https://github.com/WarpedAnimation/ComfyUI-WarpedToolset): Custom tool set mostly for Hunyuan Video, but includes some WAN Video nodes.
 - [**Comfyui_JTnodes**](https://github.com/Jint8888/Comfyui_JTnodes): This project contains some custom ComfyUI nodes for image processing, AI conversation, and utility tasks.
+- [**ComfyUI-Extract_Flux_Lora**](https://github.com/judian17/ComfyUI-Extract_Flux_Lora): Extract LoRA from the original Fine-Tuned model.
 - [**ComfyUI-VideoChatWrapper**](https://github.com/lebrosoft/ComfyUI-VideoChatWrapper): Nodes related to video chat workflows
+- [**apw_nodes**](https://github.com/alessandroperilli/apw_nodes): A custom node suite to augment the capabilities of the [a/AP Workflows for ComfyUI](https://perilli.com/ai/comfyui/)
+- [**fastgan-comfyui**](https://github.com/hugobb/FastGAN-ComfyUI-Node): A FastGAN Node for ComfyUI
 - [**Comfy_KepKitchenSink**](https://github.com/M1kep/Comfy_KepKitchenSink): Nodes: KepRotateImage
 - [**ymc-node-as-x-type**](https://github.com/YMC-GitHub/ymc-node-as-x-type): some comfyui custom nodes to set it as known type
 - [**comfyui_node_ymc_effect_shatter**](https://github.com/YMC-GitHub/comfyui_node_ymc_effect_shatter): some comfyui custom nodes to make effect shatter
@@ -2107,9 +2124,10 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI-MeshMesh**](https://github.com/meshmesh-io/ComfyUI-MeshMesh): Nodes:Masks to Colored Masks, Color Picker
 - [**ComfyUI-Aimidi-nodes**](https://github.com/AiMiDi/ComfyUI-Aimidi-nodes): Nodes:Merge Tag, Clear Tag, Add Tag, Load Images Pair Batch, Save Images Pair
 - [**ComfyUI-BiRefNet-Fix utils**](https://github.com/hieuck/ComfyUI-BiRefNet): Bilateral Reference Network achieves SOTA result in multi Salient Object Segmentation dataset, this repo pack BiRefNet as ComfyUI nodes, and make this SOTA model easier use for everyone.
-- [**comfyui-textarea-command**](https://github.com/shinich39/comfyui-textarea-command): Add command and comment in textarea. (e.g. // Disabled line)
-- [**comfyui-put-image**](https://github.com/shinich39/comfyui-put-image): Load image from directory.
-- [**comfyui-parse-image**](https://github.com/shinich39/comfyui-parse-image): Extract metadata from image.
+- [**comfyui-get-meta**](https://github.com/shinich39/comfyui-get-meta): Get metadata from image.
+- [**comfyui-civitai-workflow**](https://github.com/shinich39/comfyui-civitai-workflow): Load workflow from civitai image.
+- [**comfyui-prevent-sleep**](https://github.com/shinich39/comfyui-prevent-sleep): Prevent sleep while running ComfyUI.
+- [**comfyui-to-inpaint**](https://github.com/shinich39/comfyui-to-inpaint): Send preview image to inpaint workflow.
 - [**ComfyUI_demucus**](https://github.com/kale4eat/ComfyUI-path-util): Path utility for ComfyUI
 - [**ComfyUI-text-file-util**](https://github.com/kale4eat/ComfyUI-text-file-util): Text file utility for ComfyUI
 - [**DiffSynth-ComfyUI**](https://github.com/AIFSH/DiffSynth-ComfyUI): a custom node for [a/DiffSynth-Studio](https://github.com/modelscope/DiffSynth-Studio)
@@ -2156,7 +2174,6 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI-Simple-Of-Complex**](https://github.com/OuticNZ/ComfyUI-Simple-Of-Complex): Nodes:Text Switch 2 Way, Prompt Tidy, Text With Context.
 - [**comfyui_custom_node_image**](https://github.com/jstit/comfyui_custom_node_image): Nodes:ImageCropCircle.
 - [**ComfyUI_Dados_Nodes**](https://github.com/dadoirie/ComfyUI_Dados_Nodes): ComfyUI_Dados_Nodes is a collection of custom nodes for ComfyUI, designed to enhance functionality and provide integration with various services, including Pinterest. This privacy policy explains how these nodes handle user data.
-- [**ComfyUI-MediaPipe-Vision**](https://github.com/ryanontheinside/ComfyUI-MediaPipe-Vision): A centralized wrapper of all MediaPipe vision tasks for ComfyUI.
 - [**Super Loader**](https://github.com/markuryy/ComfyUI-SuperLoader): Metadata for loaded models
 - [**Pseudocomfy**](https://github.com/Pseudotools/Pseudocomfy): A package designed to enable multi-regional prompting for architectural rendering, integrated with the Rhino Pseudorandom plugin.
 - [**ComfyUI_mittimiRecalculateSize**](https://github.com/mittimi/ComfyUI_mittimiRecalculateSize): This is the node that performs the magnification calculation.
@@ -2168,11 +2185,11 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**comfyui-bunny-cdn-storage**](https://github.com/k-komarov/comfyui-bunny-cdn-storage): Save Your Image to BunnyStorage
 - [**ComfyUI-PhandoNodes**](https://github.com/Phando/ComfyUI-PhandoNodes): A collection of nodes to help streamline your ComfyUI workflows
 - [**geocine-comfyui**](https://github.com/geocine/geocine-comfyui): NODES:Image Selector (geocine), Image Scale (geocine)
+- [**Cyber-BlackCat**](https://github.com/Cyber-BlackCat/ComfyUI-Image-Vector): modify the original node instruction of image vector, add ‘imagemagick’ which is the key base Python library of ‘wand’ library.
 - [**ComfyUI-text-replace**](https://github.com/banqingyuan/ComfyUI-text-replace): NODES: OCR Location Node, Image Erase Node, Chat Overlay Node, Extract JSON Node.
 - [**SimpleToolsNodes**](https://github.com/Mcmillian/ComfyUI-SimpleToolsNodes): Two simple nodes: 1. Get the steps based on the model name, 2. Generate prompts using chatglm.
 - [**comfyui_nai_api**](https://github.com/Creeper-MZ/comfyui_nai_api): A node that can use Nai in Comfyui
 - [**guy-nodes-comfyui**](https://github.com/guyaton/guy-nodes-comfyui): These are designed to be custom nodes i found usefulness to that hopefully others can share.
-- [**ComfyUI-ArteMoon**](https://github.com/Moooonet/ComfyUI-ArteMoon): This plugin works with [a/IF_AI_Tools](https://github.com/if-ai/ComfyUI-IF_AI_tools) to build a workflow in ComfyUI that uses AI to assist in generating prompts.
 - [**Gadzoinks**](https://github.com/GadzoinksOfficial/gadzoinks_ComfyUI): Custom node for integrating with gadzoinks iPhone app
 - [**ComfyUI Overlay Media Node**](https://github.com/Elaine-chennn/comfyui-overlay-media): This repository contains a custom ComfyUI node for overlaying media using ffmpeg.
 - [**roblox-comfyui-nodes**](https://github.com/VertexStudio/roblox-comfyui-nodes): NODES:Scale Image Node, Switch Image Node, Switch Text Node, First Number Node, Mirror Effect Node, Text To ImageNode, Flow Nodes, Simple Save Image Node
@@ -2189,6 +2206,7 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI-DisPose**](https://github.com/bombax-xiaoice/ComfyUI-DisPose): ComfyUI supports over lihxxx/DisPose, which generates a new video with a reference video as poses and a reference image as everything else.
 - [**ComfyUI_DeployCash**](https://github.com/jacklukai/ComfyUI_DeployCash): DeployCash, a tool that converts workflows into WeChat and H5 with one click, and supports payments.
 - [**zer0 Comfy Utilities**](https://github.com/zer0thgear/zer0-comfy-utils): Collection of personal nodes including tavern card-related nodes, prompt manipulation related utilities, and a node to combine a list of strings back into one string.
+- [**ComfyUI-WeightedRandomChoice**](https://github.com/SparknightLLC/ComfyUI-WeightedRandomChoice): A node for ComfyUI that picks from `input_a` and `input_b` based on the given `chance`.
 - [**zsq_prompt**](https://github.com/windfancy/zsq_prompt): NODES: PromptStyler, PromptLatent, PromptCLIPEncode, PromptSelector
 - [**ComfyUI-Text2Json**](https://github.com/Alvaroeai/ComfyUI-Text2Json): This repository contains a custom node for ComfyUI that converts text into a JSON object. The node is designed to be user-friendly and supports multi-line JSON input.
 - [**Claude Prompt Generator**](https://github.com/PauldeLavallaz/comfyui_claude_prompt_generator): Node that generates prompts using Anthropic Claude API.
@@ -2213,6 +2231,7 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI_S3_direct**](https://github.com/KunmyonChoi/ComfyUI_S3_direct): ComfyUI custom_node that load and save file directly from S3
 - [**comfyui-mosaic-blur**](https://github.com/fuselayer/comfyui-mosaic-blur): A simple mosaic blur node for ComfyUI that uses CV2 or Pillow
 - [**ComfyUI-RyuuNoodles**](https://github.com/DraconicDragon/ComfyUI-RyuuNoodles): Collection of one or more custom nodes for ComfyUI made mainly for personal use (GitHub README for more info). 
+- [**ComfyUI Mask Area Condition**](https://github.com/a-und-b/ComfyUI_MaskAreaCondition): A simple custom node for ComfyUI that analyzes the size (area) of a mask relative to the total image area. Its primary purpose is to enable conditional workflows, allowing you to run specific processes (like face detailing) only when needed based on the size of the detected object (e.g., a face mask).
 - [**Comfyui-Template-Loader**](https://github.com/r3dsd/comfyui-template-loader): Easily Load Your Frequently Used Prompts in ComfyUI
 - [**comfyui-rapidfire**](https://github.com/Zeks/comfyui-rapidfire): A set of nodes for rapidfiring the half backed latents, cleaning up obvious bad generations and automatically queueing the rest to fully generate.
 - [**PixelML ComfyUI Nodes**](https://github.com/PixelML/ComfyUI-PixelML-CustomNodes): A collection of custom nodes for ComfyUI focused on variable handling and workflow automation.
@@ -2295,12 +2314,12 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**DalleImageNodes - OpenAI DALL·E Nodes for ComfyUI**](https://github.com/cleanlii/comfyui-dalle-integration): DalleImageNodes is a custom extension for ComfyUI that integrates OpenAI's DALL·E 3 API for: Image generation, Inpainting (image editing), Image variation.
 - [**ComfyUI-NCNodes**](https://github.com/Siempreflaco/ComfyUI-NCNodes): NODES: Audio Recorder, Line Counter, Increment INT, Image Processor, Load 3D Mesh From Outputs
 - [**ComfyUI_ImageSentinel**](https://github.com/VertexAnomaly/ComfyUI_ImageSentinel): A ComfyUI node that provides an Image Loader that updates inside the workflow when the Image file is changed. This allows for a easy bridge between 3D software, and 2D art applications while retaining use of a full workflow rather than being restricted to a plugin.
-- [**ComfyUI-WebhookNotifier**](https://github.com/iSuneast/ComfyUI-WebhookNotifier): The Webhook Notification plugin for ComfyUI, used to send webhook notifications when image generation is complete.
 - [**ComfyUI_LoadImageFromHttpURL**](https://github.com/jerrywap/ComfyUI_LoadImageFromHttpURL): A ComfyUI node that fetches an image from an HTTP URL and returns it as an image tensor. Useful for API-based workflows.
 - [**ComfyUI_UploadToWebhookHTTP**](https://github.com/jerrywap/ComfyUI_UploadToWebhookHTTP): Send generated images or videos to any HTTP webhook with optional parameters such as prompt-id and metadata payload.
 - [**Tiled Image Generator for ComfyUI**](https://github.com/rickyars/comfyui-llm-tile): A ComfyUI node that generates tiled image compositions with overlapping regions. This approach creates coherent compositions by using the edges of each tile as seeds for neighboring tiles, resulting in seamless transitions.
 - [**ComfyUI_Mel_Nodes**](https://github.com/nako-nakoko/ComfyUI_Mel_Nodes): Custom nodes with split, random, and select functions for easy visual and management of multiple cumbersome prompts
 - [**comfyui-EncryptSave**](https://github.com/chou18194766xx/comfyui-EncryptSave): comfyui image encrypt and save.
+- [**comfyui_EncryptPreview**](https://github.com/chou18194766xx/comfyui_EncryptPreview): ComfyUI's non-persistent (in-memory) image preview feature
 - [**HavocsCall's Custom ComfyUI Nodes**](https://github.com/HavocsCall/comfyui_HavocsCall_Custom_Nodes): NODES: Prompt Combiner, Float/Int Selector, Sampler Config, Text Box, Int to Float/String, Int to Float/String, Clip/Conditioning/Image/Latent/Model/String/VAE Switch
 - [**ComfyUI_Fawfluencer_Nodes**](https://github.com/danger-electrodes/ComfyUI_Fawfluencer_Nodes): A set of node for ComfyUI to create an influencer
 - [**ComfyUI-String-Chain**](https://github.com/uihp/ComfyUI-String-Chain): String Chain: Reconnect your prompts
@@ -2308,6 +2327,7 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI-ResolutionPresets**](https://github.com/big-mon/ComfyUI-ResolutionPresets): Provides recommended resolution presets specifically. Select a preset from the dropdown to easily output the corresponding width and height values for use with nodes like Empty Latent Image.
 - [**ComfyUI-SaveMem**](https://github.com/hnmr293/comfyui-savemem): Save Image/Latent to Shared Memory
 - [**Dynamic Sliders Stack**](https://github.com/FunnyFinger/Dynamic_Sliders_stack): A custom node for ComfyUI to have many sliders with interactive dynamic behavior. This repository includes all necessary code and assets for seamless integration.
+- [**Radar Weights Node**](https://github.com/FunnyFinger/ComfyUi-RadarWeightNode): A Custom Node for ComfyUi to add an interactive Radar graph to visually control weights.
 - [**ComfyUI AstroCorp Nodes**](https://github.com/AstroCorp/ComfyUI-AstroCorp-Nodes): A collection of personal ComfyUI nodes designed to enhance and automate workflows.
 - [**ComfyUI-VideoGrid**](https://github.com/stevenwg/ComfyUI-VideoGrid): Add vertical and horizontal video grid support
 - [**ComfyUI-AV-MegaTTS3**](https://github.com/avenstack/ComfyUI-AV-MegaTTS3): 🎧Ultra High-Quality Voice Cloning, Chinese and English.
@@ -2317,6 +2337,25 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**RisuTools**](https://github.com/TiamaTiramisu/risutools): Nodes for integration with RisuAI
 - [**ComfyUI Prompt Composer**](https://github.com/excelwong/ComfyUI-PromptComposer): A ComfyUI custom node plugin for assembling prompts. It allows you to generate positive and negative prompts by selecting different options.
 - [**VK Nodes**](https://github.com/VK/vk-nodes): ComfyUI nodes to simplify my tiled render
+- [**ComfyUI Conditioning Resizer**](https://github.com/MaruPelkar/comfyui-conditioning-resizer): A custom node for ComfyUI that allows resizing of conditioning tensors, particularly useful for fixing size mismatches between CLIP Text Encode and CLIP Vision Encode outputs in SD3 workflows.
+- [**Vaja TextToSpeech Node for ComfyUI**](https://github.com/bablueza/ComfyUI-Vaja-Ai4thai): NODES: Vaja Synthesis Api, ShowText
+- [**Image Saving and Base64 Encoding Script**](https://github.com/GrailGreg/images_base64): Based on the original SaveImage node from ComfyUI This ComfyUI node provides functionality to save images in PNG format while simultaneously generating and returning their Base64 encoded strings. This is particularly useful for applications that require image data to be transmitted as strings, such as web applications.
+- [**Simple Flux.1 Merger for ComfyUI**](https://github.com/vekitan55/SimpleFlux1Merger): A custom ComfyUI node set for merging Flux.1-based models with intuitive control. This extension provides both simplified group merging and expert per-layer control, including support for advanced difference-based merge modes. Basically the code was generated by ChatGPT.
+- [**Save Image To Webdav**](https://github.com/goldwins520/Comfyui_saveimg2webdav): A collection of custom nodes for ComfyUI
+- [**ComfyUI-YogurtNodes**](https://github.com/yogurt7771/ComfyUI-YogurtNodes): ComfyUI-YogurtNodes is a collection of custom nodes for ComfyUI, providing a series of practical image processing and workflow enhancement functionalities.
+- [**ComfyUI LLM Toolkit**](https://github.com/comfy-deploy/comfyui-llm-toolkit): A custom node collection for integrating various LLM (Large Language Model) providers with ComfyUI.
+- [**KeywordImageBlocker**](https://github.com/JustLateNightAI/KeywordImageBlocker): A ComfyUI node that will block images that flag custom set key words
+- [**ComfyUI_EmAySee_CustomNodes**](https://github.com/EmAySee/ComfyUI_EmAySee_CustomNodes): Lots of randomizers, a simple oobabooga adapter with json options to pass, and other useful nodes.
+- [**ComfyForEach**](https://github.com/pupba/Comfy_ForEach): A collection of ComfyUI custom nodes designed for image batch processing, per-index image operations, and AWS integration using EventBridge.
+- [**ComfyUI LLM Promp**](https://github.com/hanyingcho/comfyui-llmprompt): NODES: Load llm, Generate Text with LLM, Inference Qwen2VL, Inference Qwen2
+- [**ComfyUI-MediaURLLoader**](https://github.com/ThanaritKanjanametawatAU/ComfyUI-MediaURLLoader): Custom nodes for loading and previewing media from URLs in ComfyUI.
+- [**A3D ComfyUI Integration**](https://github.com/n0neye/A3D-comfyui-integration): [a/A3D](https://github.com/n0neye/A3D) is an AI x 3D hybrid tool that allows you to compose 3D scenes and render them with AI. This integration allows you to send the color & depth images to ComfyUI. You can use it as a pose controller, or scene composer for your ComfyUI workflows.
+- [**Dia realistic TTS**](https://github.com/rkfg/ComfyUI-Dia_tts): It's a ComfyUI wrapper for [a/Dia TTS](https://github.com/nari-labs/dia) by Nari labs, includes a portion of their code used for inference.
+- [**Multiple LoRA Loader for ComfyUI**](https://github.com/hubentu/ComfyUI-loras-loader): A collection of custom nodes for ComfyUI that allow working with LoRAs and trigger words by index selection.
+- [**ComfyUI-Liebs-Picker**](https://github.com/marklieberman/ComfyUI-Liebs-Picker): A node to pause execution of the workflow and select which input images should proceed to the output.
+- [**ComfyUI-Qwen-Omni**](https://github.com/SXQBW/ComfyUI-Qwen-Omni): ComfyUI-Qwen-Omni is the first ComfyUI plugin that supports end-to-end multimodal interaction, enabling seamless joint generation and editing of text, images, and audio. Without intermediate steps, with just one operation, the model can simultaneously understand and process multiple input modalities, generating coherent text descriptions and voice outputs, providing an unprecedentedly smooth experience for AI creation.
+- [**ComfyUI Custom Dia**](https://github.com/nobrainX2/comfyUI-customDia): This is a ComfyUI integration of the [a/Dia TTS model](https://github.com/nari-labs/dia/). Many thanks to nari-labs for their fantastic work.
+- [**i-zygion-util-nodes**](https://github.com/zygion/comfyui-zygion-util-nodes): NODES: Item List, Template Input, Template Processor, Scene Queue Node, Trigger Passthrough Node
 
 ## Source
 
