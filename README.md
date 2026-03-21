@@ -23,6 +23,7 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI_FDGuidance**](https://github.com/silveroxides/ComfyUI_FDGuidance): An implementation of Frequency-Decoupled Guidance (FDG) in pure Pytorch.
 - [**Olm Channel Mixer for ComfyUI**](https://github.com/o-l-l-i/ComfyUI-Olm-ChannelMixer): An interactive, classic channel mixer color adjustment node for ComfyUI, with realtime preview and a responsive editing interface.
 - [**ComfyUI HTTP - REST API Nodes**](https://github.com/wawahuy/ComfyUI-HTTP): Powerful REST API nodes for ComfyUI that enable seamless HTTP/REST integration into your workflows.
+- [**comfyui-bridge**](https://github.com/Bortlesboat/comfyui-bridge): ComfyUI bridge server + OpenClaw skill — local image generation, faceswap, LivePortrait, style transfer via chat interface.
 ## Trending Workflows
 
 - [**ComfyUI-Copilot**](https://github.com/AIDC-AI/ComfyUI-Copilot) (⭐+255): Your Intelligent Assistant for Comfy-UI.
@@ -2251,6 +2252,7 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [**ComfyUI-AutoFlow**](https://github.com/ZXL-Xinram/ComfyUI-AutoFlow): A collection of utility nodes for ComfyUI focused on path processing and string operations.
 - [**ComfyUI-DreamFit**](https://github.com/skayka/ComfyUI-DreamFit): Garment-centric human generation nodes for ComfyUI using DreamFit with Flux.
 - [**ComfyUI HTTP - REST API Nodes**](https://github.com/wawahuy/ComfyUI-HTTP): Powerful REST API nodes for ComfyUI that enable seamless HTTP/REST integration into your workflows.
+- [**comfyui-bridge**](https://github.com/Bortlesboat/comfyui-bridge): ComfyUI bridge server + OpenClaw skill — local image generation, faceswap, LivePortrait, style transfer via chat interface.
 - [**ComfyUI-SendToEagle-w-Metadata**](https://github.com/watarika/ComfyUI-SendToEagle-w-Metadata): Sends images with metadata (PNGInfo) obtained from the input values of each node to Eagle. You can customize the tags to be registered in Eagle.
 - [**ComfyUI_PerpCFG**](https://github.com/bvhari/ComfyUI_PerpCFG): Perpendicular CFG for reducing oversaturation issues with high guidance scale values.
 - [**ComfyUI_CFGStar**](https://github.com/bvhari/ComfyUI_CFGStar): A per channel implementation of the scaled CFG from this paper: [a/https://arxiv.org/abs/2503.18886](https://arxiv.org/abs/2503.18886)
