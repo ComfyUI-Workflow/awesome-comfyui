@@ -13,6 +13,7 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 
 ## New Workflows
 
+- [**ComfyUI-OldTimeRadio**](https://github.com/jbrick2070/ComfyUI-OldTimeRadio): Press Queue once and ComfyUI writes or adapts a radio play, casts and performs it with neural voices, composes the score, and cuts a finished episode video -- all locally. MIT, no API keys.
 - [**Comfyui-LayerForge**](https://github.com/Azornes/Comfyui-LayerForge): Photoshop-like layered canvas editor to your ComfyUI workflow. This node is perfect for complex compositing, inpainting, and outpainting, featuring multi-layer support, masking, blend modes, and precise transformations. Includes optional AI-powered background removal for streamlined image editing.
 - [**ComfyUI_PHRenderFormerWrapper**](https://github.com/paulh4x/ComfyUI_PHRenderFormerWrapper): A Wrapper and a set of Custom Nodes for using RenderFormer as a 3d Environment in ComfyUI.
 - [**ComfyUI SeedXPro Translation Node**](https://github.com/HM-RunningHub/ComfyUI_RH_SeedXPro): This is a Seed-X-PPO-7B ComfyUI plugin. Easy to use
