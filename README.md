@@ -12,6 +12,7 @@ Whether you're an AI researcher, hobbyist, or someone pushing the boundaries of 
 - [License](#license)
 
 ## New Workflows
+- [**InferCalc**](https://infercalc.com): Free VRAM, KV cache, and inference cost calculator for local LLMs (Llama, DeepSeek, Qwen) and ComfyUI workflows.
 
 - [**Comfyui-LayerForge**](https://github.com/Azornes/Comfyui-LayerForge): Photoshop-like layered canvas editor to your ComfyUI workflow. This node is perfect for complex compositing, inpainting, and outpainting, featuring multi-layer support, masking, blend modes, and precise transformations. Includes optional AI-powered background removal for streamlined image editing.
 - [**ComfyUI_PHRenderFormerWrapper**](https://github.com/paulh4x/ComfyUI_PHRenderFormerWrapper): A Wrapper and a set of Custom Nodes for using RenderFormer as a 3d Environment in ComfyUI.
